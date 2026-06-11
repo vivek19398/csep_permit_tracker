@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ireland Employment Permits Dashboard (2010–2026)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg:#f4f6fa; --panel:#ffffff; --ink:#1c2430; --muted:#67768c; --line:#e3e8f0;
+  --accent:#2563eb; --accent2:#0ea5e9; --green:#10b981; --red:#ef4444; --amber:#f59e0b;
+  --chip:#e8eefc; --shadow:0 1px 3px rgba(16,24,40,.08),0 1px 2px rgba(16,24,40,.06);
+}
+[data-theme="dark"]{
+  --bg:#0f141b; --panel:#1a212c; --ink:#e7edf5; --muted:#8b9bb0; --line:#2a3442;
+  --chip:#243047; --shadow:0 1px 3px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:14px/1.45 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{display:flex;align-items:center;gap:14px;padding:10px 18px;background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+header h1{font-size:17px;font-weight:700}
+header .sub{color:var(--muted);font-size:12px}
+.spacer{flex:1}
+button,select,input{font:inherit;color:inherit}
+.btn{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer;box-shadow:var(--shadow)}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.layout{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 53px)}
+aside{background:var(--panel);border-right:1px solid var(--line);padding:14px;overflow-y:auto;max-height:calc(100vh - 53px);position:sticky;top:53px}
+aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:16px 0 6px}
+aside h3:first-child{margin-top:0}
+main{padding:16px;overflow-x:hidden}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:14px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow)}
+.kpi .v{font-size:22px;font-weight:700;margin-top:2px}
+.kpi .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.kpi .d{font-size:11px;margin-top:3px}
+.up{color:var(--green)}.down{color:var(--red)}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
+.card h2{font-size:13px;font-weight:600;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.card h2 .hint{font-weight:400;font-size:11px;color:var(--muted)}
+.span6{grid-column:span 6}.span4{grid-column:span 4}.span12{grid-column:span 12}.span8{grid-column:span 8}
+@media(max-width:1100px){.span6,.span4,.span8{grid-column:span 12}.layout{grid-template-columns:1fr}aside{position:static;max-height:none;border-right:0;border-bottom:1px solid var(--line)}}
+.chartbox{position:relative;height:260px}
+.tall{height:320px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;min-height:4px}
+.chip{background:var(--chip);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip b{font-weight:600}
+.chip:hover{border-color:var(--red);color:var(--red)}
+.ms{border:1px solid var(--line);border-radius:8px;background:var(--bg);max-height:160px;overflow-y:auto;padding:4px}
+.ms label{display:flex;gap:6px;align-items:center;padding:3px 6px;border-radius:6px;cursor:pointer;font-size:13px}
+.ms label:hover{background:var(--chip)}
+.searchbox{width:100%;padding:6px 9px;border:1px solid var(--line);border-radius:8px;background:var(--bg);margin-bottom:5px;outline:none}
+.searchbox:focus{border-color:var(--accent)}
+.range-wrap{padding:4px 2px}
+.range-vals{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{flex:1;padding:5px 0;background:var(--bg);border:0;cursor:pointer;font-size:12px;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button.on{background:var(--accent);color:#fff}
+.tabs{display:flex;gap:4px;margin-bottom:12px;border-bottom:2px solid var(--line)}
+.tabs button{background:none;border:0;padding:8px 16px;cursor:pointer;font-weight:600;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-2px}
+.tabs button.on{color:var(--accent);border-bottom-color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{cursor:pointer;user-select:none;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;position:sticky;top:0;background:var(--panel)}
+th:hover{color:var(--accent)}
+td.num,th.num{text-align:right}
+.tablewrap{max-height:480px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.pager{display:flex;gap:8px;align-items:center;margin-top:10px;font-size:13px;color:var(--muted)}
+.foot{margin-top:18px;font-size:11px;color:var(--muted)}
+#loading{padding:60px;text-align:center;color:var(--muted);font-size:15px}
+.tablebar{display:flex;gap:10px;margin-bottom:10px;align-items:center;flex-wrap:wrap}
+.hidden{display:none}
+canvas{cursor:crosshair}
+</style>
+</head>
+<body data-theme="light">
+<header>
+  <div>
+    <h1>🇮🇪 Ireland Employment Permits</h1>
+    <div class="sub">2010 – 2026 · Dept. of Enterprise, Trade &amp; Employment</div>
+  </div>
+  <div class="spacer"></div>
+  <button class="btn" id="exportBtn">⬇ Export filtered CSV</button>
+  <button class="btn" id="resetBtn">Reset filters</button>
+  <button class="btn" id="themeBtn">🌙 Dark</button>
+</header>
+
+<div id="loading">Loading data…</div>
+
+<div class="layout hidden" id="app">
+<aside>
+  <h3>Metric</h3>
+  <div class="seg" id="metricSeg">
+    <button data-m="Issued" class="on">Issued</button>
+    <button data-m="Refused">Refused</button>
+    <button data-m="Withdrawn">Withdrawn</button>
+  </div>
+
+  <h3>Year range</h3>
+  <div class="range-wrap">
+    <input type="range" id="yrMin" min="2010" max="2026" value="2010">
+    <input type="range" id="yrMax" min="2010" max="2026" value="2026">
+    <div class="range-vals"><span id="yrMinLbl">2010</span><span id="yrMaxLbl">2026</span></div>
+  </div>
+
+  <h3>Months</h3>
+  <div class="ms" id="msMonth" style="max-height:130px"></div>
+
+  <h3>Nationality <span style="float:right;font-weight:400;cursor:pointer;color:var(--accent)" onclick="clearDim('nat')">clear</span></h3>
+  <input class="searchbox" id="natSearch" placeholder="Search nationalities…">
+  <div class="ms" id="msNat"></div>
+
+  <h3>County <span style="float:right;font-weight:400;cursor:pointer;color:var(--accent)" onclick="clearDim('county')">clear</span></h3>
+  <input class="searchbox" id="countySearch" placeholder="Search counties…">
+  <div class="ms" id="msCounty"></div>
+
+  <h3>Sector <span style="float:right;font-weight:400;cursor:pointer;color:var(--accent)" onclick="clearDim('sector')">clear</span></h3>
+  <input class="searchbox" id="sectorSearch" placeholder="Search sectors…">
+  <div class="ms" id="msSector"></div>
+
+  <h3>Employer</h3>
+  <input class="searchbox" id="empSearch" placeholder="Filter employers (contains)…">
+  <div class="range-wrap">
+    <div class="range-vals"><span>Min permits/yr</span><span id="empMinLbl">1</span></div>
+    <input type="range" id="empMin" min="1" max="100" value="1">
+  </div>
+
+  <h3>Top N</h3>
+  <select class="searchbox" id="topN">
+    <option>10</option><option selected>15</option><option>20</option><option>30</option><option>50</option>
+  </select>
+</aside>
+
+<main>
+  <div class="chips" id="chips"></div>
+  <div class="kpis" id="kpis"></div>
+
+  <div class="tabs" id="tabs">
+    <button data-tab="overview" class="on">Overview</button>
+    <button data-tab="nationality">Nationality</button>
+    <button data-tab="geo">Counties</button>
+    <button data-tab="sector">Sectors</button>
+    <button data-tab="employers">Employers</button>
+    <button data-tab="table">Data table</button>
+  </div>
+
+  <section id="tab-overview" class="grid">
+    <div class="card span8"><h2>Permits by year <span class="hint">click a point to filter year</span></h2><div class="chartbox tall"><canvas id="cYear"></canvas></div></div>
+    <div class="card span4"><h2>Outcome mix</h2><div class="chartbox tall"><canvas id="cOutcome"></canvas></div></div>
+    <div class="card span6"><h2>Monthly seasonality <span class="hint">avg issued/month · click to filter month</span></h2><div class="chartbox"><canvas id="cMonth"></canvas></div></div>
+    <div class="card span6"><h2>New vs Renewal split <span class="hint">2010–2019 only — split not published after</span></h2><div class="chartbox"><canvas id="cNewRen"></canvas></div></div>
+  </section>
+
+  <section id="tab-nationality" class="grid hidden">
+    <div class="card span6"><h2>Top nationalities <span class="hint">click a bar to filter</span></h2><div class="chartbox tall"><canvas id="cNat"></canvas></div></div>
+    <div class="card span6"><h2>Highest refusal rates <span class="hint">min 50 applications</span></h2><div class="chartbox tall"><canvas id="cNatRef"></canvas></div></div>
+    <div class="card span12"><h2>Nationality trend by year <span class="hint">top 8 in current selection</span></h2><div class="chartbox tall"><canvas id="cNatTrend"></canvas></div></div>
+  </section>
+
+  <section id="tab-geo" class="grid hidden">
+    <div class="card span6"><h2>Top counties <span class="hint">click a bar to filter</span></h2><div class="chartbox tall"><canvas id="cCounty"></canvas></div></div>
+    <div class="card span6"><h2>Dublin vs rest of Ireland</h2><div class="chartbox tall"><canvas id="cDublin"></canvas></div></div>
+    <div class="card span12"><h2>County trend by year <span class="hint">top 8 in current selection</span></h2><div class="chartbox tall"><canvas id="cCountyTrend"></canvas></div></div>
+  </section>
+
+  <section id="tab-sector" class="grid hidden">
+    <div class="card span6"><h2>Top sectors <span class="hint">click a bar to filter</span></h2><div class="chartbox tall"><canvas id="cSector"></canvas></div></div>
+    <div class="card span6"><h2>Sector × month heat <span class="hint">issued, current selection</span></h2><div class="chartbox tall"><canvas id="cSectorMonth"></canvas></div></div>
+    <div class="card span12"><h2>Sector trend by year <span class="hint">top 8 in current selection</span></h2><div class="chartbox tall"><canvas id="cSectorTrend"></canvas></div></div>
+  </section>
+
+  <section id="tab-employers" class="grid hidden">
+    <div class="card span12"><h2>Top employers <span class="hint">total permits over selected years</span></h2><div class="chartbox tall"><canvas id="cEmp"></canvas></div></div>
+    <div class="card span6"><h2>Employer concentration</h2><div class="chartbox"><canvas id="cEmpConc"></canvas></div></div>
+    <div class="card span6"><h2>Distinct employers per year</h2><div class="chartbox"><canvas id="cEmpCount"></canvas></div></div>
+  </section>
+
+  <section id="tab-table" class="hidden">
+    <div class="card span12">
+      <div class="tablebar">
+        <select class="searchbox" style="width:auto" id="tblDataset">
+          <option value="nat">Nationality</option>
+          <option value="county">County</option>
+          <option value="sector">Sector (monthly)</option>
+          <option value="emp">Companies</option>
+        </select>
+        <input class="searchbox" style="width:260px" id="tblSearch" placeholder="Search rows…">
+        <span class="sub" id="tblInfo"></span>
+        <div class="spacer"></div>
+        <button class="btn" id="tblExport">⬇ Export view</button>
+      </div>
+      <div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+      <div class="pager">
+        <button class="btn" id="pgPrev">‹ Prev</button>
+        <span id="pgLbl"></span>
+        <button class="btn" id="pgNext">Next ›</button>
+        <select class="searchbox" style="width:auto" id="pgSize"><option>25</option><option selected>50</option><option>100</option><option>250</option></select>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">Source: enterprise.gov.ie Employment Permit Statistics 2010–2026 (2026 is year-to-date Jan–May). “Issued” = Total for 2010–2019 publications. Known source quirks: 2019 company detail under-counts vs published total; 2010 files disagree slightly across breakdowns.</div>
+</main>
+</div>
+
+<script>
+const MONTH_ORDER = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const D = {};            // datasets
+const charts = {};       // chart instances
+const F = {              // filter state
+  yrMin: 2010, yrMax: 2026, metric: 'Issued',
+  months: new Set(), nat: new Set(), county: new Set(), sector: new Set(),
+  emp: '', empMin: 1, topN: 15
+};
+
+// ---------- CSV loading ----------
+function parseCSV(text){
+  const rows=[]; let row=[], cur='', q=false;
+  for(let i=0;i<text.length;i++){
+    const ch=text[i];
+    if(q){ if(ch==='"'){ if(text[i+1]==='"'){cur+='"';i++;} else q=false; } else cur+=ch; }
+    else if(ch==='"') q=true;
+    else if(ch===','){ row.push(cur); cur=''; }
+    else if(ch==='\n'){ row.push(cur); rows.push(row); row=[]; cur=''; }
+    else if(ch!=='\r') cur+=ch;
+  }
+  if(cur!==''||row.length){ row.push(cur); rows.push(row); }
+  const hdr=rows.shift();
+  return rows.filter(r=>r.length===hdr.length).map(r=>{
+    const o={}; hdr.forEach((h,i)=>{ const v=r[i]; o[h]= v!=='' && !isNaN(v) ? +v : (v===''?null:v); }); return o;
+  });
+}
+async function load(name){ const r=await fetch(name); if(!r.ok) throw new Error(name); return parseCSV(await r.text()); }
+
+// ---------- filters ----------
+const inYr = r => r.Year>=F.yrMin && r.Year<=F.yrMax;
+function fNat(){ return D.nat.filter(r=>inYr(r) && (!F.nat.size||F.nat.has(r.Nationality))); }
+function fCounty(){ return D.county.filter(r=>inYr(r) && (!F.county.size||F.county.has(r.County))); }
+function fSector(){ return D.sector.filter(r=>inYr(r) && (!F.sector.size||F.sector.has(r.Sector)) && (!F.months.size||F.months.has(r.Month))); }
+function fEmp(){ const q=F.emp.toLowerCase(); return D.emp.filter(r=>inYr(r) && r.Total>=F.empMin && (!q||r['Employer Name'].toLowerCase().includes(q))); }
+
+const fmt = n => n==null?'–':n.toLocaleString('en-IE');
+const sum = (rows,k) => rows.reduce((a,r)=>a+(r[k]||0),0);
+function groupSum(rows,key,val){ const m=new Map(); for(const r of rows){ m.set(r[key],(m.get(r[key])||0)+(r[val]||0)); } return m; }
+const topEntries = (m,n) => [...m.entries()].sort((a,b)=>b[1]-a[1]).slice(0,n);
+
+// ---------- theming ----------
+function pal(){ const dark=document.body.dataset.theme==='dark';
+  return { ink:dark?'#e7edf5':'#1c2430', muted:dark?'#8b9bb0':'#67768c', grid:dark?'#2a3442':'#e3e8f0',
+    series:['#2563eb','#0ea5e9','#10b981','#f59e0b','#ef4444','#8b5cf6','#ec4899','#14b8a6','#f97316','#64748b'] };
+}
+Chart.defaults.font.family='-apple-system,"Segoe UI",Roboto,sans-serif';
+Chart.defaults.font.size=11;
+Chart.defaults.plugins.legend.labels.boxWidth=12;
+
+function mkChart(id,cfg){ if(charts[id]) charts[id].destroy(); charts[id]=new Chart(document.getElementById(id),cfg); }
+function baseOpts(extra={}){ const p=pal();
+  return Object.assign({responsive:true,maintainAspectRatio:false,
+    scales:{x:{ticks:{color:p.muted},grid:{color:p.grid}},y:{ticks:{color:p.muted},grid:{color:p.grid},beginAtZero:true}},
+    plugins:{legend:{labels:{color:p.ink}},tooltip:{callbacks:{}}}},extra);
+}
+
+// ---------- chips & KPIs ----------
+function renderChips(){
+  const c=document.getElementById('chips'); c.innerHTML='';
+  const add=(label,val,fn)=>{ const el=document.createElement('span'); el.className='chip';
+    el.innerHTML=`<b>${label}:</b> ${val} ✕`; el.onclick=fn; c.appendChild(el); };
+  if(F.yrMin!==2010||F.yrMax!==2026) add('Years',`${F.yrMin}–${F.yrMax}`,()=>{F.yrMin=2010;F.yrMax=2026;syncSidebar();update();});
+  if(F.metric!=='Issued') add('Metric',F.metric,()=>{setMetric('Issued');});
+  for(const m of F.months) add('Month',m,()=>{F.months.delete(m);syncSidebar();update();});
+  for(const n of F.nat) add('Nationality',n,()=>{F.nat.delete(n);syncSidebar();update();});
+  for(const n of F.county) add('County',n,()=>{F.county.delete(n);syncSidebar();update();});
+  for(const n of F.sector) add('Sector',n.length>34?n.slice(0,34)+'…':n,()=>{F.sector.delete(n);syncSidebar();update();});
+  if(F.emp) add('Employer',F.emp,()=>{F.emp='';document.getElementById('empSearch').value='';update();});
+  if(F.empMin>1) add('Min permits',F.empMin,()=>{F.empMin=1;syncSidebar();update();});
+}
+
+function renderKPIs(){
+  const nat=fNat();
+  const issued=sum(nat,'Issued'), refused=sum(nat,'Refused'), withdrawn=sum(nat,'Withdrawn');
+  const rate=issued+refused>0 ? (refused/(issued+refused)*100).toFixed(1)+'%' : '–';
+  const emp=fEmp();
+  const employers=new Set(emp.map(r=>r['Employer Name'])).size;
+  const nats=new Set(nat.filter(r=>r.Issued>0).map(r=>r.Nationality)).size;
+  // YoY on last full year in range
+  const byYear=groupSum(nat,'Year','Issued');
+  const yrs=[...byYear.keys()].sort((a,b)=>a-b);
+  let yoy='';
+  if(yrs.length>=2){ const a=byYear.get(yrs[yrs.length-2]), b=byYear.get(yrs[yrs.length-1]);
+    if(a>0){ const p=((b-a)/a*100); yoy=`<div class="d ${p>=0?'up':'down'}">${p>=0?'▲':'▼'} ${Math.abs(p).toFixed(1)}% ${yrs[yrs.length-1]} vs ${yrs[yrs.length-2]}</div>`; } }
+  document.getElementById('kpis').innerHTML=`
+    <div class="kpi"><div class="l">Permits issued</div><div class="v">${fmt(issued)}</div>${yoy}</div>
+    <div class="kpi"><div class="l">Refused</div><div class="v">${fmt(refused)}</div></div>
+    <div class="kpi"><div class="l">Withdrawn</div><div class="v">${fmt(withdrawn)}</div></div>
+    <div class="kpi"><div class="l">Refusal rate</div><div class="v">${rate}</div></div>
+    <div class="kpi"><div class="l">Nationalities</div><div class="v">${fmt(nats)}</div></div>
+    <div class="kpi"><div class="l">Employers</div><div class="v">${fmt(employers)}</div><div class="d">${F.emp||F.empMin>1?'filtered':'in selection'}</div></div>`;
+}
+
+// ---------- charts ----------
+function clickToFilter(set){ return (evt,els,chart)=>{ if(!els.length) return;
+  const label=chart.data.labels[els[0].index];
+  set.has(label)?set.delete(label):set.add(label); syncSidebar(); update(); }; }
+
+function renderOverview(){
+  const p=pal(), nat=fNat();
+  const yrs=[]; for(let y=F.yrMin;y<=F.yrMax;y++) yrs.push(y);
+  const by=k=>{const g=groupSum(nat,'Year',k);return yrs.map(y=>g.get(y)||0);};
+  mkChart('cYear',{type:'line',data:{labels:yrs,datasets:[
+      {label:'Issued',data:by('Issued'),borderColor:p.series[0],backgroundColor:p.series[0]+'33',fill:true,tension:.3},
+      {label:'Refused',data:by('Refused'),borderColor:p.series[4],tension:.3},
+      {label:'Withdrawn',data:by('Withdrawn'),borderColor:p.series[3],tension:.3}]},
+    options:baseOpts({onClick:(e,els,ch)=>{ if(!els.length)return; const y=ch.data.labels[els[0].index];
+      F.yrMin=y;F.yrMax=y;syncSidebar();update(); }})});
+
+  const issued=sum(nat,'Issued'),refused=sum(nat,'Refused'),withdrawn=sum(nat,'Withdrawn');
+  mkChart('cOutcome',{type:'doughnut',data:{labels:['Issued','Refused','Withdrawn'],
+    datasets:[{data:[issued,refused,withdrawn],backgroundColor:[p.series[0],p.series[4],p.series[3]],borderWidth:0}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:p.ink}}}}});
+
+  const sec=fSector();
+  const yearsInSel=new Set(sec.map(r=>r.Year)).size||1;
+  const gm=groupSum(sec,'Month','Issued');
+  mkChart('cMonth',{type:'bar',data:{labels:MONTH_ORDER,datasets:[{label:'Avg issued / month',
+      data:MONTH_ORDER.map(m=>Math.round((gm.get(m)||0)/yearsInSel)),backgroundColor:p.series[1]}]},
+    options:baseOpts({plugins:{legend:{display:false}},onClick:clickToFilter(F.months)})});
+
+  const old=nat.filter(r=>r.New!=null);
+  const gN=groupSum(old,'Year','New'), gR=groupSum(old,'Year','Renewal');
+  const oy=[...new Set(old.map(r=>r.Year))].sort();
+  mkChart('cNewRen',{type:'bar',data:{labels:oy,datasets:[
+      {label:'New',data:oy.map(y=>gN.get(y)||0),backgroundColor:p.series[0],stack:'s'},
+      {label:'Renewal',data:oy.map(y=>gR.get(y)||0),backgroundColor:p.series[2],stack:'s'}]},
+    options:baseOpts({scales:{x:{stacked:true,ticks:{color:p.muted},grid:{color:p.grid}},y:{stacked:true,ticks:{color:p.muted},grid:{color:p.grid}}}})});
+}
+
+function hbar(id,entries,color,onClick,fmtVal){
+  const p=pal();
+  mkChart(id,{type:'bar',data:{labels:entries.map(e=>e[0]),datasets:[{data:entries.map(e=>e[1]),backgroundColor:color}]},
+    options:baseOpts({indexAxis:'y',plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c=>fmtVal?fmtVal(c.raw):fmt(c.raw)}}},
+      scales:{x:{ticks:{color:p.muted},grid:{color:p.grid},beginAtZero:true},y:{ticks:{color:p.muted,autoSkip:false,font:{size:10}},grid:{display:false}}},
+      onClick})});
+}
+
+function trendChart(id,rows,dim){
+  const p=pal();
+  const top=topEntries(groupSum(rows,dim,F.metric),8).map(e=>e[0]);
+  const yrs=[...new Set(rows.map(r=>r.Year))].sort((a,b)=>a-b);
+  const ds=top.map((name,i)=>{ const g=groupSum(rows.filter(r=>r[dim]===name),'Year',F.metric);
+    return {label:name.length>30?name.slice(0,30)+'…':name,data:yrs.map(y=>g.get(y)||0),borderColor:p.series[i],backgroundColor:p.series[i],tension:.3}; });
+  mkChart(id,{type:'line',data:{labels:yrs,datasets:ds},options:baseOpts()});
+}
+
+function renderNationality(){
+  const p=pal(), rows=fNat();
+  hbar('cNat',topEntries(groupSum(rows,'Nationality',F.metric),F.topN),p.series[0],clickToFilter(F.nat));
+  const agg=new Map();
+  for(const r of rows){ const a=agg.get(r.Nationality)||{i:0,re:0}; a.i+=r.Issued||0; a.re+=r.Refused||0; agg.set(r.Nationality,a); }
+  const rates=[...agg.entries()].filter(([,a])=>a.i+a.re>=50).map(([n,a])=>[n,+(a.re/(a.i+a.re)*100).toFixed(1)]).sort((a,b)=>b[1]-a[1]).slice(0,F.topN);
+  hbar('cNatRef',rates,p.series[4],null,v=>v+'% refused');
+  trendChart('cNatTrend',rows,'Nationality');
+}
+function renderGeo(){
+  const p=pal(), rows=fCounty();
+  hbar('cCounty',topEntries(groupSum(rows,'County',F.metric),F.topN),p.series[2],clickToFilter(F.county));
+  const yrs=[...new Set(rows.map(r=>r.Year))].sort((a,b)=>a-b);
+  const dub=groupSum(rows.filter(r=>r.County==='Dublin'),'Year',F.metric);
+  const rest=groupSum(rows.filter(r=>r.County!=='Dublin'),'Year',F.metric);
+  mkChart('cDublin',{type:'bar',data:{labels:yrs,datasets:[
+      {label:'Dublin',data:yrs.map(y=>dub.get(y)||0),backgroundColor:p.series[0],stack:'s'},
+      {label:'Rest of Ireland',data:yrs.map(y=>rest.get(y)||0),backgroundColor:p.series[1],stack:'s'}]},
+    options:baseOpts({scales:{x:{stacked:true,ticks:{color:p.muted},grid:{color:p.grid}},y:{stacked:true,ticks:{color:p.muted},grid:{color:p.grid}}}})});
+  trendChart('cCountyTrend',rows,'County');
+}
+function renderSector(){
+  const p=pal(), rows=fSector();
+  hbar('cSector',topEntries(groupSum(rows,'Sector',F.metric==='Issued'?'Issued':F.metric),F.topN).map(([k,v])=>[k.length>38?k.slice(0,38)+'…':k,v]),p.series[5],
+    (evt,els,ch)=>{ if(!els.length)return; const lbl=ch.data.labels[els[0].index];
+      const full=[...new Set(rows.map(r=>r.Sector))].find(s=>s===lbl||s.startsWith(lbl.replace('…','')));
+      if(full){ F.sector.has(full)?F.sector.delete(full):F.sector.add(full); syncSidebar(); update(); }});
+  // sector × month stacked
+  const top5=topEntries(groupSum(rows,'Sector','Issued'),5).map(e=>e[0]);
+  mkChart('cSectorMonth',{type:'bar',data:{labels:MONTH_ORDER,datasets:top5.map((s,i)=>{
+      const g=groupSum(rows.filter(r=>r.Sector===s),'Month','Issued');
+      return {label:s.length>24?s.slice(0,24)+'…':s,data:MONTH_ORDER.map(m=>g.get(m)||0),backgroundColor:pal().series[i],stack:'s'};})},
+    options:baseOpts({scales:{x:{stacked:true,ticks:{color:p.muted},grid:{color:p.grid}},y:{stacked:true,ticks:{color:p.muted},grid:{color:p.grid}}}})});
+  trendChart('cSectorTrend',rows,'Sector');
+}
+function renderEmployers(){
+  const p=pal(), rows=fEmp();
+  hbar('cEmp',topEntries(groupSum(rows,'Employer Name','Total'),F.topN).map(([k,v])=>[k.length>46?k.slice(0,46)+'…':k,v]),p.series[6],null);
+  // concentration: share of permits by top 10/50/100 employers vs rest
+  const totals=[...groupSum(rows,'Employer Name','Total').values()].sort((a,b)=>b-a);
+  const all=totals.reduce((a,b)=>a+b,0)||1;
+  const cut=(n)=>totals.slice(0,n).reduce((a,b)=>a+b,0);
+  mkChart('cEmpConc',{type:'doughnut',data:{labels:['Top 10','11–50','51–100','Rest'],
+    datasets:[{data:[cut(10),cut(50)-cut(10),cut(100)-cut(50),all-cut(100)],backgroundColor:[p.series[0],p.series[1],p.series[3],p.grid],borderWidth:0}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:p.ink}},
+      tooltip:{callbacks:{label:c=>`${c.label}: ${fmt(c.raw)} (${(c.raw/all*100).toFixed(1)}%)`}}}}});
+  const perYear=new Map();
+  for(const r of rows){ if(!perYear.has(r.Year)) perYear.set(r.Year,new Set()); perYear.get(r.Year).add(r['Employer Name']); }
+  const yrs=[...perYear.keys()].sort((a,b)=>a-b);
+  mkChart('cEmpCount',{type:'bar',data:{labels:yrs,datasets:[{label:'Distinct employers',data:yrs.map(y=>perYear.get(y).size),backgroundColor:p.series[8]}]},
+    options:baseOpts({plugins:{legend:{display:false}}})});
+}
+
+// ---------- data table ----------
+const T={ds:'nat',sortKey:'Year',sortDir:-1,page:0,size:50,search:''};
+function tblRows(){
+  const src={nat:fNat,county:fCounty,sector:fSector,emp:fEmp}[T.ds]();
+  const q=T.search.toLowerCase();
+  const rows=q?src.filter(r=>Object.values(r).some(v=>String(v).toLowerCase().includes(q))):src.slice();
+  rows.sort((a,b)=>{const x=a[T.sortKey],y=b[T.sortKey];
+    return (x==null?-1:y==null?1:typeof x==='number'?x-y:String(x).localeCompare(String(y)))*T.sortDir;});
+  return rows;
+}
+function renderTable(){
+  const rows=tblRows();
+  const cols=rows.length?Object.keys(rows[0]):[];
+  const pages=Math.max(1,Math.ceil(rows.length/T.size));
+  T.page=Math.min(T.page,pages-1);
+  const slice=rows.slice(T.page*T.size,(T.page+1)*T.size);
+  document.querySelector('#tbl thead').innerHTML='<tr>'+cols.map(c=>
+    `<th class="${typeof slice[0]?.[c]==='number'?'num':''}" data-k="${c}">${c}${T.sortKey===c?(T.sortDir>0?' ▲':' ▼'):''}</th>`).join('')+'</tr>';
+  document.querySelector('#tbl tbody').innerHTML=slice.map(r=>'<tr>'+cols.map(c=>
+    `<td class="${typeof r[c]==='number'?'num':''}">${r[c]==null?'–':typeof r[c]==='number'?fmt(r[c]):r[c]}</td>`).join('')+'</tr>').join('');
+  document.getElementById('pgLbl').textContent=`Page ${T.page+1} / ${pages}`;
+  document.getElementById('tblInfo').textContent=`${fmt(rows.length)} rows`;
+  document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k; if(T.sortKey===k)T.sortDir*=-1; else {T.sortKey=k;T.sortDir=1;} renderTable();});
+}
+function exportCSV(rows,name){
+  if(!rows.length) return;
+  const cols=Object.keys(rows[0]);
+  const esc=v=>v==null?'':/[",\n]/.test(String(v))?'"'+String(v).replace(/"/g,'""')+'"':v;
+  const csv=cols.join(',')+'\n'+rows.map(r=>cols.map(c=>esc(r[c])).join(',')).join('\n');
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'})); a.download=name; a.click();
+}
+
+// ---------- sidebar widgets ----------
+function buildMS(id,values,set,searchId){
+  const box=document.getElementById(id);
+  const q=(searchId?document.getElementById(searchId).value:'').toLowerCase();
+  box.innerHTML='';
+  const shown=values.filter(v=>!q||v.toLowerCase().includes(q)).slice(0,200);
+  for(const v of shown){
+    const lab=document.createElement('label');
+    lab.innerHTML=`<input type="checkbox" ${set.has(v)?'checked':''}> <span>${v}</span>`;
+    lab.querySelector('input').onchange=e=>{ e.target.checked?set.add(v):set.delete(v); update(); };
+    box.appendChild(lab);
+  }
+  if(values.length>shown.length){ const d=document.createElement('div'); d.style.cssText='padding:4px 6px;color:var(--muted);font-size:11px';
+    d.textContent=`…${values.length-shown.length} more — type to search`; box.appendChild(d); }
+}
+function syncSidebar(){
+  document.getElementById('yrMin').value=F.yrMin; document.getElementById('yrMax').value=F.yrMax;
+  document.getElementById('yrMinLbl').textContent=F.yrMin; document.getElementById('yrMaxLbl').textContent=F.yrMax;
+  document.getElementById('empMinLbl').textContent=F.empMin;
+  document.querySelectorAll('#metricSeg button').forEach(b=>b.classList.toggle('on',b.dataset.m===F.metric));
+  buildMS('msMonth',MONTH_ORDER,F.months);
+  buildMS('msNat',D.natList,F.nat,'natSearch');
+  buildMS('msCounty',D.countyList,F.county,'countySearch');
+  buildMS('msSector',D.sectorList,F.sector,'sectorSearch');
+}
+function clearDim(d){ F[d].clear(); syncSidebar(); update(); }
+function setMetric(m){ F.metric=m; syncSidebar(); update(); }
+
+// ---------- update ----------
+let activeTab='overview';
+function update(){
+  renderChips(); renderKPIs();
+  ({overview:renderOverview,nationality:renderNationality,geo:renderGeo,
+    sector:renderSector,employers:renderEmployers,table:renderTable})[activeTab]();
+}
+
+// ---------- init ----------
+(async function(){
+  try{
+    [D.nat,D.county,D.sector,D.emp]=await Promise.all([
+      load('permits-by-nationality-2010-2026.csv'),
+      load('permits-by-county-2010-2026.csv'),
+      load('permits-by-sector-2010-2026.csv'),
+      load('permits-issued-to-companies-2010-2026.csv')]);
+  }catch(e){ document.getElementById('loading').textContent='Failed to load CSVs — serve this folder over HTTP (python3 -m http.server) and open dashboard.html. '+e; return; }
+  D.natList=[...new Set(D.nat.map(r=>r.Nationality))].sort();
+  D.countyList=[...new Set(D.county.map(r=>r.County))].sort();
+  D.sectorList=[...new Set(D.sector.map(r=>r.Sector))].sort();
+  document.getElementById('loading').classList.add('hidden');
+  document.getElementById('app').classList.remove('hidden');
+
+  // events
+  document.getElementById('yrMin').oninput=e=>{F.yrMin=+e.target.value; if(F.yrMin>F.yrMax)F.yrMax=F.yrMin; syncSidebar(); update();};
+  document.getElementById('yrMax').oninput=e=>{F.yrMax=+e.target.value; if(F.yrMax<F.yrMin)F.yrMin=F.yrMax; syncSidebar(); update();};
+  document.querySelectorAll('#metricSeg button').forEach(b=>b.onclick=()=>setMetric(b.dataset.m));
+  for(const [sid,msid,list,set] of [['natSearch','msNat','natList',F.nat],['countySearch','msCounty','countyList',F.county],['sectorSearch','msSector','sectorList',F.sector]])
+    document.getElementById(sid).oninput=()=>buildMS(msid,D[list],set,sid);
+  let t; document.getElementById('empSearch').oninput=e=>{clearTimeout(t);t=setTimeout(()=>{F.emp=e.target.value;update();},250);};
+  document.getElementById('empMin').oninput=e=>{F.empMin=+e.target.value;document.getElementById('empMinLbl').textContent=F.empMin;clearTimeout(t);t=setTimeout(update,200);};
+  document.getElementById('topN').onchange=e=>{F.topN=+e.target.value;update();};
+  document.getElementById('resetBtn').onclick=()=>{F.yrMin=2010;F.yrMax=2026;F.metric='Issued';F.months.clear();F.nat.clear();F.county.clear();F.sector.clear();F.emp='';F.empMin=1;
+    document.getElementById('empSearch').value='';['natSearch','countySearch','sectorSearch','tblSearch'].forEach(i=>document.getElementById(i).value='');T.search='';syncSidebar();update();};
+  document.getElementById('themeBtn').onclick=e=>{const d=document.body.dataset.theme==='dark';
+    document.body.dataset.theme=d?'light':'dark'; e.target.textContent=d?'🌙 Dark':'☀️ Light'; update();};
+  document.getElementById('exportBtn').onclick=()=>{
+    exportCSV(fNat(),'nationality-filtered.csv'); exportCSV(fCounty(),'county-filtered.csv');
+    exportCSV(fSector(),'sector-filtered.csv'); exportCSV(fEmp(),'companies-filtered.csv');};
+  document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('on')); b.classList.add('on');
+    activeTab=b.dataset.tab;
+    document.querySelectorAll('main section').forEach(s=>s.classList.add('hidden'));
+    document.getElementById('tab-'+activeTab).classList.remove('hidden');
+    update();});
+  document.getElementById('tblDataset').onchange=e=>{T.ds=e.target.value;T.page=0;renderTable();};
+  document.getElementById('tblSearch').oninput=e=>{clearTimeout(t);t=setTimeout(()=>{T.search=e.target.value;T.page=0;renderTable();},250);};
+  document.getElementById('pgPrev').onclick=()=>{if(T.page>0){T.page--;renderTable();}};
+  document.getElementById('pgNext').onclick=()=>{T.page++;renderTable();};
+  document.getElementById('pgSize').onchange=e=>{T.size=+e.target.value;T.page=0;renderTable();};
+  document.getElementById('tblExport').onclick=()=>exportCSV(tblRows(),'table-view.csv');
+
+  syncSidebar(); update();
+})();
+</script>
+</body>
+</html>

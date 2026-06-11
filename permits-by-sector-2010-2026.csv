@@ -1,0 +1,2987 @@
+Year,Month,Sector,New,Renewal,Issued,Refused,Withdrawn
+2010,Jan,Agriculture & Fisheries,9,28,37,10,2
+2010,Jan,Catering,38,83,121,41,9
+2010,Jan,Domestic,6,5,11,3,0
+2010,Jan,Education,4,10,14,2,0
+2010,Jan,Entertainment,6,4,10,0,0
+2010,Jan,Industry,24,36,60,9,2
+2010,Jan,Medical & Nursing,123,101,224,17,3
+2010,Jan,Service Industry,124,145,269,34,4
+2010,Jan,Sport,4,3,7,3,0
+2010,Feb,Agriculture & Fisheries,8,25,33,18,3
+2010,Feb,Catering,50,72,122,23,1
+2010,Feb,Domestic,1,9,10,1,0
+2010,Feb,Education,7,8,15,2,0
+2010,Feb,Entertainment,1,0,1,1,0
+2010,Feb,Industry,38,31,69,9,1
+2010,Feb,Medical & Nursing,63,102,165,15,1
+2010,Feb,Service Industry,126,146,272,32,4
+2010,Feb,Sport,6,0,6,2,1
+2010,Mar,Agriculture & Fisheries,10,20,30,14,0
+2010,Mar,Catering,40,67,107,56,9
+2010,Mar,Domestic,1,8,9,2,0
+2010,Mar,Education,1,11,12,3,1
+2010,Mar,Entertainment,2,1,3,0,0
+2010,Mar,Industry,45,30,75,12,2
+2010,Mar,Medical & Nursing,52,117,169,21,1
+2010,Mar,Service Industry,82,164,246,56,12
+2010,Mar,Sport,8,1,9,3,0
+2010,Apr,Agriculture & Fisheries,20,16,36,4,0
+2010,Apr,Catering,43,43,86,18,4
+2010,Apr,Domestic,2,3,5,1,0
+2010,Apr,Education,6,7,13,0,0
+2010,Apr,Entertainment,6,2,8,0,0
+2010,Apr,Industry,36,11,47,9,2
+2010,Apr,Medical & Nursing,50,79,129,9,4
+2010,Apr,Service Industry,163,127,290,22,10
+2010,Apr,Sport,6,6,12,1,0
+2010,May,Agriculture & Fisheries,4,9,13,2,0
+2010,May,Catering,47,45,92,19,5
+2010,May,Domestic,0,4,4,2,0
+2010,May,Education,8,4,12,2,1
+2010,May,Entertainment,2,2,4,0,0
+2010,May,Industry,45,22,67,4,0
+2010,May,Medical & Nursing,34,69,103,3,2
+2010,May,Service Industry,125,103,228,30,7
+2010,Jun,Agriculture & Fisheries,15,36,51,12,0
+2010,Jun,Catering,86,130,216,54,19
+2010,Jun,Domestic,6,6,12,1,2
+2010,Jun,Education,10,23,33,5,2
+2010,Jun,Entertainment,1,2,3,0,0
+2010,Jun,Industry,67,41,108,13,4
+2010,Jun,Medical & Nursing,89,202,291,57,4
+2010,Jun,Service Industry,204,264,468,73,18
+2010,Jun,Sport,6,6,12,4,0
+2010,Jul,Agriculture & Fisheries,9,25,34,10,1
+2010,Jul,Catering,69,80,149,25,2
+2010,Jul,Domestic,5,3,8,2,2
+2010,Jul,Education,6,14,20,5,0
+2010,Jul,Entertainment,2,3,5,0,0
+2010,Jul,Industry,65,29,94,11,2
+2010,Jul,Medical & Nursing,104,134,238,22,5
+2010,Jul,Service Industry,160,186,346,74,6
+2010,Jul,Sport,1,4,5,1,0
+2010,Aug,Agriculture & Fisheries,15,38,53,2,0
+2010,Aug,Catering,63,39,102,41,6
+2010,Aug,Domestic,1,3,4,1,0
+2010,Aug,Education,14,4,18,0,0
+2010,Aug,Entertainment,1,0,1,2,0
+2010,Aug,Industry,41,12,53,6,1
+2010,Aug,Medical & Nursing,75,42,117,21,2
+2010,Aug,Service Industry,131,95,226,34,6
+2010,Aug,Sport,4,2,6,1,0
+2010,Aug,Agriculture & Fisheries,13,19,32,2,0
+2010,Aug,Catering,76,81,157,83,2
+2010,Aug,Domestic,4,3,7,3,0
+2010,Aug,Education,8,6,14,3,1
+2010,Aug,Entertainment,1,4,5,1,0
+2010,Aug,Industry,33,25,58,8,4
+2010,Aug,Medical & Nursing,69,93,162,20,2
+2010,Aug,Service Industry,204,169,373,67,6
+2010,Aug,Sport,11,2,13,3,0
+2010,Oct,Agriculture & Fisheries,10,9,19,5,0
+2010,Oct,Catering,58,67,125,46,2
+2010,Oct,Domestic,0,5,5,4,1
+2010,Oct,Education,4,6,10,4,0
+2010,Oct,Entertainment,2,1,3,0,0
+2010,Oct,Industry,28,21,49,10,1
+2010,Oct,Medical & Nursing,83,91,174,13,0
+2010,Oct,Service Industry,135,143,278,50,9
+2010,Oct,Sport,3,0,3,0,1
+2010,Nov,Agriculture & Fisheries,3,11,14,1,1
+2010,Nov,Catering,36,32,68,11,2
+2010,Nov,Domestic,5,4,9,0,0
+2010,Nov,Education,1,2,3,2,0
+2010,Nov,Entertainment,2,2,4,1,0
+2010,Nov,Industry,21,4,25,5,2
+2010,Nov,Medical & Nursing,34,33,67,3,2
+2010,Nov,Service Industry,71,41,112,19,3
+2010,Nov,Sport,1,1,2,0,0
+2010,Dec,Agriculture & Fisheries,4,4,8,1,0
+2010,Dec,Catering,12,15,27,4,0
+2010,Dec,Domestic,2,0,2,0,0
+2010,Dec,Education,5,2,7,1,0
+2010,Dec,Entertainment,0,1,1,0,0
+2010,Dec,Exchange Agreements,2,0,2,0,0
+2010,Dec,Industry,24,7,31,4,1
+2010,Dec,Medical & Nursing,21,24,45,8,1
+2010,Dec,Service Industry,86,32,118,7,2
+2011,Jan,Agriculture & Fisheries,3,3,6,4,0
+2011,Jan,Catering,27,20,47,6,2
+2011,Jan,Domestic,1,6,7,0,0
+2011,Jan,Education,6,0,6,0,0
+2011,Jan,Entertainment,3,0,3,2,0
+2011,Jan,Industry,39,4,43,4,0
+2011,Jan,Medical & Nursing,42,36,78,2,2
+2011,Jan,Service Industry,97,41,138,17,4
+2011,Jan,Sport,4,0,4,1,0
+2011,Feb,Agriculture & Fisheries,7,2,9,3,0
+2011,Feb,Catering,15,21,36,4,2
+2011,Feb,Domestic,4,0,4,1,0
+2011,Feb,Education,2,2,4,1,0
+2011,Feb,Exchange Agreements,1,0,1,0,0
+2011,Feb,Industry,20,9,29,5,0
+2011,Feb,Medical & Nursing,61,40,101,4,1
+2011,Feb,Service Industry,105,48,153,17,4
+2011,Feb,Sport,1,0,1,0,0
+2011,Mar,Agriculture & Fisheries,17,23,40,9,0
+2011,Mar,Catering,24,34,58,12,2
+2011,Mar,Domestic,2,4,6,1,0
+2011,Mar,Education,5,3,8,3,0
+2011,Mar,Entertainment,1,0,1,0,0
+2011,Mar,Industry,40,8,48,13,3
+2011,Mar,Medical & Nursing,80,50,130,10,6
+2011,Mar,Service Industry,141,62,203,31,7
+2011,Mar,Sport,3,1,4,0,0
+2011,Apr,Agriculture & Fisheries,3,10,13,6,0
+2011,Apr,Catering,23,32,55,14,2
+2011,Apr,Domestic,1,2,3,1,0
+2011,Apr,Education,3,3,6,0,0
+2011,Apr,Entertainment,3,0,3,2,0
+2011,Apr,Exchange Agreements,1,0,1,0,0
+2011,Apr,Industry,33,16,49,3,2
+2011,Apr,Medical & Nursing,43,52,95,7,1
+2011,Apr,Service Industry,115,78,193,34,8
+2011,Apr,Sport,4,2,6,1,1
+2011,May,Agriculture & Fisheries,17,16,33,6,2
+2011,May,Catering,43,42,85,39,6
+2011,May,Domestic,7,6,13,2,0
+2011,May,Education,5,11,16,2,0
+2011,May,Entertainment,1,1,2,1,0
+2011,May,Exchange Agreements,9,0,9,0,0
+2011,May,Industry,36,25,61,6,1
+2011,May,Medical & Nursing,77,132,209,24,13
+2011,May,Service Industry,181,134,315,44,5
+2011,May,Sport,4,3,7,2,0
+2011,Jun,Agriculture & Fisheries,8,18,26,13,0
+2011,Jun,Catering,29,36,65,33,4
+2011,Jun,Domestic,2,4,6,3,0
+2011,Jun,Education,3,3,6,1,0
+2011,Jun,Industry,70,21,91,12,2
+2011,Jun,Medical & Nursing,65,91,156,22,19
+2011,Jun,Service Industry,166,113,279,45,13
+2011,Jun,Sport,7,3,10,0,0
+2011,Jul,Agriculture & Fisheries,6,13,19,6,1
+2011,Jul,Catering,28,21,49,15,2
+2011,Jul,Domestic,3,4,7,0,0
+2011,Jul,Education,5,5,10,3,0
+2011,Jul,Entertainment,2,0,2,2,0
+2011,Jul,Industry,33,10,43,3,0
+2011,Jul,Medical & Nursing,31,33,64,15,7
+2011,Jul,Service Industry,108,46,154,48,7
+2011,Jul,Sport,4,1,5,0,1
+2011,Aug,Agriculture & Fisheries,7,13,20,4,1
+2011,Aug,Catering,12,20,32,22,1
+2011,Aug,Domestic,1,1,2,3,1
+2011,Aug,Education,10,5,15,0,0
+2011,Aug,Entertainment,2,0,2,1,0
+2011,Aug,Exchange Agreements,2,0,2,0,0
+2011,Aug,Industry,56,8,64,9,4
+2011,Aug,Medical & Nursing,103,42,145,5,4
+2011,Aug,Service Industry,140,57,197,33,2
+2011,Aug,Sport,4,1,5,2,0
+2011,Sep,Agriculture & Fisheries,2,9,11,5,0
+2011,Sep,Catering,18,19,37,18,0
+2011,Sep,Domestic,1,0,1,2,0
+2011,Sep,Education,8,3,11,0,0
+2011,Sep,Entertainment,3,1,4,1,0
+2011,Sep,Industry,37,9,46,12,2
+2011,Sep,Medical & Nursing,79,47,126,9,2
+2011,Sep,Service Industry,138,55,193,44,4
+2011,Sep,Sport,5,0,5,1,0
+2011,Oct,Agriculture & Fisheries,3,9,12,3,0
+2011,Oct,Catering,11,18,29,25,1
+2011,Oct,Domestic,1,1,2,1,0
+2011,Oct,Education,5,5,10,2,0
+2011,Oct,Entertainment,6,0,6,2,0
+2011,Oct,Exchange Agreements,0,1,1,0,0
+2011,Oct,Industry,35,4,39,9,1
+2011,Oct,Medical & Nursing,53,32,85,14,1
+2011,Oct,Service Industry,108,50,158,22,18
+2011,Oct,Sport,2,1,3,0,2
+2011,Nov,Agriculture & Fisheries,5,12,17,5,1
+2011,Nov,Catering,13,17,30,30,3
+2011,Nov,Domestic,2,2,4,2,0
+2011,Nov,Education,0,0,0,2,0
+2011,Nov,Entertainment,0,0,0,1,0
+2011,Nov,Exchange Agreements,7,0,7,0,0
+2011,Nov,Industry,35,7,42,12,3
+2011,Nov,Medical & Nursing,35,36,71,16,5
+2011,Nov,Service Industry,93,45,138,47,6
+2011,Nov,Sport,3,2,5,0,0
+2011,Dec,Agriculture & Fisheries,7,3,10,4,1
+2011,Dec,Catering,20,10,30,17,0
+2011,Dec,Domestic,1,1,2,0,0
+2011,Dec,Education,8,4,12,0,0
+2011,Dec,Industry,42,8,50,11,0
+2011,Dec,Medical & Nursing,26,16,42,7,2
+2011,Dec,Service Industry,104,38,142,39,6
+2011,Dec,Sport,1,0,1,0,0
+2012,Jan,Agriculture & Fisheries,7,10,17,3,0
+2012,Jan,Catering,26,11,37,22,1
+2012,Jan,Domestic,0,1,1,1,0
+2012,Jan,Education,8,3,11,0,0
+2012,Jan,Entertainment,6,0,6,0,0
+2012,Jan,Industry,35,4,39,9,4
+2012,Jan,Medical & Nursing,58,21,79,12,0
+2012,Jan,Service Industry,135,55,190,42,2
+2012,Jan,Sport,0,1,1,2,0
+2012,Feb,Agriculture & Fisheries,7,7,14,16,0
+2012,Feb,Catering,12,17,29,14,1
+2012,Feb,Domestic,1,3,4,1,0
+2012,Feb,Education,5,0,5,0,0
+2012,Feb,Entertainment,2,0,2,2,1
+2012,Feb,Exchange Agreements,1,0,1,0,0
+2012,Feb,Industry,39,9,48,12,1
+2012,Feb,Medical & Nursing,62,13,75,11,2
+2012,Feb,Service Industry,118,41,159,28,3
+2012,Feb,Sport,2,0,2,0,0
+2012,Mar,Agriculture & Fisheries,5,13,18,5,0
+2012,Mar,Catering,21,14,35,19,0
+2012,Mar,Domestic,2,3,5,0,0
+2012,Mar,Education,2,0,2,3,0
+2012,Mar,Entertainment,2,0,2,0,0
+2012,Mar,Exchange Agreements,1,0,1,0,0
+2012,Mar,Industry,49,15,64,22,0
+2012,Mar,Medical & Nursing,25,27,52,5,1
+2012,Mar,Service Industry,136,59,195,41,7
+2012,Mar,Sport,4,0,4,1,0
+2012,Apr,Agriculture & Fisheries,0,4,4,3,0
+2012,Apr,Catering,24,10,34,14,2
+2012,Apr,Domestic,3,0,3,0,1
+2012,Apr,Education,2,3,5,1,0
+2012,Apr,Entertainment,0,1,1,1,0
+2012,Apr,Industry,34,5,39,9,1
+2012,Apr,Medical & Nursing,27,27,54,6,1
+2012,Apr,Service Industry,98,36,134,28,7
+2012,Apr,Sport,4,0,4,1,0
+2012,May,Agriculture & Fisheries,0,9,9,2,0
+2012,May,Catering,20,15,35,12,2
+2012,May,Domestic,5,1,6,2,0
+2012,May,Education,5,1,6,2,0
+2012,May,Entertainment,0,0,0,1,0
+2012,May,Exchange Agreements,7,0,7,0,0
+2012,May,Industry,52,6,58,3,1
+2012,May,Medical & Nursing,26,20,46,8,2
+2012,May,Service Industry,117,23,140,27,4
+2012,May,Sport,2,2,4,1,0
+2012,Jun,Agriculture & Fisheries,2,11,13,8,0
+2012,Jun,Catering,15,6,21,51,2
+2012,Jun,Education,0,0,0,1,0
+2012,Jun,Entertainment,0,2,2,0,0
+2012,Jun,Industry,81,14,95,5,4
+2012,Jun,Medical & Nursing,15,14,29,8,1
+2012,Jun,Service Industry,135,35,170,71,2
+2012,Jun,Sport,3,4,7,1,0
+2012,Jul,Agriculture & Fisheries,1,22,23,3,2
+2012,Jul,Catering,16,10,26,15,46
+2012,Jul,Domestic,1,0,1,2,2
+2012,Jul,Education,2,3,5,1,1
+2012,Jul,Entertainment,0,0,0,1,13
+2012,Jul,Industry,78,10,88,7,14
+2012,Jul,Medical & Nursing,21,13,34,8,6
+2012,Jul,Service Industry,199,43,242,28,71
+2012,Jul,Sport,6,1,7,1,0
+2012,Aug,Agriculture & Fisheries,7,4,11,5,0
+2012,Aug,Catering,2,10,12,15,1
+2012,Aug,Domestic,2,1,3,1,0
+2012,Aug,Education,7,1,8,2,0
+2012,Aug,Entertainment,2,0,2,0,0
+2012,Aug,Exchange Agreements,1,0,1,0,0
+2012,Aug,Industry,33,4,37,9,5
+2012,Aug,Medical & Nursing,36,23,59,3,2
+2012,Aug,Service Industry,148,33,181,26,10
+2012,Aug,Sport,5,0,5,2,0
+2012,Sep,Agriculture & Fisheries,5,4,9,3,0
+2012,Sep,Catering,8,6,14,8,2
+2012,Sep,Domestic,3,1,4,0,0
+2012,Sep,Education,5,7,12,2,0
+2012,Sep,Entertainment,2,1,3,0,0
+2012,Sep,Industry,63,10,73,3,2
+2012,Sep,Medical & Nursing,37,6,43,6,1
+2012,Sep,Service Industry,143,33,176,10,1
+2012,Sep,Sport,4,1,5,0,0
+2012,Oct,Agriculture & Fisheries,3,5,8,3,0
+2012,Oct,Catering,11,7,18,13,0
+2012,Oct,Domestic,1,1,2,2,0
+2012,Oct,Education,3,4,7,2,1
+2012,Oct,Entertainment,4,0,4,0,0
+2012,Oct,Industry,29,7,36,1,0
+2012,Oct,Medical & Nursing,26,32,58,5,1
+2012,Oct,Service Industry,125,35,160,18,3
+2012,Oct,Sport,4,0,4,0,1
+2012,Nov,Agriculture & Fisheries,1,5,6,3,0
+2012,Nov,Catering,10,10,20,9,0
+2012,Nov,Domestic,0,1,1,2,0
+2012,Nov,Education,4,1,5,0,0
+2012,Nov,Exchange Agreements,1,0,1,0,0
+2012,Nov,Industry,32,9,41,2,3
+2012,Nov,Medical & Nursing,28,27,55,7,0
+2012,Nov,Service Industry,158,44,202,27,3
+2012,Nov,Sport,0,0,0,1,0
+2012,Dec,Agriculture & Fisheries,2,7,9,2,0
+2012,Dec,Catering,6,5,11,7,0
+2012,Dec,Education,2,3,5,2,0
+2012,Dec,Entertainment,0,2,2,0,0
+2012,Dec,Industry,58,10,68,5,0
+2012,Dec,Medical & Nursing,9,18,27,1,0
+2012,Dec,Service Industry,115,32,147,19,2
+2012,Dec,Sport,2,0,2,0,0
+2013,Jan,Agriculture & Fisheries,4,3,7,5,0
+2013,Jan,Catering,14,6,20,10,1
+2013,Jan,Domestic,1,0,1,2,0
+2013,Jan,Education,6,4,10,2,1
+2013,Jan,Entertainment,3,3,6,0,0
+2013,Jan,Industry,30,8,38,5,3
+2013,Jan,Medical & Nursing,23,36,59,9,0
+2013,Jan,Service Industry,158,30,188,16,8
+2013,Jan,Sport,0,1,1,1,0
+2013,Feb,Agriculture & Fisheries,2,3,5,1,0
+2013,Feb,Catering,11,12,23,10,0
+2013,Feb,Domestic,2,2,4,0,0
+2013,Feb,Education,3,2,5,1,1
+2013,Feb,Entertainment,2,0,2,0,0
+2013,Feb,Industry,55,8,63,3,2
+2013,Feb,Medical & Nursing,32,24,56,7,0
+2013,Feb,Service Industry,113,41,154,24,8
+2013,Feb,Sport,0,1,1,0,0
+2013,Mar,Agriculture & Fisheries,3,4,7,4,0
+2013,Mar,Catering,6,6,12,6,1
+2013,Mar,Domestic,1,3,4,1,0
+2013,Mar,Education,1,1,2,2,0
+2013,Mar,Industry,60,9,69,6,4
+2013,Mar,Medical & Nursing,20,12,32,5,1
+2013,Mar,Service Industry,139,50,189,10,4
+2013,Mar,Sport,4,0,4,1,0
+2013,Apr,Agriculture & Fisheries,2,1,3,2,0
+2013,Apr,Catering,10,5,15,1,0
+2013,Apr,Education,2,2,4,3,0
+2013,Apr,Entertainment,1,0,1,0,0
+2013,Apr,Industry,36,7,43,6,1
+2013,Apr,Medical & Nursing,25,11,36,4,0
+2013,Apr,Service Industry,94,30,124,2,0
+2013,Apr,Sport,3,1,4,0,0
+2013,May,Agriculture & Fisheries,6,1,7,4,0
+2013,May,Catering,13,9,22,9,0
+2013,May,Domestic,1,2,3,0,0
+2013,May,Education,6,2,8,1,0
+2013,May,Entertainment,0,2,2,1,0
+2013,May,Industry,74,13,87,3,3
+2013,May,Medical & Nursing,16,18,34,6,1
+2013,May,Service Industry,150,44,194,16,3
+2013,May,Sport,0,2,2,0,0
+2013,Jun,Agriculture & Fisheries,4,3,7,2,0
+2013,Jun,Catering,6,7,13,7,1
+2013,Jun,Domestic,1,1,2,0,0
+2013,Jun,Education,4,3,7,3,0
+2013,Jun,Entertainment,0,1,1,0,0
+2013,Jun,Exchange Agreements,7,0,7,0,0
+2013,Jun,Industry,41,4,45,6,0
+2013,Jun,Medical & Nursing,17,19,36,8,1
+2013,Jun,Service Industry,113,34,147,12,3
+2013,Jun,Sport,0,3,3,1,0
+2013,Jul,Agriculture & Fisheries,1,4,5,2,0
+2013,Jul,Catering,5,5,10,14,1
+2013,Jul,Domestic,1,1,2,0,0
+2013,Jul,Education,6,1,7,1,0
+2013,Jul,Exchange Agreements,1,0,1,0,0
+2013,Jul,Industry,62,10,72,3,1
+2013,Jul,Medical & Nursing,46,24,70,5,3
+2013,Jul,Service Industry,137,33,170,13,7
+2013,Jul,Sport,5,1,6,1,0
+2013,Aug,Agriculture & Fisheries,2,1,3,0,1
+2013,Aug,Catering,7,3,10,6,1
+2013,Aug,Domestic,0,0,0,1,0
+2013,Aug,Education,7,2,9,0,2
+2013,Aug,Entertainment,2,2,4,1,0
+2013,Aug,Industry,58,4,62,4,2
+2013,Aug,Medical & Nursing,33,17,50,6,4
+2013,Aug,Service Industry,155,28,183,16,2
+2013,Aug,Sport,5,3,8,2,0
+2013,Sep,Agriculture & Fisheries,3,2,5,1,0
+2013,Sep,Catering,9,5,14,12,0
+2013,Sep,Domestic,0,2,2,2,0
+2013,Sep,Education,6,3,9,0,0
+2013,Sep,Entertainment,6,1,7,0,0
+2013,Sep,Industry,83,6,89,5,21
+2013,Sep,Medical & Nursing,32,3,35,4,2
+2013,Sep,Service Industry,220,18,238,23,4
+2013,Sep,Sport,3,0,3,0,0
+2013,Oct,Agriculture & Fisheries,3,0,3,3,0
+2013,Oct,Catering,4,9,13,13,0
+2013,Oct,Domestic,0,3,3,2,1
+2013,Oct,Education,4,1,5,2,0
+2013,Oct,Entertainment,5,0,5,0,0
+2013,Oct,Industry,91,4,95,12,1
+2013,Oct,Medical & Nursing,22,7,29,7,0
+2013,Oct,Service Industry,176,40,216,33,3
+2013,Oct,Sport,5,0,5,4,0
+2013,Nov,Agriculture & Fisheries,6,1,7,3,0
+2013,Nov,Catering,5,7,12,13,0
+2013,Nov,Domestic,0,0,0,2,0
+2013,Nov,Education,2,0,2,0,0
+2013,Nov,Entertainment,1,1,2,0,0
+2013,Nov,Industry,66,5,71,9,0
+2013,Nov,Medical & Nursing,14,3,17,9,1
+2013,Nov,Service Industry,134,37,171,27,5
+2013,Nov,Sport,3,0,3,2,0
+2013,Dec,Agriculture & Fisheries,5,1,6,0,0
+2013,Dec,Catering,9,1,10,5,0
+2013,Dec,Education,6,1,7,4,1
+2013,Dec,Entertainment,5,0,5,2,0
+2013,Dec,Industry,97,5,102,11,2
+2013,Dec,Medical & Nursing,21,1,22,8,3
+2013,Dec,Service Industry,129,29,158,19,7
+2013,Dec,Sport,1,0,1,1,0
+2014,Jan,Agriculture & Fisheries,0,3,3,3,0
+2014,Jan,Catering,16,2,18,2,0
+2014,Jan,Domestic,2,0,2,1,0
+2014,Jan,Education,6,0,6,1,0
+2014,Jan,Entertainment,5,2,7,0,0
+2014,Jan,Exchange Agreements,2,0,2,0,0
+2014,Jan,Industry,114,7,121,14,0
+2014,Jan,Medical & Nursing,27,8,35,5,0
+2014,Jan,Service Industry,224,30,254,38,2
+2014,Jan,Sport,1,0,1,0,0
+2014,Feb,Agriculture & Fisheries,1,0,1,0,0
+2014,Feb,Catering,12,3,15,6,1
+2014,Feb,Domestic,2,0,2,0,0
+2014,Feb,Education,2,2,4,2,0
+2014,Feb,Entertainment,1,1,2,1,0
+2014,Feb,Industry,49,5,54,2,1
+2014,Feb,Medical & Nursing,31,8,39,26,1
+2014,Feb,Service Industry,166,16,182,13,4
+2014,Feb,Sport,3,0,3,0,0
+2014,Mar,Agriculture & Fisheries,1,2,3,1,0
+2014,Mar,Catering,11,2,13,6,1
+2014,Mar,Domestic,0,0,0,1,0
+2014,Mar,Education,7,4,11,1,0
+2014,Mar,Entertainment,0,0,0,1,0
+2014,Mar,Industry,77,5,82,15,2
+2014,Mar,Medical & Nursing,61,5,66,20,0
+2014,Mar,Service Industry,140,34,174,16,2
+2014,Mar,Sport,4,0,4,0,0
+2014,Apr,Agriculture & Fisheries,2,1,3,1,0
+2014,Apr,Catering,6,2,8,9,0
+2014,Apr,Education,3,1,4,1,0
+2014,Apr,Entertainment,1,0,1,0,0
+2014,Apr,Industry,65,2,67,5,0
+2014,Apr,Medical & Nursing,80,4,84,9,6
+2014,Apr,Service Industry,126,17,143,25,2
+2014,Apr,Sport,2,1,3,0,0
+2014,May,Agriculture & Fisheries,1,0,1,3,0
+2014,May,Catering,13,2,15,4,0
+2014,May,Domestic,0,1,1,0,0
+2014,May,Education,1,0,1,1,0
+2014,May,Exchange Agreements,2,0,2,0,0
+2014,May,Industry,93,4,97,3,1
+2014,May,Medical & Nursing,82,5,87,7,2
+2014,May,Service Industry,156,22,178,13,2
+2014,May,Sport,0,2,2,0,0
+2014,Jun,Agriculture & Fisheries,9,2,11,1,0
+2014,Jun,Catering,5,0,5,6,0
+2014,Jun,Domestic,0,0,0,1,0
+2014,Jun,Education,3,0,3,0,1
+2014,Jun,Entertainment,2,0,2,0,4
+2014,Jun,Industry,122,10,132,4,6
+2014,Jun,Medical & Nursing,213,4,217,14,2
+2014,Jun,Service Industry,187,28,215,9,5
+2014,Jun,Sport,4,1,5,0,0
+2014,Jul,Agriculture & Fisheries,2,0,2,5,0
+2014,Jul,Catering,19,8,27,11,1
+2014,Jul,Domestic,3,1,4,1,0
+2014,Jul,Education,13,8,21,1,1
+2014,Jul,Entertainment,2,1,3,0,0
+2014,Jul,Exchange Agreements,4,0,4,0,0
+2014,Jul,Industry,134,6,140,11,2
+2014,Jul,Medical & Nursing,320,21,341,18,16
+2014,Jul,Service Industry,301,36,337,24,2
+2014,Jul,Sport,8,0,8,1,0
+2014,Aug,Agriculture & Fisheries,2,0,2,1,0
+2014,Aug,Catering,16,9,25,3,0
+2014,Aug,Domestic,1,1,2,0,1
+2014,Aug,Education,11,1,12,0,0
+2014,Aug,Entertainment,6,3,9,0,0
+2014,Aug,Exchange Agreements,1,0,1,0,0
+2014,Aug,Industry,62,8,70,1,1
+2014,Aug,Medical & Nursing,120,8,128,2,10
+2014,Aug,Service Industry,214,26,240,7,3
+2014,Aug,Sport,4,0,4,0,0
+2014,Sep,Agriculture & Fisheries,2,3,5,0,0
+2014,Sep,Catering,33,9,42,5,1
+2014,Sep,Domestic,1,0,1,1,0
+2014,Sep,Education,15,3,18,0,0
+2014,Sep,Entertainment,3,0,3,0,0
+2014,Sep,Exchange Agreements,1,0,1,1,0
+2014,Sep,Industry,177,7,184,3,6
+2014,Sep,Medical & Nursing,110,4,114,7,23
+2014,Sep,Service Industry,382,64,446,9,8
+2014,Sep,Sport,6,1,7,0,0
+2014,Oct,Catering,0,0,0,1,0
+2014,Oct,Industry,1,0,1,0,0
+2014,Oct,Medical & Nursing,1,0,1,0,0
+2014,Oct,Service Industry,3,0,3,1,0
+2014,Oct,Sport,2,0,2,0,0
+2014,Nov,Catering,4,2,6,6,1
+2014,Nov,Domestic,1,0,1,1,0
+2014,Nov,Education,4,1,5,0,0
+2014,Nov,Entertainment,0,1,1,0,0
+2014,Nov,Exchange Agreements,2,0,2,0,0
+2014,Nov,Industry,65,7,72,11,10
+2014,Nov,Medical & Nursing,82,15,97,9,2
+2014,Nov,Service Industry,144,15,159,19,4
+2014,Dec,Agriculture & Fisheries,1,0,1,1,0
+2014,Dec,Catering,4,1,5,9,0
+2014,Dec,Education,0,0,0,3,0
+2014,Dec,Industry,136,7,143,18,0
+2014,Dec,Medical & Nursing,149,76,225,10,6
+2014,Dec,Service Industry,146,33,179,19,1
+2014,Dec,Sport,3,0,3,0,0
+2015,Jan,Agriculture & Fisheries,1,0,1,0,0
+2015,Jan,Catering,4,2,6,9,1
+2015,Jan,Domestic,0,1,1,0,0
+2015,Jan,Education,0,2,2,0,0
+2015,Jan,Entertainment,3,0,3,0,0
+2015,Jan,Industry,76,10,86,10,0
+2015,Jan,Medical & Nursing,149,55,204,20,6
+2015,Jan,Service Industry,151,27,178,25,6
+2015,Jan,Sport,0,0,0,2,0
+2015,Feb,Agriculture & Fisheries,2,0,2,1,0
+2015,Feb,Catering,3,3,6,19,0
+2015,Feb,Domestic,0,0,0,1,0
+2015,Feb,Education,1,3,4,4,0
+2015,Feb,Entertainment,1,0,1,0,0
+2015,Feb,Industry,114,1,115,9,0
+2015,Feb,Medical & Nursing,76,8,84,6,2
+2015,Feb,Service Industry,134,24,158,21,3
+2015,Feb,Sport,1,0,1,0,0
+2015,Mar,Agriculture & Fisheries,1,2,3,1,0
+2015,Mar,Catering,18,0,18,14,0
+2015,Mar,Domestic,0,2,2,0,0
+2015,Mar,Education,4,2,6,1,1
+2015,Mar,Entertainment,1,1,2,0,0
+2015,Mar,Industry,94,19,113,7,3
+2015,Mar,Medical & Nursing,113,9,122,18,9
+2015,Mar,Service Industry,155,46,201,20,9
+2015,Mar,Sport,5,0,5,2,0
+2015,Apr,Agriculture & Fisheries,3,2,5,3,0
+2015,Apr,Catering,13,1,14,14,0
+2015,Apr,Education,2,1,3,1,1
+2015,Apr,Entertainment,2,0,2,1,0
+2015,Apr,Industry,125,9,134,14,2
+2015,Apr,Medical & Nursing,150,42,192,7,6
+2015,Apr,Service Industry,378,36,414,31,6
+2015,Apr,Sport,4,2,6,0,1
+2015,May,Agriculture & Fisheries,3,0,3,1,1
+2015,May,Catering,11,4,15,11,0
+2015,May,Domestic,0,0,0,3,0
+2015,May,Education,5,1,6,0,0
+2015,May,Entertainment,1,1,2,0,0
+2015,May,Exchange Agreements,1,0,1,0,1
+2015,May,Industry,86,5,91,6,3
+2015,May,Medical & Nursing,149,64,213,2,2
+2015,May,Service Industry,177,21,198,24,1
+2015,May,Sport,3,2,5,1,0
+2015,Jun,Agriculture & Fisheries,2,2,4,0,0
+2015,Jun,Catering,11,2,13,7,0
+2015,Jun,Education,4,1,5,0,0
+2015,Jun,Entertainment,2,0,2,1,0
+2015,Jun,Exchange Agreements,4,0,4,0,0
+2015,Jun,Industry,70,4,74,7,1
+2015,Jun,Medical & Nursing,354,136,490,1,7
+2015,Jun,Service Industry,199,27,226,20,7
+2015,Jun,Sport,3,1,4,0,1
+2015,Jul,Agriculture & Fisheries,1,1,2,1,0
+2015,Jul,Catering,6,5,11,11,0
+2015,Jul,Domestic,1,0,1,0,0
+2015,Jul,Education,4,8,12,0,0
+2015,Jul,Entertainment,1,1,2,0,0
+2015,Jul,Exchange Agreements,8,0,8,0,0
+2015,Jul,Industry,68,12,79,9,1
+2015,Jul,Medical & Nursing,274,81,355,12,6
+2015,Jul,Service Industry,191,28,219,23,2
+2015,Aug,Catering,12,2,14,8,0
+2015,Aug,Education,2,1,3,1,2
+2015,Aug,Entertainment,0,2,2,1,0
+2015,Aug,Industry,53,11,64,6,0
+2015,Aug,Medical & Nursing,51,7,58,1,1
+2015,Aug,Service Industry,135,13,148,27,3
+2015,Aug,Sport,2,0,2,0,0
+2015,Aug,Agriculture & Fisheries,3,3,6,1,1
+2015,Aug,Catering,14,7,21,15,0
+2015,Aug,Education,4,2,6,10,1
+2015,Aug,Entertainment,1,3,4,0,0
+2015,Aug,Industry,150,19,169,12,2
+2015,Aug,Medical & Nursing,138,13,151,17,4
+2015,Aug,Service Industry,339,36,375,63,25
+2015,Aug,Sport,8,2,10,0,1
+2015,Oct,Agriculture & Fisheries,4,2,6,2,1
+2015,Oct,Catering,11,4,15,18,0
+2015,Oct,Domestic,0,0,0,1,0
+2015,Oct,Education,3,2,5,1,2
+2015,Oct,Entertainment,1,2,3,0,0
+2015,Oct,Industry,198,24,222,19,2
+2015,Oct,Medical & Nursing,192,29,221,23,4
+2015,Oct,Service Industry,407,39,446,69,16
+2015,Oct,Sport,0,0,0,1,1
+2015,Nov,Agriculture & Fisheries,3,1,4,4,0
+2015,Nov,Catering,18,3,21,26,0
+2015,Nov,Domestic,0,1,1,2,0
+2015,Nov,Education,4,1,5,1,0
+2015,Nov,Entertainment,1,1,2,1,1
+2015,Nov,Exchange Agreements,2,0,2,1,0
+2015,Nov,Industry,185,22,207,16,2
+2015,Nov,Medical & Nursing,140,79,219,33,3
+2015,Nov,Service Industry,252,24,276,55,4
+2015,Nov,Sport,1,0,1,0,0
+2015,Dec,Agriculture & Fisheries,1,0,1,0,0
+2015,Dec,Catering,4,3,7,4,0
+2015,Dec,Domestic,0,0,0,1,0
+2015,Dec,Education,3,1,4,4,0
+2015,Dec,Exchange Agreements,1,0,1,0,0
+2015,Dec,Industry,83,6,89,10,1
+2015,Dec,Medical & Nursing,94,76,170,10,0
+2015,Dec,Service Industry,145,18,163,42,1
+2015,Dec,Sport,0,0,0,1,0
+2016,Jan,Agriculture & Fisheries,2,0,2,2,0
+2016,Jan,Catering,5,2,7,11,1
+2016,Jan,Education,1,2,3,1,0
+2016,Jan,Entertainment,0,1,1,0,0
+2016,Jan,Industry,144,9,153,6,21
+2016,Jan,Medical & Nursing,38,12,50,21,1
+2016,Jan,Service Industry,243,31,274,36,19
+2016,Jan,Sport,2,0,2,2,0
+2016,Feb,Agriculture & Fisheries,2,0,2,1,0
+2016,Feb,Catering,15,4,19,24,0
+2016,Feb,Domestic,0,0,0,1,0
+2016,Feb,Education,1,1,2,2,0
+2016,Feb,Entertainment,3,0,3,2,0
+2016,Feb,Exchange Agreements,2,0,2,0,0
+2016,Feb,Industry,160,29,188,11,1
+2016,Feb,Medical & Nursing,242,84,326,30,7
+2016,Feb,Service Industry,326,27,354,39,10
+2016,Feb,Sport,0,0,0,1,0
+2016,Mar,Agriculture & Fisheries,3,2,5,3,0
+2016,Mar,Catering,18,7,25,25,1
+2016,Mar,Domestic,0,1,1,2,0
+2016,Mar,Education,6,3,9,2,0
+2016,Mar,Entertainment,5,0,5,1,0
+2016,Mar,Exchange Agreements,2,0,2,0,0
+2016,Mar,Industry,172,32,204,14,4
+2016,Mar,Medical & Nursing,105,31,136,16,3
+2016,Mar,Service Industry,330,52,382,63,7
+2016,Mar,Sport,4,0,4,0,0
+2016,Apr,Agriculture & Fisheries,15,1,16,3,0
+2016,Apr,Catering,27,8,35,38,0
+2016,Apr,Domestic,1,0,1,2,0
+2016,Apr,Education,3,8,11,2,0
+2016,Apr,Entertainment,3,0,3,4,0
+2016,Apr,Exchange Agreements,1,0,1,0,0
+2016,Apr,Industry,121,27,148,36,2
+2016,Apr,Medical & Nursing,155,118,273,21,2
+2016,Apr,Service Industry,326,35,361,80,7
+2016,Apr,Sport,2,0,2,2,1
+2016,May,Agriculture & Fisheries,3,0,3,4,0
+2016,May,Catering,28,11,39,21,0
+2016,May,Domestic,0,0,0,1,0
+2016,May,Education,2,2,4,1,0
+2016,May,Entertainment,3,0,3,0,0
+2016,May,Exchange Agreements,1,0,1,0,0
+2016,May,Industry,84,27,111,25,1
+2016,May,Medical & Nursing,246,176,422,19,4
+2016,May,Service Industry,231,33,264,63,4
+2016,May,Sport,3,0,3,0,0
+2016,Jun,Agriculture & Fisheries,2,1,3,2,0
+2016,Jun,Catering,12,6,18,27,1
+2016,Jun,Education,11,4,15,1,0
+2016,Jun,Entertainment,1,1,2,0,0
+2016,Jun,Exchange Agreements,8,0,8,0,0
+2016,Jun,Industry,128,37,165,32,1
+2016,Jun,Medical & Nursing,325,147,472,33,9
+2016,Jun,Service Industry,295,36,331,64,4
+2016,Jun,Sport,2,4,6,0,1
+2016,Jul,Agriculture & Fisheries,26,1,27,2,0
+2016,Jul,Catering,18,6,24,11,1
+2016,Jul,Domestic,3,1,4,0,0
+2016,Jul,Education,13,3,16,6,0
+2016,Jul,Entertainment,3,0,3,3,0
+2016,Jul,Exchange Agreements,3,0,3,0,0
+2016,Jul,Industry,111,13,124,26,1
+2016,Jul,Medical & Nursing,430,89,519,33,8
+2016,Jul,Service Industry,321,34,355,56,1
+2016,Jul,Sport,4,2,6,1,0
+2016,Aug,Agriculture & Fisheries,34,2,36,8,0
+2016,Aug,Catering,35,19,54,45,2
+2016,Aug,Domestic,0,1,1,0,0
+2016,Aug,Education,7,2,9,8,0
+2016,Aug,Entertainment,5,0,5,0,4
+2016,Aug,Industry,173,36,209,71,4
+2016,Aug,Medical & Nursing,198,21,219,36,9
+2016,Aug,Service Industry,499,61,560,104,3
+2016,Aug,Sport,5,2,7,1,0
+2016,Sep,Agriculture & Fisheries,9,0,9,40,0
+2016,Sep,Catering,9,2,11,1,0
+2016,Sep,Education,5,0,5,3,0
+2016,Sep,Entertainment,1,1,2,1,1
+2016,Sep,Industry,68,8,76,22,1
+2016,Sep,Medical & Nursing,52,2,54,10,3
+2016,Sep,None specified,0,0,0,5,0
+2016,Sep,Service Industry,203,19,222,44,1
+2016,Sep,Sport,4,3,7,0,1
+2016,Oct,Agriculture & Fisheries,18,0,18,0,0
+2016,Oct,Catering,6,4,10,7,0
+2016,Oct,Education,8,0,8,3,0
+2016,Oct,Entertainment,4,0,4,0,0
+2016,Oct,Industry,95,12,107,9,1
+2016,Oct,Medical & Nursing,74,20,94,26,7
+2016,Oct,None specified,4,0,4,15,2
+2016,Oct,Service Industry,290,24,314,43,3
+2016,Oct,Sport,3,0,3,1,0
+2016,Nov,Agriculture & Fisheries,7,0,7,1,0
+2016,Nov,Catering,17,4,21,16,0
+2016,Nov,Domestic,0,0,0,1,0
+2016,Nov,Education,6,0,6,3,0
+2016,Nov,Entertainment,3,0,3,1,0
+2016,Nov,Exchange Agreements,0,0,0,1,0
+2016,Nov,Industry,93,24,117,13,1
+2016,Nov,Medical & Nursing,193,98,291,26,8
+2016,Nov,None specified,8,0,8,14,2
+2016,Nov,Service Industry,303,38,341,43,3
+2016,Nov,Sport,2,1,3,0,0
+2016,Dec,Agriculture & Fisheries,24,1,25,2,6
+2016,Dec,Catering,10,2,12,12,0
+2016,Dec,Domestic,0,0,0,1,0
+2016,Dec,Education,6,0,6,2,0
+2016,Dec,Entertainment,1,0,1,0,0
+2016,Dec,Exchange Agreements,1,0,1,0,0
+2016,Dec,Industry,60,20,80,9,6
+2016,Dec,Medical & Nursing,174,71,245,19,10
+2016,Dec,None specified,5,0,5,5,0
+2016,Dec,Service Industry,174,26,200,40,5
+2016,Dec,Sport,0,0,0,3,1
+2017,Jan,Agriculture & Fisheries,3,0,3,1,0
+2017,Jan,Catering,6,1,7,11,1
+2017,Jan,Education,1,1,2,2,0
+2017,Jan,Industry,52,24,76,7,0
+2017,Jan,Medical & Nursing,394,115,509,18,20
+2017,Jan,None specified,1,0,1,10,1
+2017,Jan,Service Industry,223,20,243,25,5
+2017,Feb,Agriculture & Fisheries,12,0,12,7,0
+2017,Feb,Catering,13,2,15,28,0
+2017,Feb,Domestic,0,0,0,1,0
+2017,Feb,Education,5,3,8,5,0
+2017,Feb,Entertainment,1,1,2,3,0
+2017,Feb,Exchange Agreements,1,1,2,0,0
+2017,Feb,Industry,82,9,91,15,6
+2017,Feb,Medical & Nursing,160,11,171,16,11
+2017,Feb,None specified,13,1,14,27,3
+2017,Feb,Service Industry,288,53,341,89,16
+2017,Feb,Sport,2,0,2,1,0
+2017,Mar,Agriculture & Fisheries,7,0,7,2,0
+2017,Mar,Catering,16,7,23,13,0
+2017,Mar,Domestic,0,0,0,0,1
+2017,Mar,Education,3,1,4,2,1
+2017,Mar,Entertainment,2,3,5,0,0
+2017,Mar,Industry,110,25,135,19,3
+2017,Mar,Medical & Nursing,199,35,234,22,10
+2017,Mar,None specified,6,0,6,16,1
+2017,Mar,Service Industry,379,71,450,55,10
+2017,Mar,Sport,6,1,7,0,0
+2017,Apr,Agriculture & Fisheries,6,0,6,0,0
+2017,Apr,Catering,16,2,18,9,0
+2017,Apr,Domestic,0,0,0,1,0
+2017,Apr,Education,5,2,7,1,0
+2017,Apr,Entertainment,1,0,1,1,0
+2017,Apr,Industry,79,9,88,7,2
+2017,Apr,Medical & Nursing,172,61,233,13,7
+2017,Apr,None specified,12,0,12,11,3
+2017,Apr,Service Industry,199,26,225,29,4
+2017,Apr,Sport,3,1,4,0,0
+2017,May,Agriculture & Fisheries,9,1,10,1,0
+2017,May,Catering,14,0,14,24,1
+2017,May,Domestic,0,0,0,1,0
+2017,May,Education,6,3,9,0,0
+2017,May,Entertainment,2,4,6,1,0
+2017,May,Industry,136,57,193,10,2
+2017,May,Medical & Nursing,411,239,650,34,23
+2017,May,None specified,20,1,21,13,3
+2017,May,Service Industry,369,38,407,43,5
+2017,May,Sport,5,0,5,1,0
+2017,Jun,Agriculture & Fisheries,8,0,8,2,0
+2017,Jun,Catering,11,3,14,11,0
+2017,Jun,Education,4,2,6,0,0
+2017,Jun,Entertainment,3,3,6,0,0
+2017,Jun,Exchange Agreements,1,0,1,0,0
+2017,Jun,Industry,89,10,99,6,2
+2017,Jun,Medical & Nursing,506,213,719,29,26
+2017,Jun,None specified,7,0,7,15,1
+2017,Jun,Service Industry,376,47,423,48,8
+2017,Jun,Sport,4,1,5,0,0
+2017,Jul,Agriculture & Fisheries,35,1,36,8,0
+2017,Jul,Catering,29,13,42,20,2
+2017,Jul,Education,6,2,8,0,0
+2017,Jul,Entertainment,6,0,6,0,0
+2017,Jul,Exchange Agreements,5,1,6,1,0
+2017,Jul,Industry,127,19,146,31,0
+2017,Jul,Medical & Nursing,390,78,468,33,15
+2017,Jul,None specified,13,1,14,25,4
+2017,Jul,Service Industry,425,46,471,77,5
+2017,Jul,Sport,2,0,2,4,0
+2017,Aug,Agriculture & Fisheries,14,1,15,9,0
+2017,Aug,Catering,22,5,27,14,2
+2017,Aug,Education,7,0,7,1,0
+2017,Aug,Entertainment,7,1,8,0,0
+2017,Aug,Exchange Agreements,1,0,1,0,0
+2017,Aug,Industry,102,23,125,16,6
+2017,Aug,Medical & Nursing,183,16,199,14,5
+2017,Aug,None specified,26,0,26,18,2
+2017,Aug,Service Industry,364,36,400,57,11
+2017,Aug,Sport,4,0,4,2,0
+2017,Sep,Agriculture & Fisheries,24,1,25,3,6
+2017,Sep,Catering,25,9,34,19,1
+2017,Sep,Education,4,1,5,3,0
+2017,Sep,Entertainment,2,0,2,0,0
+2017,Sep,Exchange Agreements,0,0,0,1,0
+2017,Sep,Industry,98,17,115,7,2
+2017,Sep,Medical & Nursing,175,11,186,23,3
+2017,Sep,None specified,15,0,15,23,1
+2017,Sep,Service Industry,432,53,485,58,10
+2017,Sep,Sport,2,0,2,0,0
+2017,Oct,Catering,8,0,8,3,2
+2017,Oct,Education,19,7,26,12,2
+2017,Oct,Entertainment,8,1,9,1,1
+2017,Oct,Exchange Agreements,2,2,4,1,0
+2017,Oct,Industry,3,0,3,0,0
+2017,Oct,Medical & Nursing,146,32,178,16,2
+2017,Oct,None specified,196,51,247,20,4
+2017,Oct,Service Industry,27,0,27,15,0
+2017,Oct,Sport,519,61,580,59,14
+2017,Nov,Agriculture & Fisheries,2,0,2,1,0
+2017,Nov,Catering,17,6,23,14,0
+2017,Nov,Education,6,5,11,3,0
+2017,Nov,Entertainment,4,1,5,2,0
+2017,Nov,Exchange Agreements,1,0,1,0,0
+2017,Nov,Industry,118,20,138,7,1
+2017,Nov,Medical & Nursing,198,138,336,16,11
+2017,Nov,None specified,23,0,23,16,1
+2017,Nov,Service Industry,459,51,510,50,13
+2017,Nov,Sport,5,0,5,1,0
+2017,Dec,Agriculture & Fisheries,20,0,20,3,1
+2017,Dec,Catering,13,4,17,8,0
+2017,Dec,Domestic,0,0,0,1,0
+2017,Dec,Education,1,2,3,1,0
+2017,Dec,Entertainment,4,0,4,0,0
+2017,Dec,Exchange Agreements,3,0,3,0,0
+2017,Dec,Industry,78,8,86,5,0
+2017,Dec,Medical & Nursing,241,93,334,24,8
+2017,Dec,None specified,8,0,8,8,4
+2017,Dec,Service Industry,253,35,288,21,4
+2017,Dec,Sport,2,0,2,1,1
+2018,Jan,Agriculture & Fisheries,4,1,5,2,1
+2018,Jan,Catering,17,4,21,21,0
+2018,Jan,Domestic,1,0,1,1,0
+2018,Jan,Education,5,0,5,5,0
+2018,Jan,Entertainment,8,0,8,4,0
+2018,Jan,Industry,151,26,177,13,3
+2018,Jan,Medical & Nursing,367,55,422,27,9
+2018,Jan,None specified,21,0,21,19,0
+2018,Jan,Service Industry,513,64,577,70,7
+2018,Jan,Sport,2,1,3,0,1
+2018,Feb,Agriculture & Fisheries,1,1,2,0,0
+2018,Feb,Catering,20,4,24,10,0
+2018,Feb,Education,7,2,9,2,1
+2018,Feb,Entertainment,9,0,9,2,0
+2018,Feb,Exchange Agreements,1,0,1,0,0
+2018,Feb,Industry,84,11,95,10,1
+2018,Feb,Medical & Nursing,160,14,174,24,3
+2018,Feb,None specified,18,0,18,12,1
+2018,Feb,Service Industry,332,44,376,42,6
+2018,Feb,Sport,1,0,1,0,1
+2018,Mar,Agriculture & Fisheries,3,8,11,1,0
+2018,Mar,Catering,41,11,52,42,0
+2018,Mar,Domestic,1,0,1,0,0
+2018,Mar,Education,0,2,2,3,2
+2018,Mar,Entertainment,7,0,7,0,0
+2018,Mar,Industry,102,13,115,13,0
+2018,Mar,Medical & Nursing,163,17,180,22,4
+2018,Mar,None specified,10,0,10,17,0
+2018,Mar,Service Industry,351,40,391,41,3
+2018,Mar,Sport,4,1,5,0,0
+2018,Apr,Agriculture & Fisheries,3,1,4,0,0
+2018,Apr,Catering,17,4,21,9,0
+2018,Apr,Education,5,3,8,2,0
+2018,Apr,Entertainment,7,1,8,1,0
+2018,Apr,Exchange Agreements,1,0,1,0,0
+2018,Apr,Industry,105,18,123,13,1
+2018,Apr,Medical & Nursing,179,82,261,20,10
+2018,Apr,None specified,13,0,13,11,1
+2018,Apr,Service Industry,326,46,372,48,13
+2018,Apr,Sport,2,0,2,1,0
+2018,May,Agriculture & Fisheries,4,7,11,1,0
+2018,May,Catering,13,3,16,1,2
+2018,May,Domestic,1,0,1,0,0
+2018,May,Education,7,0,7,1,0
+2018,May,Entertainment,5,0,5,0,0
+2018,May,Exchange Agreements,1,0,1,0,0
+2018,May,Industry,129,16,145,8,1
+2018,May,Medical & Nursing,335,235,570,12,20
+2018,May,None specified,15,0,15,13,3
+2018,May,Service Industry,346,46,392,39,14
+2018,May,Sport,4,2,6,1,0
+2018,Jun,Agriculture & Fisheries,1,2,3,0,0
+2018,Jun,Catering,12,6,18,21,2
+2018,Jun,Education,5,2,7,2,0
+2018,Jun,Entertainment,3,0,3,0,0
+2018,Jun,Industry,59,10,69,3,1
+2018,Jun,Medical & Nursing,550,243,793,22,52
+2018,Jun,None specified,6,0,6,14,7
+2018,Jun,Service Industry,214,31,245,31,12
+2018,Jun,Sport,2,0,2,0,0
+2018,Jul,Agriculture & Fisheries,137,3,140,3,0
+2018,Jul,Catering,47,3,50,37,4
+2018,Jul,Domestic,1,1,2,1,0
+2018,Jul,Education,3,3,6,3,0
+2018,Jul,Entertainment,2,0,2,0,0
+2018,Jul,Exchange Agreements,2,0,2,0,0
+2018,Jul,Industry,104,6,110,14,6
+2018,Jul,Medical & Nursing,321,59,380,25,15
+2018,Jul,None specified,30,1,31,19,3
+2018,Jul,Service Industry,426,41,467,39,19
+2018,Jul,Sport,6,3,9,3,0
+2018,Aug,Agriculture & Fisheries,6,3,9,2,0
+2018,Aug,Catering,40,14,54,12,2
+2018,Aug,Domestic,1,1,2,0,0
+2018,Aug,Education,6,3,9,1,5
+2018,Aug,Entertainment,5,1,6,0,1
+2018,Aug,Exchange Agreements,6,0,6,0,0
+2018,Aug,Industry,120,12,132,16,16
+2018,Aug,Medical & Nursing,179,23,202,13,7
+2018,Aug,None specified,35,0,35,17,10
+2018,Aug,Service Industry,478,58,536,38,36
+2018,Aug,Sport,2,0,2,0,3
+2018,Sep,Agriculture & Fisheries,91,3,94,6,0
+2018,Sep,Catering,9,8,17,6,3
+2018,Sep,Education,3,1,4,1,1
+2018,Sep,Entertainment,9,3,12,2,0
+2018,Sep,Exchange Agreements,2,0,2,0,0
+2018,Sep,Industry,157,39,196,4,1
+2018,Sep,Medical & Nursing,196,14,210,16,7
+2018,Sep,None specified,18,1,19,12,6
+2018,Sep,Service Industry,622,62,684,38,13
+2018,Sep,Sport,2,1,3,1,0
+2018,Oct,Agriculture & Fisheries,211,7,218,11,4
+2018,Oct,Catering,15,10,25,3,3
+2018,Oct,Education,8,4,12,5,4
+2018,Oct,Entertainment,12,2,14,0,0
+2018,Oct,Industry,176,11,187,14,5
+2018,Oct,Medical & Nursing,251,17,268,16,16
+2018,Oct,None specified,18,0,18,16,15
+2018,Oct,Service Industry,707,67,774,57,25
+2018,Oct,Sport,2,4,6,0,2
+2018,Nov,Agriculture & Fisheries,53,5,58,10,1
+2018,Nov,Catering,29,15,44,20,1
+2018,Nov,Education,5,2,7,9,1
+2018,Nov,Entertainment,6,1,7,1,0
+2018,Nov,Exchange Agreements,2,0,2,0,0
+2018,Nov,Industry,203,18,221,22,6
+2018,Nov,Medical & Nursing,298,113,411,21,25
+2018,Nov,None specified,39,0,39,23,10
+2018,Nov,Service Industry,620,94,714,81,26
+2018,Nov,Sport,2,0,2,0,0
+2018,Dec,Agriculture & Fisheries,89,3,92,4,14
+2018,Dec,Catering,12,5,17,14,0
+2018,Dec,Education,5,3,8,2,0
+2018,Dec,Entertainment,4,0,4,1,0
+2018,Dec,Exchange Agreements,1,0,1,0,0
+2018,Dec,Industry,101,13,114,7,5
+2018,Dec,Medical & Nursing,294,225,519,10,18
+2018,Dec,None specified,21,0,21,5,3
+2018,Dec,Service Industry,278,31,309,26,19
+2018,Dec,Sport,2,0,2,0,0
+2019,Jan,Agriculture & Fisheries,60,10,70,9,5
+2019,Jan,Catering,37,10,47,12,0
+2019,Jan,Education,11,2,13,2,2
+2019,Jan,Entertainment,5,3,8,0,0
+2019,Jan,Exchange Agreements,1,0,1,0,0
+2019,Jan,Industry,237,17,254,22,3
+2019,Jan,Medical & Nursing,279,55,334,14,17
+2019,Jan,None specified,24,0,24,20,11
+2019,Jan,Service Industry,716,87,803,48,15
+2019,Jan,Sport,4,0,4,0,0
+2019,Feb,Agriculture & Fisheries,34,6,40,18,9
+2019,Feb,Catering,33,3,36,19,1
+2019,Feb,Education,11,2,13,0,0
+2019,Feb,Entertainment,3,0,3,0,2
+2019,Feb,Industry,171,20,191,7,5
+2019,Feb,Medical & Nursing,195,37,232,13,11
+2019,Feb,None specified,28,0,28,20,5
+2019,Feb,Service Industry,596,58,654,68,19
+2019,Feb,Sport,3,2,5,0,0
+2019,Mar,Agriculture & Fisheries,155,3,158,6,5
+2019,Mar,Catering,43,8,51,18,3
+2019,Mar,Education,2,1,3,0,2
+2019,Mar,Entertainment,3,4,7,0,0
+2019,Mar,Exchange Agreements,2,0,2,0,0
+2019,Mar,Industry,140,13,153,15,10
+2019,Mar,Medical & Nursing,129,21,150,15,26
+2019,Mar,None specified,27,0,27,16,14
+2019,Mar,Service Industry,553,48,601,77,74
+2019,Mar,Sport,4,0,4,0,0
+2019,Apr,Agriculture & Fisheries,112,2,114,2,1
+2019,Apr,Catering,25,12,37,12,6
+2019,Apr,Domestic,0,0,0,1,0
+2019,Apr,Education,4,1,5,2,3
+2019,Apr,Entertainment,5,5,10,0,0
+2019,Apr,Industry,131,23,154,12,9
+2019,Apr,Medical & Nursing,134,52,186,6,22
+2019,Apr,None specified,22,0,22,12,9
+2019,Apr,Service Industry,527,56,583,29,32
+2019,Apr,Sport,3,0,3,0,0
+2019,May,Agriculture & Fisheries,55,5,60,11,2
+2019,May,Catering,33,13,46,15,2
+2019,May,Education,8,0,8,0,0
+2019,May,Entertainment,,3,10,0,0
+2019,May,Industry,129,16,145,14,8
+2019,May,Medical & Nursing,282,228,510,7,26
+2019,May,None specified,26,0,26,5,15
+2019,May,Service Industry,511,39,550,48,26
+2019,May,Sport,2,3,5,0,0
+2019,Jun,Agriculture & Fisheries,50,1,51,11,23
+2019,Jun,Catering,9,8,17,4,4
+2019,Jun,Education,3,3,6,4,1
+2019,Jun,Entertainment,7,1,8,1,0
+2019,Jun,Industry,143,10,153,5,4
+2019,Jun,Medical & Nursing,591,284,875,12,40
+2019,Jun,None specified,14,0,14,9,1
+2019,Jun,Service Industry,416,44,460,30,18
+2019,Jun,Sport,1,3,4,0,0
+2019,Jul,Agriculture & Fisheries,86,8,94,5,2
+2019,Jul,Catering,31,19,50,8,1
+2019,Jul,Education,16,2,18,0,1
+2019,Jul,Entertainment,7,2,9,0,0
+2019,Jul,Exchange Agreements,3,0,3,0,0
+2019,Jul,Industry,200,19,219,11,3
+2019,Jul,Medical & Nursing,455,58,513,13,20
+2019,Jul,None specified,29,0,29,14,6
+2019,Jul,Service Industry,666,52,718,57,36
+2019,Jul,Sport,3,5,8,0,1
+2019,Aug,Agriculture & Fisheries,93,11,104,6,15
+2019,Aug,Catering,32,12,44,11,2
+2019,Aug,Education,14,1,15,2,1
+2019,Aug,Entertainment,13,7,20,0,0
+2019,Aug,Exchange Agreements,2,0,2,0,0
+2019,Aug,Industry,238,18,256,16,14
+2019,Aug,Medical & Nursing,242,13,255,6,13
+2019,Aug,None specified,22,0,22,10,4
+2019,Aug,Service Industry,741,71,812,58,18
+2019,Aug,Sport,1,2,3,0,0
+2019,Sep,Agriculture & Fisheries,74,0,74,41,25
+2019,Sep,Catering,35,14,49,17,2
+2019,Sep,Domestic,1,0,1,0,0
+2019,Sep,Education,10,1,11,5,2
+2019,Sep,Entertainment,9,4,13,2,1
+2019,Sep,Industry,191,15,206,25,4
+2019,Sep,Medical & Nursing,224,10,234,9,9
+2019,Sep,None specified,22,1,23,13,6
+2019,Sep,Service Industry,619,51,670,74,27
+2019,Sep,Sport,2,2,4,0,0
+2019,Oct,Agriculture & Fisheries,138,19,157,6,11
+2019,Oct,Catering,41,19,60,17,2
+2019,Oct,Domestic,0,0,0,1,0
+2019,Oct,Education,15,1,16,3,0
+2019,Oct,Entertainment,21,8,29,1,1
+2019,Oct,Industry,224,12,236,29,12
+2019,Oct,Medical & Nursing,232,33,265,14,3
+2019,Oct,None specified,33,0,33,17,3
+2019,Oct,Service Industry,701,60,761,56,22
+2019,Oct,Sport,2,3,5,3,0
+2019,Nov,Agriculture & Fisheries,68,4,72,4,4
+2019,Nov,Catering,21,24,45,11,0
+2019,Nov,Domestic,0,0,0,1,0
+2019,Nov,Education,12,1,13,5,0
+2019,Nov,Entertainment,8,3,11,0,0
+2019,Nov,Exchange Agreements,6,0,6,0,0
+2019,Nov,Industry,204,7,211,20,1
+2019,Nov,Medical & Nursing,260,115,375,10,11
+2019,Nov,None specified,33,1,34,12,1
+2019,Nov,Service Industry,557,41,598,67,19
+2019,Nov,Sport,0,2,2,1,0
+2019,Dec,Agriculture & Fisheries,15,0,15,2,1
+2019,Dec,Catering,9,8,17,7,3
+2019,Dec,Education,7,0,7,1,0
+2019,Dec,Entertainment,6,1,7,1,1
+2019,Dec,Exchange Agreements,1,0,1,0,0
+2019,Dec,Industry,92,5,97,13,5
+2019,Dec,Medical & Nursing,306,206,512,4,25
+2019,Dec,None specified,0,0,0,0,4
+2019,Dec,Service Industry,317,27,344,32,17
+2019,Dec,Sport,1,1,2,2,0
+2020,Jan,J - Information & Communication Activities,,,361,,
+2020,Feb,J - Information & Communication Activities,,,413,,
+2020,Mar,J - Information & Communication Activities,,,216,,
+2020,Apr,J - Information & Communication Activities,,,516,,
+2020,May,J - Information & Communication Activities,,,473,,
+2020,Jun,J - Information & Communication Activities,,,385,,
+2020,Jul,J - Information & Communication Activities,,,448,,
+2020,Aug,J - Information & Communication Activities,,,400,,
+2020,Sep,J - Information & Communication Activities,,,466,,
+2020,Oct,J - Information & Communication Activities,,,406,,
+2020,Nov,J - Information & Communication Activities,,,365,,
+2020,Dec,J - Information & Communication Activities,,,276,,
+2020,Jan,K - Financial & insurance Activities,,,73,,
+2020,Feb,K - Financial & insurance Activities,,,85,,
+2020,Mar,K - Financial & insurance Activities,,,54,,
+2020,Apr,K - Financial & insurance Activities,,,94,,
+2020,May,K - Financial & insurance Activities,,,79,,
+2020,Jun,K - Financial & insurance Activities,,,97,,
+2020,Jul,K - Financial & insurance Activities,,,103,,
+2020,Aug,K - Financial & insurance Activities,,,85,,
+2020,Sep,K - Financial & insurance Activities,,,91,,
+2020,Oct,K - Financial & insurance Activities,,,79,,
+2020,Nov,K - Financial & insurance Activities,,,81,,
+2020,Dec,K - Financial & insurance Activities,,,56,,
+2020,Jan,"C - Manufacture of Computers, Electronics & Optica",,,6,,
+2020,Feb,"C - Manufacture of Computers, Electronics & Optica",,,3,,
+2020,Mar,"C - Manufacture of Computers, Electronics & Optica",,,6,,
+2020,Apr,"C - Manufacture of Computers, Electronics & Optica",,,10,,
+2020,May,"C - Manufacture of Computers, Electronics & Optica",,,22,,
+2020,Jun,"C - Manufacture of Computers, Electronics & Optica",,,19,,
+2020,Jul,"C - Manufacture of Computers, Electronics & Optica",,,21,,
+2020,Aug,"C - Manufacture of Computers, Electronics & Optica",,,8,,
+2020,Sep,"C - Manufacture of Computers, Electronics & Optica",,,10,,
+2020,Oct,"C - Manufacture of Computers, Electronics & Optica",,,9,,
+2020,Nov,"C - Manufacture of Computers, Electronics & Optica",,,6,,
+2020,Dec,"C - Manufacture of Computers, Electronics & Optica",,,2,,
+2020,Jan,"A - Agriculture, Forestry & Fishing",,,240,,
+2020,Feb,"A - Agriculture, Forestry & Fishing",,,457,,
+2020,Mar,"A - Agriculture, Forestry & Fishing",,,128,,
+2020,Apr,"A - Agriculture, Forestry & Fishing",,,153,,
+2020,May,"A - Agriculture, Forestry & Fishing",,,47,,
+2020,Jun,"A - Agriculture, Forestry & Fishing",,,92,,
+2020,Jul,"A - Agriculture, Forestry & Fishing",,,78,,
+2020,Aug,"A - Agriculture, Forestry & Fishing",,,101,,
+2020,Sep,"A - Agriculture, Forestry & Fishing",,,76,,
+2020,Oct,"A - Agriculture, Forestry & Fishing",,,185,,
+2020,Nov,"A - Agriculture, Forestry & Fishing",,,130,,
+2020,Dec,"A - Agriculture, Forestry & Fishing",,,99,,
+2020,Jan,C - All Other Manufacturing,,,36,,
+2020,Feb,C - All Other Manufacturing,,,10,,
+2020,Mar,C - All Other Manufacturing,,,11,,
+2020,Apr,C - All Other Manufacturing,,,16,,
+2020,May,C - All Other Manufacturing,,,24,,
+2020,Jun,C - All Other Manufacturing,,,25,,
+2020,Jul,C - All Other Manufacturing,,,18,,
+2020,Aug,C - All Other Manufacturing,,,11,,
+2020,Sep,C - All Other Manufacturing,,,8,,
+2020,Oct,C - All Other Manufacturing,,,15,,
+2020,Nov,C - All Other Manufacturing,,,12,,
+2020,Dec,C - All Other Manufacturing,,,16,,
+2020,Jan,C - Manufacture of Chemicals & Pharmaceuticals,,,15,,
+2020,Feb,C - Manufacture of Chemicals & Pharmaceuticals,,,15,,
+2020,Mar,C - Manufacture of Chemicals & Pharmaceuticals,,,23,,
+2020,Apr,C - Manufacture of Chemicals & Pharmaceuticals,,,47,,
+2020,May,C - Manufacture of Chemicals & Pharmaceuticals,,,31,,
+2020,Jun,C - Manufacture of Chemicals & Pharmaceuticals,,,22,,
+2020,Jul,C - Manufacture of Chemicals & Pharmaceuticals,,,24,,
+2020,Aug,C - Manufacture of Chemicals & Pharmaceuticals,,,26,,
+2020,Sep,C - Manufacture of Chemicals & Pharmaceuticals,,,25,,
+2020,Oct,C - Manufacture of Chemicals & Pharmaceuticals,,,32,,
+2020,Nov,C - Manufacture of Chemicals & Pharmaceuticals,,,23,,
+2020,Dec,C - Manufacture of Chemicals & Pharmaceuticals,,,11,,
+2020,Jan,"C - Manufacture of Food, Drink & Tobacco",,,7,,
+2020,Feb,"C - Manufacture of Food, Drink & Tobacco",,,4,,
+2020,Mar,"C - Manufacture of Food, Drink & Tobacco",,,3,,
+2020,Apr,"C - Manufacture of Food, Drink & Tobacco",,,8,,
+2020,May,"C - Manufacture of Food, Drink & Tobacco",,,13,,
+2020,Jun,"C - Manufacture of Food, Drink & Tobacco",,,17,,
+2020,Jul,"C - Manufacture of Food, Drink & Tobacco",,,15,,
+2020,Aug,"C - Manufacture of Food, Drink & Tobacco",,,12,,
+2020,Sep,"C - Manufacture of Food, Drink & Tobacco",,,4,,
+2020,Oct,"C - Manufacture of Food, Drink & Tobacco",,,11,,
+2020,Nov,"C - Manufacture of Food, Drink & Tobacco",,,5,,
+2020,Dec,"C - Manufacture of Food, Drink & Tobacco",,,5,,
+2020,Jan,C - Manufacture of Medical Devices,,,5,,
+2020,Feb,C - Manufacture of Medical Devices,,,2,,
+2020,Mar,C - Manufacture of Medical Devices,,,5,,
+2020,Apr,C - Manufacture of Medical Devices,,,5,,
+2020,May,C - Manufacture of Medical Devices,,,11,,
+2020,Jun,C - Manufacture of Medical Devices,,,5,,
+2020,Jul,C - Manufacture of Medical Devices,,,6,,
+2020,Aug,C - Manufacture of Medical Devices,,,4,,
+2020,Sep,C - Manufacture of Medical Devices,,,6,,
+2020,Oct,C - Manufacture of Medical Devices,,,6,,
+2020,Nov,C - Manufacture of Medical Devices,,,7,,
+2020,Dec,C - Manufacture of Medical Devices,,,1,,
+2020,Jan,D - Electricity & Gas & Air Conditioning Supply,,,6,,
+2020,Feb,D - Electricity & Gas & Air Conditioning Supply,,,5,,
+2020,Mar,D - Electricity & Gas & Air Conditioning Supply,,,3,,
+2020,Apr,D - Electricity & Gas & Air Conditioning Supply,,,7,,
+2020,May,D - Electricity & Gas & Air Conditioning Supply,,,8,,
+2020,Jun,D - Electricity & Gas & Air Conditioning Supply,,,9,,
+2020,Jul,D - Electricity & Gas & Air Conditioning Supply,,,18,,
+2020,Aug,D - Electricity & Gas & Air Conditioning Supply,,,7,,
+2020,Sep,D - Electricity & Gas & Air Conditioning Supply,,,2,,
+2020,Oct,D - Electricity & Gas & Air Conditioning Supply,,,5,,
+2020,Nov,D - Electricity & Gas & Air Conditioning Supply,,,7,,
+2020,Dec,D - Electricity & Gas & Air Conditioning Supply,,,1,,
+2020,Jan,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2020,Feb,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2020,Mar,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2020,Apr,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2020,May,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2020,Jun,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2020,Jul,E - Water Supply - Sewerage Waste Management & Rem,,,4,,
+2020,Aug,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2020,Sep,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2020,Oct,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2020,Nov,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2020,Dec,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2020,Jan,F - Construction,,,84,,
+2020,Feb,F - Construction,,,42,,
+2020,Mar,F - Construction,,,44,,
+2020,Apr,F - Construction,,,65,,
+2020,May,F - Construction,,,58,,
+2020,Jun,F - Construction,,,35,,
+2020,Jul,F - Construction,,,45,,
+2020,Aug,F - Construction,,,48,,
+2020,Sep,F - Construction,,,46,,
+2020,Oct,F - Construction,,,66,,
+2020,Nov,F - Construction,,,53,,
+2020,Dec,F - Construction,,,30,,
+2020,Jan,G - Wholesale & Retail Trade,,,5,,
+2020,Feb,G - Wholesale & Retail Trade,,,11,,
+2020,Mar,G - Wholesale & Retail Trade,,,5,,
+2020,Apr,G - Wholesale & Retail Trade,,,16,,
+2020,May,G - Wholesale & Retail Trade,,,8,,
+2020,Jun,G - Wholesale & Retail Trade,,,14,,
+2020,Jul,G - Wholesale & Retail Trade,,,25,,
+2020,Aug,G - Wholesale & Retail Trade,,,10,,
+2020,Sep,G - Wholesale & Retail Trade,,,10,,
+2020,Oct,G - Wholesale & Retail Trade,,,9,,
+2020,Nov,G - Wholesale & Retail Trade,,,15,,
+2020,Dec,G - Wholesale & Retail Trade,,,7,,
+2020,Jan,H - Transport & Storage,,,9,,
+2020,Feb,H - Transport & Storage,,,9,,
+2020,Mar,H - Transport & Storage,,,12,,
+2020,Apr,H - Transport & Storage,,,8,,
+2020,May,H - Transport & Storage,,,9,,
+2020,Jun,H - Transport & Storage,,,12,,
+2020,Jul,H - Transport & Storage,,,11,,
+2020,Aug,H - Transport & Storage,,,8,,
+2020,Sep,H - Transport & Storage,,,18,,
+2020,Oct,H - Transport & Storage,,,13,,
+2020,Nov,H - Transport & Storage,,,23,,
+2020,Dec,H - Transport & Storage,,,11,,
+2020,Jan,I - Accommodation & Food Services activities,,,92,,
+2020,Feb,I - Accommodation & Food Services activities,,,75,,
+2020,Mar,I - Accommodation & Food Services activities,,,30,,
+2020,Apr,I - Accommodation & Food Services activities,,,56,,
+2020,May,I - Accommodation & Food Services activities,,,64,,
+2020,Jun,I - Accommodation & Food Services activities,,,115,,
+2020,Jul,I - Accommodation & Food Services activities,,,88,,
+2020,Aug,I - Accommodation & Food Services activities,,,63,,
+2020,Sep,I - Accommodation & Food Services activities,,,46,,
+2020,Oct,I - Accommodation & Food Services activities,,,56,,
+2020,Nov,I - Accommodation & Food Services activities,,,77,,
+2020,Dec,I - Accommodation & Food Services activities,,,52,,
+2020,Jan,"M - All other Professional, Scientific & Technical",,,5,,
+2020,Feb,"M - All other Professional, Scientific & Technical",,,11,,
+2020,Mar,"M - All other Professional, Scientific & Technical",,,10,,
+2020,Apr,"M - All other Professional, Scientific & Technical",,,13,,
+2020,May,"M - All other Professional, Scientific & Technical",,,7,,
+2020,Jun,"M - All other Professional, Scientific & Technical",,,9,,
+2020,Jul,"M - All other Professional, Scientific & Technical",,,8,,
+2020,Aug,"M - All other Professional, Scientific & Technical",,,6,,
+2020,Sep,"M - All other Professional, Scientific & Technical",,,3,,
+2020,Oct,"M - All other Professional, Scientific & Technical",,,5,,
+2020,Nov,"M - All other Professional, Scientific & Technical",,,5,,
+2020,Dec,"M - All other Professional, Scientific & Technical",,,6,,
+2020,Jan,"M - Professional, Scientific&Technical Activities",,,5,,
+2020,Feb,"M - Professional, Scientific&Technical Activities",,,4,,
+2020,Mar,"M - Professional, Scientific&Technical Activities",,,2,,
+2020,Apr,"M - Professional, Scientific&Technical Activities",,,4,,
+2020,May,"M - Professional, Scientific&Technical Activities",,,0,,
+2020,Jun,"M - Professional, Scientific&Technical Activities",,,7,,
+2020,Jul,"M - Professional, Scientific&Technical Activities",,,12,,
+2020,Aug,"M - Professional, Scientific&Technical Activities",,,4,,
+2020,Sep,"M - Professional, Scientific&Technical Activities",,,5,,
+2020,Oct,"M - Professional, Scientific&Technical Activities",,,6,,
+2020,Nov,"M - Professional, Scientific&Technical Activities",,,11,,
+2020,Dec,"M - Professional, Scientific&Technical Activities",,,5,,
+2020,Jan,N - Administrative & Support Service Activities,,,0,,
+2020,Feb,N - Administrative & Support Service Activities,,,1,,
+2020,Mar,N - Administrative & Support Service Activities,,,1,,
+2020,Apr,N - Administrative & Support Service Activities,,,1,,
+2020,May,N - Administrative & Support Service Activities,,,3,,
+2020,Jun,N - Administrative & Support Service Activities,,,3,,
+2020,Jul,N - Administrative & Support Service Activities,,,3,,
+2020,Aug,N - Administrative & Support Service Activities,,,3,,
+2020,Sep,N - Administrative & Support Service Activities,,,6,,
+2020,Oct,N - Administrative & Support Service Activities,,,4,,
+2020,Nov,N - Administrative & Support Service Activities,,,1,,
+2020,Dec,N - Administrative & Support Service Activities,,,3,,
+2020,Jan,P - Education,,,14,,
+2020,Feb,P - Education,,,7,,
+2020,Mar,P - Education,,,5,,
+2020,Apr,P - Education,,,10,,
+2020,May,P - Education,,,3,,
+2020,Jun,P - Education,,,13,,
+2020,Jul,P - Education,,,10,,
+2020,Aug,P - Education,,,7,,
+2020,Sep,P - Education,,,8,,
+2020,Oct,P - Education,,,14,,
+2020,Nov,P - Education,,,8,,
+2020,Dec,P - Education,,,5,,
+2020,Jan,Q - Health & Social Work Activities,,,300,,
+2020,Feb,Q - Health & Social Work Activities,,,204,,
+2020,Mar,Q - Health & Social Work Activities,,,591,,
+2020,Apr,Q - Health & Social Work Activities,,,644,,
+2020,May,Q - Health & Social Work Activities,,,762,,
+2020,Jun,Q - Health & Social Work Activities,,,627,,
+2020,Jul,Q - Health & Social Work Activities,,,373,,
+2020,Aug,Q - Health & Social Work Activities,,,173,,
+2020,Sep,Q - Health & Social Work Activities,,,241,,
+2020,Oct,Q - Health & Social Work Activities,,,307,,
+2020,Nov,Q - Health & Social Work Activities,,,477,,
+2020,Dec,Q - Health & Social Work Activities,,,498,,
+2020,Jan,"R - Arts , Entertainment and Recreation",,,21,,
+2020,Feb,"R - Arts , Entertainment and Recreation",,,26,,
+2020,Mar,"R - Arts , Entertainment and Recreation",,,21,,
+2020,Apr,"R - Arts , Entertainment and Recreation",,,18,,
+2020,May,"R - Arts , Entertainment and Recreation",,,22,,
+2020,Jun,"R - Arts , Entertainment and Recreation",,,19,,
+2020,Jul,"R - Arts , Entertainment and Recreation",,,28,,
+2020,Aug,"R - Arts , Entertainment and Recreation",,,21,,
+2020,Sep,"R - Arts , Entertainment and Recreation",,,22,,
+2020,Oct,"R - Arts , Entertainment and Recreation",,,18,,
+2020,Nov,"R - Arts , Entertainment and Recreation",,,13,,
+2020,Dec,"R - Arts , Entertainment and Recreation",,,10,,
+2020,Jan,S - Other Service activities,,,46,,
+2020,Feb,S - Other Service activities,,,41,,
+2020,Mar,S - Other Service activities,,,50,,
+2020,Apr,S - Other Service activities,,,71,,
+2020,May,S - Other Service activities,,,56,,
+2020,Jun,S - Other Service activities,,,56,,
+2020,Jul,S - Other Service activities,,,67,,
+2020,Aug,S - Other Service activities,,,49,,
+2020,Sep,S - Other Service activities,,,49,,
+2020,Oct,S - Other Service activities,,,43,,
+2020,Nov,S - Other Service activities,,,44,,
+2020,Dec,S - Other Service activities,,,35,,
+2020,Jan,B - Mining & Quarrying,,,4,,
+2020,Feb,B - Mining & Quarrying,,,1,,
+2020,Mar,B - Mining & Quarrying,,,0,,
+2020,Apr,B - Mining & Quarrying,,,2,,
+2020,May,B - Mining & Quarrying,,,1,,
+2020,Jun,B - Mining & Quarrying,,,0,,
+2020,Jul,B - Mining & Quarrying,,,0,,
+2020,Aug,B - Mining & Quarrying,,,0,,
+2020,Sep,B - Mining & Quarrying,,,0,,
+2020,Oct,B - Mining & Quarrying,,,0,,
+2020,Nov,B - Mining & Quarrying,,,1,,
+2020,Dec,B - Mining & Quarrying,,,0,,
+2020,Jan,L - Real Estate Activities,,,0,,
+2020,Feb,L - Real Estate Activities,,,1,,
+2020,Mar,L - Real Estate Activities,,,0,,
+2020,Apr,L - Real Estate Activities,,,1,,
+2020,May,L - Real Estate Activities,,,1,,
+2020,Jun,L - Real Estate Activities,,,1,,
+2020,Jul,L - Real Estate Activities,,,0,,
+2020,Aug,L - Real Estate Activities,,,0,,
+2020,Sep,L - Real Estate Activities,,,1,,
+2020,Oct,L - Real Estate Activities,,,1,,
+2020,Nov,L - Real Estate Activities,,,0,,
+2020,Dec,L - Real Estate Activities,,,1,,
+2020,Jan,O - Public Administration & Defence,,,0,,
+2020,Feb,O - Public Administration & Defence,,,0,,
+2020,Mar,O - Public Administration & Defence,,,0,,
+2020,Apr,O - Public Administration & Defence,,,0,,
+2020,May,O - Public Administration & Defence,,,1,,
+2020,Jun,O - Public Administration & Defence,,,0,,
+2020,Jul,O - Public Administration & Defence,,,0,,
+2020,Aug,O - Public Administration & Defence,,,0,,
+2020,Sep,O - Public Administration & Defence,,,0,,
+2020,Oct,O - Public Administration & Defence,,,0,,
+2020,Nov,O - Public Administration & Defence,,,0,,
+2020,Dec,O - Public Administration & Defence,,,0,,
+2020,Jan,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Feb,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Mar,T - Domestic- Activities of Households as Employer,,,2,,
+2020,Apr,T - Domestic- Activities of Households as Employer,,,0,,
+2020,May,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Jun,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Jul,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Aug,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Sep,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Oct,T - Domestic- Activities of Households as Employer,,,1,,
+2020,Nov,T - Domestic- Activities of Households as Employer,,,0,,
+2020,Dec,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Jan,J - Information & Communication Activities,,,494,,
+2021,Feb,J - Information & Communication Activities,,,300,,
+2021,Mar,J - Information & Communication Activities,,,307,,
+2021,Apr,J - Information & Communication Activities,,,204,,
+2021,May,J - Information & Communication Activities,,,244,,
+2021,Jun,J - Information & Communication Activities,,,327,,
+2021,Jul,J - Information & Communication Activities,,,203,,
+2021,Aug,J - Information & Communication Activities,,,351,,
+2021,Sep,J - Information & Communication Activities,,,532,,
+2021,Oct,J - Information & Communication Activities,,,597,,
+2021,Nov,J - Information & Communication Activities,,,506,,
+2021,Dec,J - Information & Communication Activities,,,550,,
+2021,Jan,K - Financial & insurance Activities,,,61,,
+2021,Feb,K - Financial & insurance Activities,,,65,,
+2021,Mar,K - Financial & insurance Activities,,,66,,
+2021,Apr,K - Financial & insurance Activities,,,64,,
+2021,May,K - Financial & insurance Activities,,,47,,
+2021,Jun,K - Financial & insurance Activities,,,44,,
+2021,Jul,K - Financial & insurance Activities,,,53,,
+2021,Aug,K - Financial & insurance Activities,,,92,,
+2021,Sep,K - Financial & insurance Activities,,,112,,
+2021,Oct,K - Financial & insurance Activities,,,148,,
+2021,Nov,K - Financial & insurance Activities,,,138,,
+2021,Dec,K - Financial & insurance Activities,,,204,,
+2021,Jan,"C - Manufacture of Computers, Electronics & Optica",,,2,,
+2021,Feb,"C - Manufacture of Computers, Electronics & Optica",,,3,,
+2021,Mar,"C - Manufacture of Computers, Electronics & Optica",,,11,,
+2021,Apr,"C - Manufacture of Computers, Electronics & Optica",,,3,,
+2021,May,"C - Manufacture of Computers, Electronics & Optica",,,1,,
+2021,Jun,"C - Manufacture of Computers, Electronics & Optica",,,4,,
+2021,Jul,"C - Manufacture of Computers, Electronics & Optica",,,3,,
+2021,Aug,"C - Manufacture of Computers, Electronics & Optica",,,6,,
+2021,Sep,"C - Manufacture of Computers, Electronics & Optica",,,8,,
+2021,Oct,"C - Manufacture of Computers, Electronics & Optica",,,14,,
+2021,Nov,"C - Manufacture of Computers, Electronics & Optica",,,7,,
+2021,Dec,"C - Manufacture of Computers, Electronics & Optica",,,10,,
+2021,Jan,"A - Agriculture, Forestry & Fishing",,,53,,
+2021,Feb,"A - Agriculture, Forestry & Fishing",,,30,,
+2021,Mar,"A - Agriculture, Forestry & Fishing",,,76,,
+2021,Apr,"A - Agriculture, Forestry & Fishing",,,61,,
+2021,May,"A - Agriculture, Forestry & Fishing",,,75,,
+2021,Jun,"A - Agriculture, Forestry & Fishing",,,127,,
+2021,Jul,"A - Agriculture, Forestry & Fishing",,,66,,
+2021,Aug,"A - Agriculture, Forestry & Fishing",,,49,,
+2021,Sep,"A - Agriculture, Forestry & Fishing",,,66,,
+2021,Oct,"A - Agriculture, Forestry & Fishing",,,55,,
+2021,Nov,"A - Agriculture, Forestry & Fishing",,,113,,
+2021,Dec,"A - Agriculture, Forestry & Fishing",,,117,,
+2021,Jan,C - All Other Manufacturing,,,24,,
+2021,Feb,C - All Other Manufacturing,,,16,,
+2021,Mar,C - All Other Manufacturing,,,29,,
+2021,Apr,C - All Other Manufacturing,,,17,,
+2021,May,C - All Other Manufacturing,,,15,,
+2021,Jun,C - All Other Manufacturing,,,13,,
+2021,Jul,C - All Other Manufacturing,,,10,,
+2021,Aug,C - All Other Manufacturing,,,21,,
+2021,Sep,C - All Other Manufacturing,,,38,,
+2021,Oct,C - All Other Manufacturing,,,16,,
+2021,Nov,C - All Other Manufacturing,,,18,,
+2021,Dec,C - All Other Manufacturing,,,31,,
+2021,Jan,C - Manufacture of Chemicals & Pharmaceuticals,,,39,,
+2021,Feb,C - Manufacture of Chemicals & Pharmaceuticals,,,28,,
+2021,Mar,C - Manufacture of Chemicals & Pharmaceuticals,,,15,,
+2021,Apr,C - Manufacture of Chemicals & Pharmaceuticals,,,10,,
+2021,May,C - Manufacture of Chemicals & Pharmaceuticals,,,9,,
+2021,Jun,C - Manufacture of Chemicals & Pharmaceuticals,,,19,,
+2021,Jul,C - Manufacture of Chemicals & Pharmaceuticals,,,3,,
+2021,Aug,C - Manufacture of Chemicals & Pharmaceuticals,,,22,,
+2021,Sep,C - Manufacture of Chemicals & Pharmaceuticals,,,36,,
+2021,Oct,C - Manufacture of Chemicals & Pharmaceuticals,,,25,,
+2021,Nov,C - Manufacture of Chemicals & Pharmaceuticals,,,29,,
+2021,Dec,C - Manufacture of Chemicals & Pharmaceuticals,,,39,,
+2021,Jan,"C - Manufacture of Food, Drink & Tobacco",,,10,,
+2021,Feb,"C - Manufacture of Food, Drink & Tobacco",,,10,,
+2021,Mar,"C - Manufacture of Food, Drink & Tobacco",,,15,,
+2021,Apr,"C - Manufacture of Food, Drink & Tobacco",,,6,,
+2021,May,"C - Manufacture of Food, Drink & Tobacco",,,5,,
+2021,Jun,"C - Manufacture of Food, Drink & Tobacco",,,6,,
+2021,Jul,"C - Manufacture of Food, Drink & Tobacco",,,11,,
+2021,Aug,"C - Manufacture of Food, Drink & Tobacco",,,9,,
+2021,Sep,"C - Manufacture of Food, Drink & Tobacco",,,11,,
+2021,Oct,"C - Manufacture of Food, Drink & Tobacco",,,9,,
+2021,Nov,"C - Manufacture of Food, Drink & Tobacco",,,11,,
+2021,Dec,"C - Manufacture of Food, Drink & Tobacco",,,8,,
+2021,Jan,C - Manufacture of Medical Devices,,,5,,
+2021,Feb,C - Manufacture of Medical Devices,,,8,,
+2021,Mar,C - Manufacture of Medical Devices,,,3,,
+2021,Apr,C - Manufacture of Medical Devices,,,4,,
+2021,May,C - Manufacture of Medical Devices,,,7,,
+2021,Jun,C - Manufacture of Medical Devices,,,7,,
+2021,Jul,C - Manufacture of Medical Devices,,,8,,
+2021,Aug,C - Manufacture of Medical Devices,,,9,,
+2021,Sep,C - Manufacture of Medical Devices,,,9,,
+2021,Oct,C - Manufacture of Medical Devices,,,15,,
+2021,Nov,C - Manufacture of Medical Devices,,,14,,
+2021,Dec,C - Manufacture of Medical Devices,,,4,,
+2021,Jan,D - Electricity & Gas & Air Conditioning Supply,,,1,,
+2021,Feb,D - Electricity & Gas & Air Conditioning Supply,,,6,,
+2021,Mar,D - Electricity & Gas & Air Conditioning Supply,,,5,,
+2021,Apr,D - Electricity & Gas & Air Conditioning Supply,,,13,,
+2021,May,D - Electricity & Gas & Air Conditioning Supply,,,7,,
+2021,Jun,D - Electricity & Gas & Air Conditioning Supply,,,6,,
+2021,Jul,D - Electricity & Gas & Air Conditioning Supply,,,1,,
+2021,Aug,D - Electricity & Gas & Air Conditioning Supply,,,7,,
+2021,Sep,D - Electricity & Gas & Air Conditioning Supply,,,12,,
+2021,Oct,D - Electricity & Gas & Air Conditioning Supply,,,12,,
+2021,Nov,D - Electricity & Gas & Air Conditioning Supply,,,9,,
+2021,Dec,D - Electricity & Gas & Air Conditioning Supply,,,7,,
+2021,Jan,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2021,Feb,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2021,Mar,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2021,Apr,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2021,May,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2021,Jun,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2021,Jul,E - Water Supply - Sewerage Waste Management & Rem,,,0,,
+2021,Aug,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2021,Sep,E - Water Supply - Sewerage Waste Management & Rem,,,3,,
+2021,Oct,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2021,Nov,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2021,Dec,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2021,Jan,F - Construction,,,31,,
+2021,Feb,F - Construction,,,49,,
+2021,Mar,F - Construction,,,54,,
+2021,Apr,F - Construction,,,44,,
+2021,May,F - Construction,,,24,,
+2021,Jun,F - Construction,,,20,,
+2021,Jul,F - Construction,,,26,,
+2021,Aug,F - Construction,,,71,,
+2021,Sep,F - Construction,,,65,,
+2021,Oct,F - Construction,,,94,,
+2021,Nov,F - Construction,,,49,,
+2021,Dec,F - Construction,,,80,,
+2021,Jan,G - Wholesale & Retail Trade,,,8,,
+2021,Feb,G - Wholesale & Retail Trade,,,12,,
+2021,Mar,G - Wholesale & Retail Trade,,,17,,
+2021,Apr,G - Wholesale & Retail Trade,,,3,,
+2021,May,G - Wholesale & Retail Trade,,,8,,
+2021,Jun,G - Wholesale & Retail Trade,,,7,,
+2021,Jul,G - Wholesale & Retail Trade,,,5,,
+2021,Aug,G - Wholesale & Retail Trade,,,12,,
+2021,Sep,G - Wholesale & Retail Trade,,,11,,
+2021,Oct,G - Wholesale & Retail Trade,,,15,,
+2021,Nov,G - Wholesale & Retail Trade,,,9,,
+2021,Dec,G - Wholesale & Retail Trade,,,13,,
+2021,Jan,H - Transport & Storage,,,12,,
+2021,Feb,H - Transport & Storage,,,20,,
+2021,Mar,H - Transport & Storage,,,16,,
+2021,Apr,H - Transport & Storage,,,14,,
+2021,May,H - Transport & Storage,,,6,,
+2021,Jun,H - Transport & Storage,,,3,,
+2021,Jul,H - Transport & Storage,,,17,,
+2021,Aug,H - Transport & Storage,,,23,,
+2021,Sep,H - Transport & Storage,,,37,,
+2021,Oct,H - Transport & Storage,,,42,,
+2021,Nov,H - Transport & Storage,,,44,,
+2021,Dec,H - Transport & Storage,,,31,,
+2021,Jan,I - Accommodation & Food Services activities,,,57,,
+2021,Feb,I - Accommodation & Food Services activities,,,76,,
+2021,Mar,I - Accommodation & Food Services activities,,,62,,
+2021,Apr,I - Accommodation & Food Services activities,,,50,,
+2021,May,I - Accommodation & Food Services activities,,,41,,
+2021,Jun,I - Accommodation & Food Services activities,,,52,,
+2021,Jul,I - Accommodation & Food Services activities,,,39,,
+2021,Aug,I - Accommodation & Food Services activities,,,136,,
+2021,Sep,I - Accommodation & Food Services activities,,,159,,
+2021,Oct,I - Accommodation & Food Services activities,,,55,,
+2021,Nov,I - Accommodation & Food Services activities,,,22,,
+2021,Dec,I - Accommodation & Food Services activities,,,37,,
+2021,Jan,"M - All other Professional, Scientific & Technical",,,8,,
+2021,Feb,"M - All other Professional, Scientific & Technical",,,11,,
+2021,Mar,"M - All other Professional, Scientific & Technical",,,9,,
+2021,Apr,"M - All other Professional, Scientific & Technical",,,7,,
+2021,May,"M - All other Professional, Scientific & Technical",,,5,,
+2021,Jun,"M - All other Professional, Scientific & Technical",,,2,,
+2021,Jul,"M - All other Professional, Scientific & Technical",,,11,,
+2021,Aug,"M - All other Professional, Scientific & Technical",,,12,,
+2021,Sep,"M - All other Professional, Scientific & Technical",,,18,,
+2021,Oct,"M - All other Professional, Scientific & Technical",,,24,,
+2021,Nov,"M - All other Professional, Scientific & Technical",,,22,,
+2021,Dec,"M - All other Professional, Scientific & Technical",,,22,,
+2021,Jan,"M - Professional, Scientific&Technical Activities",,,5,,
+2021,Feb,"M - Professional, Scientific&Technical Activities",,,6,,
+2021,Mar,"M - Professional, Scientific&Technical Activities",,,5,,
+2021,Apr,"M - Professional, Scientific&Technical Activities",,,6,,
+2021,May,"M - Professional, Scientific&Technical Activities",,,1,,
+2021,Jun,"M - Professional, Scientific&Technical Activities",,,2,,
+2021,Jul,"M - Professional, Scientific&Technical Activities",,,1,,
+2021,Aug,"M - Professional, Scientific&Technical Activities",,,7,,
+2021,Sep,"M - Professional, Scientific&Technical Activities",,,20,,
+2021,Oct,"M - Professional, Scientific&Technical Activities",,,17,,
+2021,Nov,"M - Professional, Scientific&Technical Activities",,,12,,
+2021,Dec,"M - Professional, Scientific&Technical Activities",,,3,,
+2021,Jan,N - Administrative & Support Service Activities,,,3,,
+2021,Feb,N - Administrative & Support Service Activities,,,1,,
+2021,Mar,N - Administrative & Support Service Activities,,,2,,
+2021,Apr,N - Administrative & Support Service Activities,,,0,,
+2021,May,N - Administrative & Support Service Activities,,,0,,
+2021,Jun,N - Administrative & Support Service Activities,,,3,,
+2021,Jul,N - Administrative & Support Service Activities,,,0,,
+2021,Aug,N - Administrative & Support Service Activities,,,0,,
+2021,Sep,N - Administrative & Support Service Activities,,,1,,
+2021,Oct,N - Administrative & Support Service Activities,,,1,,
+2021,Nov,N - Administrative & Support Service Activities,,,4,,
+2021,Dec,N - Administrative & Support Service Activities,,,6,,
+2021,Jan,P - Education,,,7,,
+2021,Feb,P - Education,,,5,,
+2021,Mar,P - Education,,,4,,
+2021,Apr,P - Education,,,6,,
+2021,May,P - Education,,,4,,
+2021,Jun,P - Education,,,5,,
+2021,Jul,P - Education,,,6,,
+2021,Aug,P - Education,,,13,,
+2021,Sep,P - Education,,,8,,
+2021,Oct,P - Education,,,14,,
+2021,Nov,P - Education,,,7,,
+2021,Dec,P - Education,,,12,,
+2021,Jan,Q - Health & Social Work Activities,,,482,,
+2021,Feb,Q - Health & Social Work Activities,,,253,,
+2021,Mar,Q - Health & Social Work Activities,,,276,,
+2021,Apr,Q - Health & Social Work Activities,,,439,,
+2021,May,Q - Health & Social Work Activities,,,396,,
+2021,Jun,Q - Health & Social Work Activities,,,605,,
+2021,Jul,Q - Health & Social Work Activities,,,999,,
+2021,Aug,Q - Health & Social Work Activities,,,452,,
+2021,Sep,Q - Health & Social Work Activities,,,350,,
+2021,Oct,Q - Health & Social Work Activities,,,355,,
+2021,Nov,Q - Health & Social Work Activities,,,445,,
+2021,Dec,Q - Health & Social Work Activities,,,741,,
+2021,Jan,"R - Arts , Entertainment and Recreation",,,10,,
+2021,Feb,"R - Arts , Entertainment and Recreation",,,16,,
+2021,Mar,"R - Arts , Entertainment and Recreation",,,17,,
+2021,Apr,"R - Arts , Entertainment and Recreation",,,19,,
+2021,May,"R - Arts , Entertainment and Recreation",,,14,,
+2021,Jun,"R - Arts , Entertainment and Recreation",,,32,,
+2021,Jul,"R - Arts , Entertainment and Recreation",,,21,,
+2021,Aug,"R - Arts , Entertainment and Recreation",,,29,,
+2021,Sep,"R - Arts , Entertainment and Recreation",,,35,,
+2021,Oct,"R - Arts , Entertainment and Recreation",,,19,,
+2021,Nov,"R - Arts , Entertainment and Recreation",,,25,,
+2021,Dec,"R - Arts , Entertainment and Recreation",,,15,,
+2021,Jan,S - Other Service activities,,,55,,
+2021,Feb,S - Other Service activities,,,48,,
+2021,Mar,S - Other Service activities,,,57,,
+2021,Apr,S - Other Service activities,,,29,,
+2021,May,S - Other Service activities,,,23,,
+2021,Jun,S - Other Service activities,,,22,,
+2021,Jul,S - Other Service activities,,,45,,
+2021,Aug,S - Other Service activities,,,53,,
+2021,Sep,S - Other Service activities,,,55,,
+2021,Oct,S - Other Service activities,,,58,,
+2021,Nov,S - Other Service activities,,,66,,
+2021,Dec,S - Other Service activities,,,84,,
+2021,Jan,B - Mining & Quarrying,,,0,,
+2021,Feb,B - Mining & Quarrying,,,1,,
+2021,Mar,B - Mining & Quarrying,,,0,,
+2021,Apr,B - Mining & Quarrying,,,0,,
+2021,May,B - Mining & Quarrying,,,0,,
+2021,Jun,B - Mining & Quarrying,,,0,,
+2021,Jul,B - Mining & Quarrying,,,0,,
+2021,Aug,B - Mining & Quarrying,,,0,,
+2021,Sep,B - Mining & Quarrying,,,0,,
+2021,Oct,B - Mining & Quarrying,,,0,,
+2021,Nov,B - Mining & Quarrying,,,0,,
+2021,Dec,B - Mining & Quarrying,,,1,,
+2021,Jan,L - Real Estate Activities,,,1,,
+2021,Feb,L - Real Estate Activities,,,0,,
+2021,Mar,L - Real Estate Activities,,,1,,
+2021,Apr,L - Real Estate Activities,,,0,,
+2021,May,L - Real Estate Activities,,,0,,
+2021,Jun,L - Real Estate Activities,,,1,,
+2021,Jul,L - Real Estate Activities,,,1,,
+2021,Aug,L - Real Estate Activities,,,0,,
+2021,Sep,L - Real Estate Activities,,,0,,
+2021,Oct,L - Real Estate Activities,,,1,,
+2021,Nov,L - Real Estate Activities,,,1,,
+2021,Dec,L - Real Estate Activities,,,1,,
+2021,Jan,O - Public Administration & Defence,,,0,,
+2021,Feb,O - Public Administration & Defence,,,0,,
+2021,Mar,O - Public Administration & Defence,,,0,,
+2021,Apr,O - Public Administration & Defence,,,0,,
+2021,May,O - Public Administration & Defence,,,0,,
+2021,Jun,O - Public Administration & Defence,,,0,,
+2021,Jul,O - Public Administration & Defence,,,0,,
+2021,Aug,O - Public Administration & Defence,,,0,,
+2021,Sep,O - Public Administration & Defence,,,2,,
+2021,Oct,O - Public Administration & Defence,,,0,,
+2021,Nov,O - Public Administration & Defence,,,1,,
+2021,Dec,O - Public Administration & Defence,,,1,,
+2021,Jan,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Feb,T - Domestic- Activities of Households as Employer,,,1,,
+2021,Mar,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Apr,T - Domestic- Activities of Households as Employer,,,0,,
+2021,May,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Jun,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Jul,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Aug,T - Domestic- Activities of Households as Employer,,,1,,
+2021,Sep,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Oct,T - Domestic- Activities of Households as Employer,,,1,,
+2021,Nov,T - Domestic- Activities of Households as Employer,,,0,,
+2021,Dec,T - Domestic- Activities of Households as Employer,,,0,,
+2022,Jan,"A - Agriculture, Forestry & Fishing",,,146,,
+2022,Feb,"A - Agriculture, Forestry & Fishing",,,149,,
+2022,Mar,"A - Agriculture, Forestry & Fishing",,,274,,
+2022,Apr,"A - Agriculture, Forestry & Fishing",,,1407,,
+2022,May,"A - Agriculture, Forestry & Fishing",,,877,,
+2022,Jun,"A - Agriculture, Forestry & Fishing",,,708,,
+2022,Jul,"A - Agriculture, Forestry & Fishing",,,217,,
+2022,Aug,"A - Agriculture, Forestry & Fishing",,,140,,
+2022,Sep,"A - Agriculture, Forestry & Fishing",,,121,,
+2022,Oct,"A - Agriculture, Forestry & Fishing",,,96,,
+2022,Nov,"A - Agriculture, Forestry & Fishing",,,78,,
+2022,Dec,"A - Agriculture, Forestry & Fishing",,,98,,
+2022,Jan,B - Mining & Quarrying,,,5,,
+2022,Feb,B - Mining & Quarrying,,,1,,
+2022,Mar,B - Mining & Quarrying,,,2,,
+2022,Jun,B - Mining & Quarrying,,,1,,
+2022,Aug,B - Mining & Quarrying,,,1,,
+2022,Oct,B - Mining & Quarrying,,,2,,
+2022,Nov,B - Mining & Quarrying,,,2,,
+2022,Dec,B - Mining & Quarrying,,,1,,
+2022,Jan,C - All Other Manufacturing,,,15,,
+2022,Feb,C - All Other Manufacturing,,,36,,
+2022,Mar,C - All Other Manufacturing,,,50,,
+2022,Apr,C - All Other Manufacturing,,,53,,
+2022,May,C - All Other Manufacturing,,,47,,
+2022,Jun,C - All Other Manufacturing,,,45,,
+2022,Jul,C - All Other Manufacturing,,,111,,
+2022,Aug,C - All Other Manufacturing,,,55,,
+2022,Sep,C - All Other Manufacturing,,,67,,
+2022,Oct,C - All Other Manufacturing,,,51,,
+2022,Nov,C - All Other Manufacturing,,,90,,
+2022,Dec,C - All Other Manufacturing,,,81,,
+2022,Jan,C - Manufacture of Chemicals & Pharmaceuticals,,,30,,
+2022,Feb,C - Manufacture of Chemicals & Pharmaceuticals,,,49,,
+2022,Mar,C - Manufacture of Chemicals & Pharmaceuticals,,,55,,
+2022,Apr,C - Manufacture of Chemicals & Pharmaceuticals,,,70,,
+2022,May,C - Manufacture of Chemicals & Pharmaceuticals,,,46,,
+2022,Jun,C - Manufacture of Chemicals & Pharmaceuticals,,,24,,
+2022,Jul,C - Manufacture of Chemicals & Pharmaceuticals,,,64,,
+2022,Aug,C - Manufacture of Chemicals & Pharmaceuticals,,,69,,
+2022,Sep,C - Manufacture of Chemicals & Pharmaceuticals,,,66,,
+2022,Oct,C - Manufacture of Chemicals & Pharmaceuticals,,,69,,
+2022,Nov,C - Manufacture of Chemicals & Pharmaceuticals,,,88,,
+2022,Dec,C - Manufacture of Chemicals & Pharmaceuticals,,,52,,
+2022,Jan,"C - Manufacture of Computers, Electronics & Optica",,,5,,
+2022,Feb,"C - Manufacture of Computers, Electronics & Optica",,,48,,
+2022,Mar,"C - Manufacture of Computers, Electronics & Optica",,,55,,
+2022,Apr,"C - Manufacture of Computers, Electronics & Optica",,,87,,
+2022,May,"C - Manufacture of Computers, Electronics & Optica",,,104,,
+2022,Jun,"C - Manufacture of Computers, Electronics & Optica",,,29,,
+2022,Jul,"C - Manufacture of Computers, Electronics & Optica",,,71,,
+2022,Aug,"C - Manufacture of Computers, Electronics & Optica",,,40,,
+2022,Sep,"C - Manufacture of Computers, Electronics & Optica",,,45,,
+2022,Oct,"C - Manufacture of Computers, Electronics & Optica",,,43,,
+2022,Nov,"C - Manufacture of Computers, Electronics & Optica",,,49,,
+2022,Dec,"C - Manufacture of Computers, Electronics & Optica",,,34,,
+2022,Jan,"C - Manufacture of Food, Drink & Tobacco",,,8,,
+2022,Feb,"C - Manufacture of Food, Drink & Tobacco",,,17,,
+2022,Mar,"C - Manufacture of Food, Drink & Tobacco",,,43,,
+2022,Apr,"C - Manufacture of Food, Drink & Tobacco",,,105,,
+2022,May,"C - Manufacture of Food, Drink & Tobacco",,,31,,
+2022,Jun,"C - Manufacture of Food, Drink & Tobacco",,,34,,
+2022,Jul,"C - Manufacture of Food, Drink & Tobacco",,,30,,
+2022,Aug,"C - Manufacture of Food, Drink & Tobacco",,,18,,
+2022,Sep,"C - Manufacture of Food, Drink & Tobacco",,,26,,
+2022,Oct,"C - Manufacture of Food, Drink & Tobacco",,,17,,
+2022,Nov,"C - Manufacture of Food, Drink & Tobacco",,,25,,
+2022,Dec,"C - Manufacture of Food, Drink & Tobacco",,,3,,
+2022,Jan,C - Manufacture of Medical Devices,,,8,,
+2022,Feb,C - Manufacture of Medical Devices,,,17,,
+2022,Mar,C - Manufacture of Medical Devices,,,26,,
+2022,Apr,C - Manufacture of Medical Devices,,,28,,
+2022,May,C - Manufacture of Medical Devices,,,58,,
+2022,Jun,C - Manufacture of Medical Devices,,,10,,
+2022,Jul,C - Manufacture of Medical Devices,,,25,,
+2022,Aug,C - Manufacture of Medical Devices,,,35,,
+2022,Sep,C - Manufacture of Medical Devices,,,37,,
+2022,Oct,C - Manufacture of Medical Devices,,,24,,
+2022,Nov,C - Manufacture of Medical Devices,,,25,,
+2022,Dec,C - Manufacture of Medical Devices,,,19,,
+2022,Jan,D - Electricity & Gas & Air Conditioning Supply,,,4,,
+2022,Feb,D - Electricity & Gas & Air Conditioning Supply,,,9,,
+2022,Mar,D - Electricity & Gas & Air Conditioning Supply,,,18,,
+2022,Apr,D - Electricity & Gas & Air Conditioning Supply,,,16,,
+2022,May,D - Electricity & Gas & Air Conditioning Supply,,,19,,
+2022,Jun,D - Electricity & Gas & Air Conditioning Supply,,,14,,
+2022,Jul,D - Electricity & Gas & Air Conditioning Supply,,,21,,
+2022,Aug,D - Electricity & Gas & Air Conditioning Supply,,,30,,
+2022,Sep,D - Electricity & Gas & Air Conditioning Supply,,,21,,
+2022,Oct,D - Electricity & Gas & Air Conditioning Supply,,,18,,
+2022,Nov,D - Electricity & Gas & Air Conditioning Supply,,,25,,
+2022,Dec,D - Electricity & Gas & Air Conditioning Supply,,,14,,
+2022,Jan,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2022,Feb,E - Water Supply - Sewerage Waste Management & Rem,,,4,,
+2022,Apr,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2022,May,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2022,Jun,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2022,Jul,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2022,Aug,E - Water Supply - Sewerage Waste Management & Rem,,,3,,
+2022,Sep,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2022,Oct,E - Water Supply - Sewerage Waste Management & Rem,,,4,,
+2022,Nov,E - Water Supply - Sewerage Waste Management & Rem,,,3,,
+2022,Dec,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2022,Jan,F - Construction,,,81,,
+2022,Feb,F - Construction,,,136,,
+2022,Mar,F - Construction,,,127,,
+2022,Apr,F - Construction,,,109,,
+2022,May,F - Construction,,,131,,
+2022,Jun,F - Construction,,,157,,
+2022,Jul,F - Construction,,,132,,
+2022,Aug,F - Construction,,,110,,
+2022,Sep,F - Construction,,,106,,
+2022,Oct,F - Construction,,,162,,
+2022,Nov,F - Construction,,,129,,
+2022,Dec,F - Construction,,,94,,
+2022,Jan,G - Wholesale & Retail Trade,,,9,,
+2022,Feb,G - Wholesale & Retail Trade,,,22,,
+2022,Mar,G - Wholesale & Retail Trade,,,33,,
+2022,Apr,G - Wholesale & Retail Trade,,,34,,
+2022,May,G - Wholesale & Retail Trade,,,30,,
+2022,Jun,G - Wholesale & Retail Trade,,,19,,
+2022,Jul,G - Wholesale & Retail Trade,,,26,,
+2022,Aug,G - Wholesale & Retail Trade,,,33,,
+2022,Sep,G - Wholesale & Retail Trade,,,25,,
+2022,Oct,G - Wholesale & Retail Trade,,,34,,
+2022,Nov,G - Wholesale & Retail Trade,,,33,,
+2022,Dec,G - Wholesale & Retail Trade,,,26,,
+2022,Jan,H - Transport & Storage,,,13,,
+2022,Feb,H - Transport & Storage,,,21,,
+2022,Mar,H - Transport & Storage,,,45,,
+2022,Apr,H - Transport & Storage,,,75,,
+2022,May,H - Transport & Storage,,,59,,
+2022,Jun,H - Transport & Storage,,,16,,
+2022,Jul,H - Transport & Storage,,,24,,
+2022,Aug,H - Transport & Storage,,,46,,
+2022,Sep,H - Transport & Storage,,,47,,
+2022,Oct,H - Transport & Storage,,,89,,
+2022,Nov,H - Transport & Storage,,,45,,
+2022,Dec,H - Transport & Storage,,,32,,
+2022,Jan,I - Accommodation & Food Services activities,,,51,,
+2022,Feb,I - Accommodation & Food Services activities,,,123,,
+2022,Mar,I - Accommodation & Food Services activities,,,175,,
+2022,Apr,I - Accommodation & Food Services activities,,,172,,
+2022,May,I - Accommodation & Food Services activities,,,303,,
+2022,Jun,I - Accommodation & Food Services activities,,,441,,
+2022,Jul,I - Accommodation & Food Services activities,,,219,,
+2022,Aug,I - Accommodation & Food Services activities,,,274,,
+2022,Sep,I - Accommodation & Food Services activities,,,228,,
+2022,Oct,I - Accommodation & Food Services activities,,,223,,
+2022,Nov,I - Accommodation & Food Services activities,,,313,,
+2022,Dec,I - Accommodation & Food Services activities,,,198,,
+2022,Jan,J - Information & Communication Activities,,,442,,
+2022,Feb,J - Information & Communication Activities,,,934,,
+2022,Mar,J - Information & Communication Activities,,,1260,,
+2022,Apr,J - Information & Communication Activities,,,872,,
+2022,May,J - Information & Communication Activities,,,1064,,
+2022,Jun,J - Information & Communication Activities,,,761,,
+2022,Jul,J - Information & Communication Activities,,,1236,,
+2022,Aug,J - Information & Communication Activities,,,1040,,
+2022,Sep,J - Information & Communication Activities,,,1090,,
+2022,Oct,J - Information & Communication Activities,,,810,,
+2022,Nov,J - Information & Communication Activities,,,853,,
+2022,Dec,J - Information & Communication Activities,,,470,,
+2022,Jan,K - Financial & insurance Activities,,,143,,
+2022,Feb,K - Financial & insurance Activities,,,230,,
+2022,Mar,K - Financial & insurance Activities,,,379,,
+2022,Apr,K - Financial & insurance Activities,,,234,,
+2022,May,K - Financial & insurance Activities,,,226,,
+2022,Jun,K - Financial & insurance Activities,,,198,,
+2022,Jul,K - Financial & insurance Activities,,,300,,
+2022,Aug,K - Financial & insurance Activities,,,375,,
+2022,Sep,K - Financial & insurance Activities,,,420,,
+2022,Oct,K - Financial & insurance Activities,,,332,,
+2022,Nov,K - Financial & insurance Activities,,,340,,
+2022,Dec,K - Financial & insurance Activities,,,174,,
+2022,Jan,L - Real Estate Activities,,,1,,
+2022,Mar,L - Real Estate Activities,,,1,,
+2022,Apr,L - Real Estate Activities,,,3,,
+2022,May,L - Real Estate Activities,,,1,,
+2022,Jun,L - Real Estate Activities,,,2,,
+2022,Jul,L - Real Estate Activities,,,2,,
+2022,Aug,L - Real Estate Activities,,,1,,
+2022,Sep,L - Real Estate Activities,,,5,,
+2022,Oct,L - Real Estate Activities,,,3,,
+2022,Nov,L - Real Estate Activities,,,1,,
+2022,Dec,L - Real Estate Activities,,,1,,
+2022,Jan,"M - All other Professional, Scientific & Technical",,,13,,
+2022,Feb,"M - All other Professional, Scientific & Technical",,,70,,
+2022,Mar,"M - All other Professional, Scientific & Technical",,,64,,
+2022,Apr,"M - All other Professional, Scientific & Technical",,,56,,
+2022,May,"M - All other Professional, Scientific & Technical",,,92,,
+2022,Jun,"M - All other Professional, Scientific & Technical",,,90,,
+2022,Jul,"M - All other Professional, Scientific & Technical",,,122,,
+2022,Aug,"M - All other Professional, Scientific & Technical",,,76,,
+2022,Sep,"M - All other Professional, Scientific & Technical",,,96,,
+2022,Oct,"M - All other Professional, Scientific & Technical",,,113,,
+2022,Nov,"M - All other Professional, Scientific & Technical",,,168,,
+2022,Dec,"M - All other Professional, Scientific & Technical",,,112,,
+2022,Jan,"M - Professional, Scientific&Technical Activities",,,10,,
+2022,Feb,"M - Professional, Scientific&Technical Activities",,,44,,
+2022,Mar,"M - Professional, Scientific&Technical Activities",,,69,,
+2022,Apr,"M - Professional, Scientific&Technical Activities",,,23,,
+2022,May,"M - Professional, Scientific&Technical Activities",,,32,,
+2022,Jun,"M - Professional, Scientific&Technical Activities",,,19,,
+2022,Jul,"M - Professional, Scientific&Technical Activities",,,42,,
+2022,Aug,"M - Professional, Scientific&Technical Activities",,,40,,
+2022,Sep,"M - Professional, Scientific&Technical Activities",,,39,,
+2022,Oct,"M - Professional, Scientific&Technical Activities",,,20,,
+2022,Nov,"M - Professional, Scientific&Technical Activities",,,33,,
+2022,Dec,"M - Professional, Scientific&Technical Activities",,,17,,
+2022,Jan,N - Administrative & Support Service Activities,,,2,,
+2022,Feb,N - Administrative & Support Service Activities,,,11,,
+2022,Mar,N - Administrative & Support Service Activities,,,8,,
+2022,Apr,N - Administrative & Support Service Activities,,,7,,
+2022,May,N - Administrative & Support Service Activities,,,5,,
+2022,Jun,N - Administrative & Support Service Activities,,,8,,
+2022,Jul,N - Administrative & Support Service Activities,,,8,,
+2022,Aug,N - Administrative & Support Service Activities,,,12,,
+2022,Sep,N - Administrative & Support Service Activities,,,4,,
+2022,Oct,N - Administrative & Support Service Activities,,,5,,
+2022,Nov,N - Administrative & Support Service Activities,,,12,,
+2022,Dec,N - Administrative & Support Service Activities,,,4,,
+2022,Feb,O - Public Administration & Defence,,,4,,
+2022,Mar,O - Public Administration & Defence,,,4,,
+2022,Apr,O - Public Administration & Defence,,,6,,
+2022,May,O - Public Administration & Defence,,,5,,
+2022,Jun,O - Public Administration & Defence,,,4,,
+2022,Jul,O - Public Administration & Defence,,,3,,
+2022,Aug,O - Public Administration & Defence,,,4,,
+2022,Sep,O - Public Administration & Defence,,,2,,
+2022,Oct,O - Public Administration & Defence,,,4,,
+2022,Nov,O - Public Administration & Defence,,,4,,
+2022,Dec,O - Public Administration & Defence,,,1,,
+2022,Jan,P - Education,,,18,,
+2022,Feb,P - Education,,,13,,
+2022,Mar,P - Education,,,15,,
+2022,Apr,P - Education,,,13,,
+2022,May,P - Education,,,16,,
+2022,Jun,P - Education,,,14,,
+2022,Jul,P - Education,,,15,,
+2022,Aug,P - Education,,,23,,
+2022,Sep,P - Education,,,19,,
+2022,Oct,P - Education,,,20,,
+2022,Nov,P - Education,,,26,,
+2022,Dec,P - Education,,,15,,
+2022,Jan,Q - Health & Social Work Activities,,,1213,,
+2022,Feb,Q - Health & Social Work Activities,,,461,,
+2022,Mar,Q - Health & Social Work Activities,,,564,,
+2022,Apr,Q - Health & Social Work Activities,,,496,,
+2022,May,Q - Health & Social Work Activities,,,703,,
+2022,Jun,Q - Health & Social Work Activities,,,1141,,
+2022,Jul,Q - Health & Social Work Activities,,,1100,,
+2022,Aug,Q - Health & Social Work Activities,,,930,,
+2022,Sep,Q - Health & Social Work Activities,,,750,,
+2022,Oct,Q - Health & Social Work Activities,,,723,,
+2022,Nov,Q - Health & Social Work Activities,,,1049,,
+2022,Dec,Q - Health & Social Work Activities,,,661,,
+2022,Jan,"R - Arts , Entertainment and Recreation",,,4,,
+2022,Feb,"R - Arts , Entertainment and Recreation",,,14,,
+2022,Mar,"R - Arts , Entertainment and Recreation",,,18,,
+2022,Apr,"R - Arts , Entertainment and Recreation",,,29,,
+2022,May,"R - Arts , Entertainment and Recreation",,,22,,
+2022,Jun,"R - Arts , Entertainment and Recreation",,,37,,
+2022,Jul,"R - Arts , Entertainment and Recreation",,,46,,
+2022,Aug,"R - Arts , Entertainment and Recreation",,,52,,
+2022,Sep,"R - Arts , Entertainment and Recreation",,,21,,
+2022,Oct,"R - Arts , Entertainment and Recreation",,,49,,
+2022,Nov,"R - Arts , Entertainment and Recreation",,,28,,
+2022,Dec,"R - Arts , Entertainment and Recreation",,,20,,
+2022,Jan,S - Other Service activities,,,56,,
+2022,Feb,S - Other Service activities,,,126,,
+2022,Mar,S - Other Service activities,,,173,,
+2022,Apr,S - Other Service activities,,,115,,
+2022,May,S - Other Service activities,,,123,,
+2022,Jun,S - Other Service activities,,,104,,
+2022,Jul,S - Other Service activities,,,140,,
+2022,Aug,S - Other Service activities,,,129,,
+2022,Sep,S - Other Service activities,,,186,,
+2022,Oct,S - Other Service activities,,,152,,
+2022,Nov,S - Other Service activities,,,180,,
+2022,Dec,S - Other Service activities,,,88,,
+2022,May,T - Domestic- Activities of Households as Employer,,,1,,
+2022,Oct,T - Domestic- Activities of Households as Employer,,,1,,
+2023,Jan,"A - Agriculture, Forestry & Fishing",,,87,,
+2023,Feb,"A - Agriculture, Forestry & Fishing",,,83,,
+2023,Mar,"A - Agriculture, Forestry & Fishing",,,469,,
+2023,Apr,"A - Agriculture, Forestry & Fishing",,,253,,
+2023,May,"A - Agriculture, Forestry & Fishing",,,91,,
+2023,Jun,"A - Agriculture, Forestry & Fishing",,,56,,
+2023,Jul,"A - Agriculture, Forestry & Fishing",,,62,,
+2023,Aug,"A - Agriculture, Forestry & Fishing",,,56,,
+2023,Sep,"A - Agriculture, Forestry & Fishing",,,42,,
+2023,Oct,"A - Agriculture, Forestry & Fishing",,,43,,
+2023,Nov,"A - Agriculture, Forestry & Fishing",,,66,,
+2023,Dec,"A - Agriculture, Forestry & Fishing",,,77,,
+2023,Jan,B - Mining & Quarrying,,,1,,
+2023,Apr,B - Mining & Quarrying,,,8,,
+2023,Jun,B - Mining & Quarrying,,,4,,
+2023,Jul,B - Mining & Quarrying,,,2,,
+2023,Aug,B - Mining & Quarrying,,,3,,
+2023,Sep,B - Mining & Quarrying,,,1,,
+2023,Oct,B - Mining & Quarrying,,,7,,
+2023,Nov,B - Mining & Quarrying,,,1,,
+2023,Dec,B - Mining & Quarrying,,,3,,
+2023,Jan,C - All Other Manufacturing,,,73,,
+2023,Feb,C - All Other Manufacturing,,,45,,
+2023,Mar,C - All Other Manufacturing,,,58,,
+2023,Apr,C - All Other Manufacturing,,,44,,
+2023,May,C - All Other Manufacturing,,,78,,
+2023,Jun,C - All Other Manufacturing,,,78,,
+2023,Jul,C - All Other Manufacturing,,,77,,
+2023,Aug,C - All Other Manufacturing,,,50,,
+2023,Sep,C - All Other Manufacturing,,,56,,
+2023,Oct,C - All Other Manufacturing,,,57,,
+2023,Nov,C - All Other Manufacturing,,,91,,
+2023,Dec,C - All Other Manufacturing,,,59,,
+2023,Jan,C - Manufacture of Chemicals & Pharmaceuticals,,,62,,
+2023,Feb,C - Manufacture of Chemicals & Pharmaceuticals,,,47,,
+2023,Mar,C - Manufacture of Chemicals & Pharmaceuticals,,,41,,
+2023,Apr,C - Manufacture of Chemicals & Pharmaceuticals,,,60,,
+2023,May,C - Manufacture of Chemicals & Pharmaceuticals,,,90,,
+2023,Jun,C - Manufacture of Chemicals & Pharmaceuticals,,,81,,
+2023,Jul,C - Manufacture of Chemicals & Pharmaceuticals,,,82,,
+2023,Aug,C - Manufacture of Chemicals & Pharmaceuticals,,,91,,
+2023,Sep,C - Manufacture of Chemicals & Pharmaceuticals,,,54,,
+2023,Oct,C - Manufacture of Chemicals & Pharmaceuticals,,,96,,
+2023,Nov,C - Manufacture of Chemicals & Pharmaceuticals,,,120,,
+2023,Dec,C - Manufacture of Chemicals & Pharmaceuticals,,,53,,
+2023,Jan,"C - Manufacture of Computers, Electronics & Optica",,,36,,
+2023,Feb,"C - Manufacture of Computers, Electronics & Optica",,,42,,
+2023,Mar,"C - Manufacture of Computers, Electronics & Optica",,,51,,
+2023,Apr,"C - Manufacture of Computers, Electronics & Optica",,,62,,
+2023,May,"C - Manufacture of Computers, Electronics & Optica",,,86,,
+2023,Jun,"C - Manufacture of Computers, Electronics & Optica",,,137,,
+2023,Jul,"C - Manufacture of Computers, Electronics & Optica",,,158,,
+2023,Aug,"C - Manufacture of Computers, Electronics & Optica",,,55,,
+2023,Sep,"C - Manufacture of Computers, Electronics & Optica",,,58,,
+2023,Oct,"C - Manufacture of Computers, Electronics & Optica",,,45,,
+2023,Nov,"C - Manufacture of Computers, Electronics & Optica",,,64,,
+2023,Dec,"C - Manufacture of Computers, Electronics & Optica",,,51,,
+2023,Jan,"C - Manufacture of Food, Drink & Tobacco",,,23,,
+2023,Feb,"C - Manufacture of Food, Drink & Tobacco",,,30,,
+2023,Mar,"C - Manufacture of Food, Drink & Tobacco",,,19,,
+2023,Apr,"C - Manufacture of Food, Drink & Tobacco",,,20,,
+2023,May,"C - Manufacture of Food, Drink & Tobacco",,,23,,
+2023,Jun,"C - Manufacture of Food, Drink & Tobacco",,,29,,
+2023,Jul,"C - Manufacture of Food, Drink & Tobacco",,,29,,
+2023,Aug,"C - Manufacture of Food, Drink & Tobacco",,,26,,
+2023,Sep,"C - Manufacture of Food, Drink & Tobacco",,,16,,
+2023,Oct,"C - Manufacture of Food, Drink & Tobacco",,,22,,
+2023,Nov,"C - Manufacture of Food, Drink & Tobacco",,,13,,
+2023,Dec,"C - Manufacture of Food, Drink & Tobacco",,,18,,
+2023,Jan,C - Manufacture of Medical Devices,,,28,,
+2023,Feb,C - Manufacture of Medical Devices,,,11,,
+2023,Mar,C - Manufacture of Medical Devices,,,17,,
+2023,Apr,C - Manufacture of Medical Devices,,,19,,
+2023,May,C - Manufacture of Medical Devices,,,15,,
+2023,Jun,C - Manufacture of Medical Devices,,,22,,
+2023,Jul,C - Manufacture of Medical Devices,,,17,,
+2023,Aug,C - Manufacture of Medical Devices,,,25,,
+2023,Sep,C - Manufacture of Medical Devices,,,37,,
+2023,Oct,C - Manufacture of Medical Devices,,,33,,
+2023,Nov,C - Manufacture of Medical Devices,,,23,,
+2023,Dec,C - Manufacture of Medical Devices,,,34,,
+2023,Jan,D - Electricity & Gas & Air Conditioning Supply,,,20,,
+2023,Feb,D - Electricity & Gas & Air Conditioning Supply,,,13,,
+2023,Mar,D - Electricity & Gas & Air Conditioning Supply,,,27,,
+2023,Apr,D - Electricity & Gas & Air Conditioning Supply,,,15,,
+2023,May,D - Electricity & Gas & Air Conditioning Supply,,,35,,
+2023,Jun,D - Electricity & Gas & Air Conditioning Supply,,,46,,
+2023,Jul,D - Electricity & Gas & Air Conditioning Supply,,,56,,
+2023,Aug,D - Electricity & Gas & Air Conditioning Supply,,,45,,
+2023,Sep,D - Electricity & Gas & Air Conditioning Supply,,,32,,
+2023,Oct,D - Electricity & Gas & Air Conditioning Supply,,,34,,
+2023,Nov,D - Electricity & Gas & Air Conditioning Supply,,,30,,
+2023,Dec,D - Electricity & Gas & Air Conditioning Supply,,,18,,
+2023,Jan,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2023,Feb,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2023,Mar,E - Water Supply - Sewerage Waste Management & Rem,,,9,,
+2023,Apr,E - Water Supply - Sewerage Waste Management & Rem,,,3,,
+2023,May,E - Water Supply - Sewerage Waste Management & Rem,,,9,,
+2023,Jun,E - Water Supply - Sewerage Waste Management & Rem,,,2,,
+2023,Jul,E - Water Supply - Sewerage Waste Management & Rem,,,21,,
+2023,Aug,E - Water Supply - Sewerage Waste Management & Rem,,,13,,
+2023,Sep,E - Water Supply - Sewerage Waste Management & Rem,,,10,,
+2023,Oct,E - Water Supply - Sewerage Waste Management & Rem,,,4,,
+2023,Nov,E - Water Supply - Sewerage Waste Management & Rem,,,9,,
+2023,Dec,E - Water Supply - Sewerage Waste Management & Rem,,,4,,
+2023,Jan,F - Construction,,,102,,
+2023,Feb,F - Construction,,,99,,
+2023,Mar,F - Construction,,,124,,
+2023,Apr,F - Construction,,,89,,
+2023,May,F - Construction,,,136,,
+2023,Jun,F - Construction,,,129,,
+2023,Jul,F - Construction,,,110,,
+2023,Aug,F - Construction,,,111,,
+2023,Sep,F - Construction,,,93,,
+2023,Oct,F - Construction,,,143,,
+2023,Nov,F - Construction,,,114,,
+2023,Dec,F - Construction,,,99,,
+2023,Jan,G - Wholesale & Retail Trade,,,17,,
+2023,Feb,G - Wholesale & Retail Trade,,,19,,
+2023,Mar,G - Wholesale & Retail Trade,,,14,,
+2023,Apr,G - Wholesale & Retail Trade,,,23,,
+2023,May,G - Wholesale & Retail Trade,,,30,,
+2023,Jun,G - Wholesale & Retail Trade,,,38,,
+2023,Jul,G - Wholesale & Retail Trade,,,25,,
+2023,Aug,G - Wholesale & Retail Trade,,,13,,
+2023,Sep,G - Wholesale & Retail Trade,,,24,,
+2023,Oct,G - Wholesale & Retail Trade,,,33,,
+2023,Nov,G - Wholesale & Retail Trade,,,38,,
+2023,Dec,G - Wholesale & Retail Trade,,,20,,
+2023,Jan,H - Transport & Storage,,,44,,
+2023,Feb,H - Transport & Storage,,,70,,
+2023,Mar,H - Transport & Storage,,,50,,
+2023,Apr,H - Transport & Storage,,,90,,
+2023,May,H - Transport & Storage,,,54,,
+2023,Jun,H - Transport & Storage,,,83,,
+2023,Jul,H - Transport & Storage,,,70,,
+2023,Aug,H - Transport & Storage,,,87,,
+2023,Sep,H - Transport & Storage,,,113,,
+2023,Oct,H - Transport & Storage,,,70,,
+2023,Nov,H - Transport & Storage,,,126,,
+2023,Dec,H - Transport & Storage,,,50,,
+2023,Jan,I - Accommodation & Food Services activities,,,213,,
+2023,Feb,I - Accommodation & Food Services activities,,,185,,
+2023,Mar,I - Accommodation & Food Services activities,,,156,,
+2023,Apr,I - Accommodation & Food Services activities,,,179,,
+2023,May,I - Accommodation & Food Services activities,,,261,,
+2023,Jun,I - Accommodation & Food Services activities,,,271,,
+2023,Jul,I - Accommodation & Food Services activities,,,238,,
+2023,Aug,I - Accommodation & Food Services activities,,,229,,
+2023,Sep,I - Accommodation & Food Services activities,,,215,,
+2023,Oct,I - Accommodation & Food Services activities,,,236,,
+2023,Nov,I - Accommodation & Food Services activities,,,260,,
+2023,Dec,I - Accommodation & Food Services activities,,,163,,
+2023,Jan,J - Information & Communication Activities,,,427,,
+2023,Feb,J - Information & Communication Activities,,,359,,
+2023,Mar,J - Information & Communication Activities,,,308,,
+2023,Apr,J - Information & Communication Activities,,,306,,
+2023,May,J - Information & Communication Activities,,,360,,
+2023,Jun,J - Information & Communication Activities,,,521,,
+2023,Jul,J - Information & Communication Activities,,,487,,
+2023,Aug,J - Information & Communication Activities,,,434,,
+2023,Sep,J - Information & Communication Activities,,,386,,
+2023,Oct,J - Information & Communication Activities,,,448,,
+2023,Nov,J - Information & Communication Activities,,,456,,
+2023,Dec,J - Information & Communication Activities,,,517,,
+2023,Jan,K - Financial & insurance Activities,,,190,,
+2023,Feb,K - Financial & insurance Activities,,,165,,
+2023,Mar,K - Financial & insurance Activities,,,179,,
+2023,Apr,K - Financial & insurance Activities,,,130,,
+2023,May,K - Financial & insurance Activities,,,197,,
+2023,Jun,K - Financial & insurance Activities,,,252,,
+2023,Jul,K - Financial & insurance Activities,,,224,,
+2023,Aug,K - Financial & insurance Activities,,,225,,
+2023,Sep,K - Financial & insurance Activities,,,219,,
+2023,Oct,K - Financial & insurance Activities,,,202,,
+2023,Nov,K - Financial & insurance Activities,,,233,,
+2023,Dec,K - Financial & insurance Activities,,,157,,
+2023,Jan,L - Real Estate Activities,,,2,,
+2023,Feb,L - Real Estate Activities,,,1,,
+2023,Mar,L - Real Estate Activities,,,2,,
+2023,May,L - Real Estate Activities,,,1,,
+2023,Jun,L - Real Estate Activities,,,1,,
+2023,Jul,L - Real Estate Activities,,,1,,
+2023,Aug,L - Real Estate Activities,,,1,,
+2023,Sep,L - Real Estate Activities,,,1,,
+2023,Nov,L - Real Estate Activities,,,4,,
+2023,Jan,"M - All other Professional, Scientific & Technical",,,118,,
+2023,Feb,"M - All other Professional, Scientific & Technical",,,62,,
+2023,Mar,"M - All other Professional, Scientific & Technical",,,80,,
+2023,Apr,"M - All other Professional, Scientific & Technical",,,60,,
+2023,May,"M - All other Professional, Scientific & Technical",,,73,,
+2023,Jun,"M - All other Professional, Scientific & Technical",,,118,,
+2023,Jul,"M - All other Professional, Scientific & Technical",,,103,,
+2023,Aug,"M - All other Professional, Scientific & Technical",,,83,,
+2023,Sep,"M - All other Professional, Scientific & Technical",,,61,,
+2023,Oct,"M - All other Professional, Scientific & Technical",,,92,,
+2023,Nov,"M - All other Professional, Scientific & Technical",,,94,,
+2023,Dec,"M - All other Professional, Scientific & Technical",,,66,,
+2023,Jan,"M - Professional, Scientific&Technical Activities",,,22,,
+2023,Feb,"M - Professional, Scientific&Technical Activities",,,19,,
+2023,Mar,"M - Professional, Scientific&Technical Activities",,,17,,
+2023,Apr,"M - Professional, Scientific&Technical Activities",,,16,,
+2023,May,"M - Professional, Scientific&Technical Activities",,,27,,
+2023,Jun,"M - Professional, Scientific&Technical Activities",,,15,,
+2023,Jul,"M - Professional, Scientific&Technical Activities",,,19,,
+2023,Aug,"M - Professional, Scientific&Technical Activities",,,16,,
+2023,Sep,"M - Professional, Scientific&Technical Activities",,,36,,
+2023,Oct,"M - Professional, Scientific&Technical Activities",,,36,,
+2023,Nov,"M - Professional, Scientific&Technical Activities",,,32,,
+2023,Dec,"M - Professional, Scientific&Technical Activities",,,28,,
+2023,Jan,N - Administrative & Support Service Activities,,,7,,
+2023,Feb,N - Administrative & Support Service Activities,,,7,,
+2023,Mar,N - Administrative & Support Service Activities,,,10,,
+2023,Apr,N - Administrative & Support Service Activities,,,3,,
+2023,May,N - Administrative & Support Service Activities,,,5,,
+2023,Jun,N - Administrative & Support Service Activities,,,7,,
+2023,Jul,N - Administrative & Support Service Activities,,,5,,
+2023,Aug,N - Administrative & Support Service Activities,,,13,,
+2023,Sep,N - Administrative & Support Service Activities,,,8,,
+2023,Oct,N - Administrative & Support Service Activities,,,8,,
+2023,Nov,N - Administrative & Support Service Activities,,,3,,
+2023,Dec,N - Administrative & Support Service Activities,,,4,,
+2023,Jan,O - Public Administration & Defence,,,2,,
+2023,Feb,O - Public Administration & Defence,,,1,,
+2023,Mar,O - Public Administration & Defence,,,1,,
+2023,Jun,O - Public Administration & Defence,,,3,,
+2023,Jul,O - Public Administration & Defence,,,2,,
+2023,Aug,O - Public Administration & Defence,,,5,,
+2023,Oct,O - Public Administration & Defence,,,1,,
+2023,Jan,P - Education,,,14,,
+2023,Feb,P - Education,,,10,,
+2023,Mar,P - Education,,,13,,
+2023,Apr,P - Education,,,10,,
+2023,May,P - Education,,,20,,
+2023,Jun,P - Education,,,23,,
+2023,Jul,P - Education,,,28,,
+2023,Aug,P - Education,,,24,,
+2023,Sep,P - Education,,,28,,
+2023,Oct,P - Education,,,29,,
+2023,Nov,P - Education,,,31,,
+2023,Dec,P - Education,,,16,,
+2023,Jan,Q - Health & Social Work Activities,,,912,,
+2023,Feb,Q - Health & Social Work Activities,,,791,,
+2023,Mar,Q - Health & Social Work Activities,,,726,,
+2023,Apr,Q - Health & Social Work Activities,,,649,,
+2023,May,Q - Health & Social Work Activities,,,1012,,
+2023,Jun,Q - Health & Social Work Activities,,,1040,,
+2023,Jul,Q - Health & Social Work Activities,,,1064,,
+2023,Aug,Q - Health & Social Work Activities,,,635,,
+2023,Sep,Q - Health & Social Work Activities,,,558,,
+2023,Oct,Q - Health & Social Work Activities,,,754,,
+2023,Nov,Q - Health & Social Work Activities,,,1009,,
+2023,Dec,Q - Health & Social Work Activities,,,887,,
+2023,Jan,"R - Arts , Entertainment and Recreation",,,25,,
+2023,Feb,"R - Arts , Entertainment and Recreation",,,24,,
+2023,Mar,"R - Arts , Entertainment and Recreation",,,47,,
+2023,Apr,"R - Arts , Entertainment and Recreation",,,26,,
+2023,May,"R - Arts , Entertainment and Recreation",,,29,,
+2023,Jun,"R - Arts , Entertainment and Recreation",,,41,,
+2023,Jul,"R - Arts , Entertainment and Recreation",,,18,,
+2023,Aug,"R - Arts , Entertainment and Recreation",,,19,,
+2023,Sep,"R - Arts , Entertainment and Recreation",,,30,,
+2023,Oct,"R - Arts , Entertainment and Recreation",,,39,,
+2023,Nov,"R - Arts , Entertainment and Recreation",,,24,,
+2023,Dec,"R - Arts , Entertainment and Recreation",,,14,,
+2023,Jan,S - Other Service activities,,,101,,
+2023,Feb,S - Other Service activities,,,107,,
+2023,Mar,S - Other Service activities,,,128,,
+2023,Apr,S - Other Service activities,,,114,,
+2023,May,S - Other Service activities,,,126,,
+2023,Jun,S - Other Service activities,,,140,,
+2023,Jul,S - Other Service activities,,,133,,
+2023,Aug,S - Other Service activities,,,152,,
+2023,Sep,S - Other Service activities,,,125,,
+2023,Oct,S - Other Service activities,,,112,,
+2023,Nov,S - Other Service activities,,,164,,
+2023,Dec,S - Other Service activities,,,109,,
+2023,Jun,T - Domestic- Activities of Households as Employer,,,1,,
+2024,Jan,"A - Agriculture, Forestry & Fishing",,,252,,
+2024,Feb,"A - Agriculture, Forestry & Fishing",,,591,,
+2024,Mar,"A - Agriculture, Forestry & Fishing",,,158,,
+2024,Apr,"A - Agriculture, Forestry & Fishing",,,205,,
+2024,May,"A - Agriculture, Forestry & Fishing",,,372,,
+2024,Jun,"A - Agriculture, Forestry & Fishing",,,281,,
+2024,Jul,"A - Agriculture, Forestry & Fishing",,,402,,
+2024,Aug,"A - Agriculture, Forestry & Fishing",,,272,,
+2024,Sep,"A - Agriculture, Forestry & Fishing",,,412,,
+2024,Oct,"A - Agriculture, Forestry & Fishing",,,346,,
+2024,Nov,"A - Agriculture, Forestry & Fishing",,,141,,
+2024,Dec,"A - Agriculture, Forestry & Fishing",,,193,,
+2024,Jan,B - Mining & Quarrying,,,2,,
+2024,Feb,B - Mining & Quarrying,,,2,,
+2024,Mar,B - Mining & Quarrying,,,4,,
+2024,Apr,B - Mining & Quarrying,,,4,,
+2024,May,B - Mining & Quarrying,,,3,,
+2024,Jun,B - Mining & Quarrying,,,4,,
+2024,Jul,B - Mining & Quarrying,,,1,,
+2024,Aug,B - Mining & Quarrying,,,4,,
+2024,Sep,B - Mining & Quarrying,,,3,,
+2024,Oct,B - Mining & Quarrying,,,1,,
+2024,Nov,B - Mining & Quarrying,,,6,,
+2024,Dec,B - Mining & Quarrying,,,3,,
+2024,Jan,C - All Other Manufacturing,,,58,,
+2024,Feb,C - All Other Manufacturing,,,107,,
+2024,Mar,C - All Other Manufacturing,,,49,,
+2024,Apr,C - All Other Manufacturing,,,96,,
+2024,May,C - All Other Manufacturing,,,91,,
+2024,Jun,C - All Other Manufacturing,,,75,,
+2024,Jul,C - All Other Manufacturing,,,117,,
+2024,Aug,C - All Other Manufacturing,,,76,,
+2024,Sep,C - All Other Manufacturing,,,83,,
+2024,Oct,C - All Other Manufacturing,,,66,,
+2024,Nov,C - All Other Manufacturing,,,71,,
+2024,Dec,C - All Other Manufacturing,,,92,,
+2024,Jan,C - Manufacture of Chemicals & Pharmaceuticals,,,69,,
+2024,Feb,C - Manufacture of Chemicals & Pharmaceuticals,,,56,,
+2024,Mar,C - Manufacture of Chemicals & Pharmaceuticals,,,60,,
+2024,Apr,C - Manufacture of Chemicals & Pharmaceuticals,,,66,,
+2024,May,C - Manufacture of Chemicals & Pharmaceuticals,,,56,,
+2024,Jun,C - Manufacture of Chemicals & Pharmaceuticals,,,56,,
+2024,Jul,C - Manufacture of Chemicals & Pharmaceuticals,,,105,,
+2024,Aug,C - Manufacture of Chemicals & Pharmaceuticals,,,81,,
+2024,Sep,C - Manufacture of Chemicals & Pharmaceuticals,,,44,,
+2024,Oct,C - Manufacture of Chemicals & Pharmaceuticals,,,65,,
+2024,Nov,C - Manufacture of Chemicals & Pharmaceuticals,,,81,,
+2024,Dec,C - Manufacture of Chemicals & Pharmaceuticals,,,90,,
+2024,Jan,"C - Manufacture of Computers, Electronics & Optica",,,47,,
+2024,Feb,"C - Manufacture of Computers, Electronics & Optica",,,50,,
+2024,Mar,"C - Manufacture of Computers, Electronics & Optica",,,24,,
+2024,Apr,"C - Manufacture of Computers, Electronics & Optica",,,78,,
+2024,May,"C - Manufacture of Computers, Electronics & Optica",,,31,,
+2024,Jun,"C - Manufacture of Computers, Electronics & Optica",,,41,,
+2024,Jul,"C - Manufacture of Computers, Electronics & Optica",,,80,,
+2024,Aug,"C - Manufacture of Computers, Electronics & Optica",,,30,,
+2024,Sep,"C - Manufacture of Computers, Electronics & Optica",,,38,,
+2024,Oct,"C - Manufacture of Computers, Electronics & Optica",,,47,,
+2024,Nov,"C - Manufacture of Computers, Electronics & Optica",,,59,,
+2024,Dec,"C - Manufacture of Computers, Electronics & Optica",,,45,,
+2024,Jan,"C - Manufacture of Food, Drink & Tobacco",,,41,,
+2024,Feb,"C - Manufacture of Food, Drink & Tobacco",,,47,,
+2024,Mar,"C - Manufacture of Food, Drink & Tobacco",,,27,,
+2024,Apr,"C - Manufacture of Food, Drink & Tobacco",,,44,,
+2024,May,"C - Manufacture of Food, Drink & Tobacco",,,16,,
+2024,Jun,"C - Manufacture of Food, Drink & Tobacco",,,23,,
+2024,Jul,"C - Manufacture of Food, Drink & Tobacco",,,38,,
+2024,Aug,"C - Manufacture of Food, Drink & Tobacco",,,28,,
+2024,Sep,"C - Manufacture of Food, Drink & Tobacco",,,24,,
+2024,Oct,"C - Manufacture of Food, Drink & Tobacco",,,21,,
+2024,Nov,"C - Manufacture of Food, Drink & Tobacco",,,31,,
+2024,Dec,"C - Manufacture of Food, Drink & Tobacco",,,13,,
+2024,Jan,C - Manufacture of Medical Devices,,,36,,
+2024,Feb,C - Manufacture of Medical Devices,,,23,,
+2024,Mar,C - Manufacture of Medical Devices,,,11,,
+2024,Apr,C - Manufacture of Medical Devices,,,62,,
+2024,May,C - Manufacture of Medical Devices,,,14,,
+2024,Jun,C - Manufacture of Medical Devices,,,19,,
+2024,Jul,C - Manufacture of Medical Devices,,,40,,
+2024,Aug,C - Manufacture of Medical Devices,,,13,,
+2024,Sep,C - Manufacture of Medical Devices,,,11,,
+2024,Oct,C - Manufacture of Medical Devices,,,13,,
+2024,Nov,C - Manufacture of Medical Devices,,,31,,
+2024,Dec,C - Manufacture of Medical Devices,,,16,,
+2024,Jan,D - Electricity & Gas & Air Conditioning Supply,,,41,,
+2024,Feb,D - Electricity & Gas & Air Conditioning Supply,,,34,,
+2024,Mar,D - Electricity & Gas & Air Conditioning Supply,,,35,,
+2024,Apr,D - Electricity & Gas & Air Conditioning Supply,,,53,,
+2024,May,D - Electricity & Gas & Air Conditioning Supply,,,27,,
+2024,Jun,D - Electricity & Gas & Air Conditioning Supply,,,43,,
+2024,Jul,D - Electricity & Gas & Air Conditioning Supply,,,33,,
+2024,Aug,D - Electricity & Gas & Air Conditioning Supply,,,53,,
+2024,Sep,D - Electricity & Gas & Air Conditioning Supply,,,41,,
+2024,Oct,D - Electricity & Gas & Air Conditioning Supply,,,47,,
+2024,Nov,D - Electricity & Gas & Air Conditioning Supply,,,30,,
+2024,Dec,D - Electricity & Gas & Air Conditioning Supply,,,26,,
+2024,Jan,E - Water Supply - Sewerage Waste Management & Rem,,,10,,
+2024,Feb,E - Water Supply - Sewerage Waste Management & Rem,,,13,,
+2024,Mar,E - Water Supply - Sewerage Waste Management & Rem,,,9,,
+2024,Apr,E - Water Supply - Sewerage Waste Management & Rem,,,1,,
+2024,May,E - Water Supply - Sewerage Waste Management & Rem,,,3,,
+2024,Jun,E - Water Supply - Sewerage Waste Management & Rem,,,4,,
+2024,Jul,E - Water Supply - Sewerage Waste Management & Rem,,,13,,
+2024,Aug,E - Water Supply - Sewerage Waste Management & Rem,,,10,,
+2024,Sep,E - Water Supply - Sewerage Waste Management & Rem,,,8,,
+2024,Oct,E - Water Supply - Sewerage Waste Management & Rem,,,4,,
+2024,Nov,E - Water Supply - Sewerage Waste Management & Rem,,,3,,
+2024,Dec,E - Water Supply - Sewerage Waste Management & Rem,,,7,,
+2024,Jul,E - Water Supply Waste Management & Remedial Activ,,,1,,
+2024,Jan,F - Construction,,,96,,
+2024,Feb,F - Construction,,,87,,
+2024,Mar,F - Construction,,,79,,
+2024,Apr,F - Construction,,,133,,
+2024,May,F - Construction,,,148,,
+2024,Jun,F - Construction,,,120,,
+2024,Jul,F - Construction,,,173,,
+2024,Aug,F - Construction,,,138,,
+2024,Sep,F - Construction,,,128,,
+2024,Oct,F - Construction,,,123,,
+2024,Nov,F - Construction,,,140,,
+2024,Dec,F - Construction,,,158,,
+2024,Jan,G - Wholesale & Retail Trade,,,33,,
+2024,Feb,G - Wholesale & Retail Trade,,,43,,
+2024,Mar,G - Wholesale & Retail Trade,,,19,,
+2024,Apr,G - Wholesale & Retail Trade,,,21,,
+2024,May,G - Wholesale & Retail Trade,,,41,,
+2024,Jun,G - Wholesale & Retail Trade,,,58,,
+2024,Jul,G - Wholesale & Retail Trade,,,40,,
+2024,Aug,G - Wholesale & Retail Trade,,,46,,
+2024,Sep,G - Wholesale & Retail Trade,,,29,,
+2024,Oct,G - Wholesale & Retail Trade,,,36,,
+2024,Nov,G - Wholesale & Retail Trade,,,37,,
+2024,Dec,G - Wholesale & Retail Trade,,,38,,
+2024,Jan,H - Transport & Storage,,,78,,
+2024,Feb,H - Transport & Storage,,,68,,
+2024,Mar,H - Transport & Storage,,,38,,
+2024,Apr,H - Transport & Storage,,,108,,
+2024,May,H - Transport & Storage,,,133,,
+2024,Jun,H - Transport & Storage,,,109,,
+2024,Jul,H - Transport & Storage,,,143,,
+2024,Aug,H - Transport & Storage,,,174,,
+2024,Sep,H - Transport & Storage,,,77,,
+2024,Oct,H - Transport & Storage,,,129,,
+2024,Nov,H - Transport & Storage,,,137,,
+2024,Dec,H - Transport & Storage,,,88,,
+2024,Jan,I - Accommodation & Food Services activities,,,226,,
+2024,Feb,I - Accommodation & Food Services activities,,,279,,
+2024,Mar,I - Accommodation & Food Services activities,,,131,,
+2024,Apr,I - Accommodation & Food Services activities,,,291,,
+2024,May,I - Accommodation & Food Services activities,,,343,,
+2024,Jun,I - Accommodation & Food Services activities,,,188,,
+2024,Jul,I - Accommodation & Food Services activities,,,395,,
+2024,Aug,I - Accommodation & Food Services activities,,,385,,
+2024,Sep,I - Accommodation & Food Services activities,,,254,,
+2024,Oct,I - Accommodation & Food Services activities,,,292,,
+2024,Nov,I - Accommodation & Food Services activities,,,297,,
+2024,Dec,I - Accommodation & Food Services activities,,,277,,
+2024,Jan,J - Information & Communication Activities,,,592,,
+2024,Feb,J - Information & Communication Activities,,,511,,
+2024,Mar,J - Information & Communication Activities,,,601,,
+2024,Apr,J - Information & Communication Activities,,,663,,
+2024,May,J - Information & Communication Activities,,,374,,
+2024,Jun,J - Information & Communication Activities,,,541,,
+2024,Jul,J - Information & Communication Activities,,,753,,
+2024,Aug,J - Information & Communication Activities,,,594,,
+2024,Sep,J - Information & Communication Activities,,,538,,
+2024,Oct,J - Information & Communication Activities,,,472,,
+2024,Nov,J - Information & Communication Activities,,,572,,
+2024,Dec,J - Information & Communication Activities,,,577,,
+2024,Jan,K - Financial & insurance Activities,,,162,,
+2024,Feb,K - Financial & insurance Activities,,,149,,
+2024,Mar,K - Financial & insurance Activities,,,235,,
+2024,Apr,K - Financial & insurance Activities,,,182,,
+2024,May,K - Financial & insurance Activities,,,140,,
+2024,Jun,K - Financial & insurance Activities,,,167,,
+2024,Jul,K - Financial & insurance Activities,,,245,,
+2024,Aug,K - Financial & insurance Activities,,,237,,
+2024,Sep,K - Financial & insurance Activities,,,227,,
+2024,Oct,K - Financial & insurance Activities,,,192,,
+2024,Nov,K - Financial & insurance Activities,,,211,,
+2024,Dec,K - Financial & insurance Activities,,,171,,
+2024,Jan,L - Real Estate Activities,,,4,,
+2024,Feb,L - Real Estate Activities,,,2,,
+2024,Mar,L - Real Estate Activities,,,3,,
+2024,Apr,L - Real Estate Activities,,,2,,
+2024,May,L - Real Estate Activities,,,1,,
+2024,Jun,L - Real Estate Activities,,,2,,
+2024,Jul,L - Real Estate Activities,,,4,,
+2024,Aug,L - Real Estate Activities,,,1,,
+2024,Oct,L - Real Estate Activities,,,1,,
+2024,Nov,L - Real Estate Activities,,,4,,
+2024,Jan,"M - All other Professional, Scientific & Technical",,,73,,
+2024,Feb,"M - All other Professional, Scientific & Technical",,,76,,
+2024,Mar,"M - All other Professional, Scientific & Technical",,,94,,
+2024,Apr,"M - All other Professional, Scientific & Technical",,,75,,
+2024,May,"M - All other Professional, Scientific & Technical",,,60,,
+2024,Jun,"M - All other Professional, Scientific & Technical",,,46,,
+2024,Jul,"M - All other Professional, Scientific & Technical",,,74,,
+2024,Aug,"M - All other Professional, Scientific & Technical",,,65,,
+2024,Sep,"M - All other Professional, Scientific & Technical",,,43,,
+2024,Oct,"M - All other Professional, Scientific & Technical",,,51,,
+2024,Nov,"M - All other Professional, Scientific & Technical",,,73,,
+2024,Dec,"M - All other Professional, Scientific & Technical",,,76,,
+2024,Jan,"M - Professional, Scientific&Technical Activities",,,13,,
+2024,Feb,"M - Professional, Scientific&Technical Activities",,,17,,
+2024,Mar,"M - Professional, Scientific&Technical Activities",,,17,,
+2024,Apr,"M - Professional, Scientific&Technical Activities",,,16,,
+2024,May,"M - Professional, Scientific&Technical Activities",,,12,,
+2024,Jun,"M - Professional, Scientific&Technical Activities",,,16,,
+2024,Jul,"M - Professional, Scientific&Technical Activities",,,31,,
+2024,Aug,"M - Professional, Scientific&Technical Activities",,,21,,
+2024,Sep,"M - Professional, Scientific&Technical Activities",,,35,,
+2024,Oct,"M - Professional, Scientific&Technical Activities",,,22,,
+2024,Nov,"M - Professional, Scientific&Technical Activities",,,33,,
+2024,Dec,"M - Professional, Scientific&Technical Activities",,,53,,
+2024,Jan,N - Administrative & Support Service Activities,,,5,,
+2024,Feb,N - Administrative & Support Service Activities,,,10,,
+2024,Mar,N - Administrative & Support Service Activities,,,6,,
+2024,Apr,N - Administrative & Support Service Activities,,,8,,
+2024,May,N - Administrative & Support Service Activities,,,10,,
+2024,Jun,N - Administrative & Support Service Activities,,,7,,
+2024,Jul,N - Administrative & Support Service Activities,,,7,,
+2024,Aug,N - Administrative & Support Service Activities,,,10,,
+2024,Sep,N - Administrative & Support Service Activities,,,4,,
+2024,Oct,N - Administrative & Support Service Activities,,,9,,
+2024,Nov,N - Administrative & Support Service Activities,,,6,,
+2024,Dec,N - Administrative & Support Service Activities,,,7,,
+2024,Jan,O - Public Administration & Defence,,,1,,
+2024,Feb,O - Public Administration & Defence,,,2,,
+2024,Mar,O - Public Administration & Defence,,,3,,
+2024,Apr,O - Public Administration & Defence,,,5,,
+2024,Aug,O - Public Administration & Defence,,,2,,
+2024,Sep,O - Public Administration & Defence,,,2,,
+2024,Oct,O - Public Administration & Defence,,,4,,
+2024,Nov,O - Public Administration & Defence,,,4,,
+2024,Jan,P - Education,,,22,,
+2024,Feb,P - Education,,,38,,
+2024,Mar,P - Education,,,17,,
+2024,Apr,P - Education,,,30,,
+2024,May,P - Education,,,20,,
+2024,Jun,P - Education,,,22,,
+2024,Jul,P - Education,,,26,,
+2024,Aug,P - Education,,,43,,
+2024,Sep,P - Education,,,32,,
+2024,Oct,P - Education,,,35,,
+2024,Nov,P - Education,,,37,,
+2024,Dec,P - Education,,,35,,
+2024,Jan,Q - Health & Social Work Activities,,,1431,,
+2024,Feb,Q - Health & Social Work Activities,,,1089,,
+2024,Mar,Q - Health & Social Work Activities,,,1211,,
+2024,Apr,Q - Health & Social Work Activities,,,1145,,
+2024,May,Q - Health & Social Work Activities,,,872,,
+2024,Jun,Q - Health & Social Work Activities,,,1056,,
+2024,Jul,Q - Health & Social Work Activities,,,1476,,
+2024,Aug,Q - Health & Social Work Activities,,,843,,
+2024,Sep,Q - Health & Social Work Activities,,,777,,
+2024,Oct,Q - Health & Social Work Activities,,,751,,
+2024,Nov,Q - Health & Social Work Activities,,,1042,,
+2024,Dec,Q - Health & Social Work Activities,,,808,,
+2024,Jan,"R - Arts , Entertainment and Recreation",,,18,,
+2024,Feb,"R - Arts , Entertainment and Recreation",,,44,,
+2024,Mar,"R - Arts , Entertainment and Recreation",,,39,,
+2024,Apr,"R - Arts , Entertainment and Recreation",,,79,,
+2024,May,"R - Arts , Entertainment and Recreation",,,51,,
+2024,Jun,"R - Arts , Entertainment and Recreation",,,37,,
+2024,Jul,"R - Arts , Entertainment and Recreation",,,85,,
+2024,Aug,"R - Arts , Entertainment and Recreation",,,33,,
+2024,Sep,"R - Arts , Entertainment and Recreation",,,60,,
+2024,Oct,"R - Arts , Entertainment and Recreation",,,39,,
+2024,Nov,"R - Arts , Entertainment and Recreation",,,62,,
+2024,Dec,"R - Arts , Entertainment and Recreation",,,39,,
+2024,Jan,S - Other Service activities,,,113,,
+2024,Feb,S - Other Service activities,,,115,,
+2024,Mar,S - Other Service activities,,,87,,
+2024,Apr,S - Other Service activities,,,140,,
+2024,May,S - Other Service activities,,,117,,
+2024,Jun,S - Other Service activities,,,104,,
+2024,Jul,S - Other Service activities,,,237,,
+2024,Aug,S - Other Service activities,,,204,,
+2024,Sep,S - Other Service activities,,,119,,
+2024,Oct,S - Other Service activities,,,180,,
+2024,Nov,S - Other Service activities,,,178,,
+2024,Dec,S - Other Service activities,,,178,,
+2024,Mar,T - Domestic- Activities of Households as Employer,,,2,,
+2024,Apr,T - Domestic- Activities of Households as Employer,,,1,,
+2025,Aug,No Sector Entered,,,20,,
+2025,Sep,No Sector Entered,,,24,,
+2025,Oct,No Sector Entered,,,51,,
+2025,Nov,No Sector Entered,,,39,,
+2025,Dec,No Sector Entered,,,52,,
+2025,Jan,"A - Agriculture, Forestry & Fishing",,,203,,
+2025,Feb,"A - Agriculture, Forestry & Fishing",,,267,,
+2025,Mar,"A - Agriculture, Forestry & Fishing",,,251,,
+2025,Apr,"A - Agriculture, Forestry & Fishing",,,149,,
+2025,May,"A - Agriculture, Forestry & Fishing",,,125,,
+2025,Jun,"A - Agriculture, Forestry & Fishing",,,69,,
+2025,Jul,"A - Agriculture, Forestry & Fishing",,,123,,
+2025,Aug,"A - Agriculture, Forestry & Fishing",,,153,,
+2025,Sep,"A - Agriculture, Forestry & Fishing",,,133,,
+2025,Oct,"A - Agriculture, Forestry & Fishing",,,181,,
+2025,Nov,"A - Agriculture, Forestry & Fishing",,,138,,
+2025,Dec,"A - Agriculture, Forestry & Fishing",,,123,,
+2025,Jan,B - Mining & Quarrying,,,9,,
+2025,Feb,B - Mining & Quarrying,,,6,,
+2025,Apr,B - Mining & Quarrying,,,3,,
+2025,May,B - Mining & Quarrying,,,5,,
+2025,Jun,B - Mining & Quarrying,,,3,,
+2025,Jul,B - Mining & Quarrying,,,8,,
+2025,Aug,B - Mining & Quarrying,,,9,,
+2025,Sep,B - Mining & Quarrying,,,20,,
+2025,Oct,B - Mining & Quarrying,,,28,,
+2025,Nov,B - Mining & Quarrying,,,3,,
+2025,Dec,B - Mining & Quarrying,,,4,,
+2025,Jan,C - All Other Manufacturing,,,185,,
+2025,Feb,C - All Other Manufacturing,,,137,,
+2025,Mar,C - All Other Manufacturing,,,104,,
+2025,Apr,C - All Other Manufacturing,,,56,,
+2025,May,C - All Other Manufacturing,,,79,,
+2025,Jun,C - All Other Manufacturing,,,51,,
+2025,Jul,C - All Other Manufacturing,,,74,,
+2025,Aug,C - All Other Manufacturing,,,106,,
+2025,Sep,C - All Other Manufacturing,,,121,,
+2025,Oct,C - All Other Manufacturing,,,140,,
+2025,Nov,C - All Other Manufacturing,,,123,,
+2025,Dec,C - All Other Manufacturing,,,116,,
+2025,Jan,C - Manufacture of Chemicals & Pharmaceuticals,,,58,,
+2025,Feb,C - Manufacture of Chemicals & Pharmaceuticals,,,65,,
+2025,Mar,C - Manufacture of Chemicals & Pharmaceuticals,,,45,,
+2025,Apr,C - Manufacture of Chemicals & Pharmaceuticals,,,49,,
+2025,May,C - Manufacture of Chemicals & Pharmaceuticals,,,33,,
+2025,Jun,C - Manufacture of Chemicals & Pharmaceuticals,,,19,,
+2025,Jul,C - Manufacture of Chemicals & Pharmaceuticals,,,34,,
+2025,Aug,C - Manufacture of Chemicals & Pharmaceuticals,,,57,,
+2025,Sep,C - Manufacture of Chemicals & Pharmaceuticals,,,74,,
+2025,Oct,C - Manufacture of Chemicals & Pharmaceuticals,,,62,,
+2025,Nov,C - Manufacture of Chemicals & Pharmaceuticals,,,52,,
+2025,Dec,C - Manufacture of Chemicals & Pharmaceuticals,,,52,,
+2025,Jan,"C - Manufacture of Computers, Electronics & Optical Equipment",,,32,,
+2025,Feb,"C - Manufacture of Computers, Electronics & Optical Equipment",,,70,,
+2025,Mar,"C - Manufacture of Computers, Electronics & Optical Equipment",,,48,,
+2025,Apr,"C - Manufacture of Computers, Electronics & Optical Equipment",,,18,,
+2025,May,"C - Manufacture of Computers, Electronics & Optical Equipment",,,23,,
+2025,Jun,"C - Manufacture of Computers, Electronics & Optical Equipment",,,35,,
+2025,Jul,"C - Manufacture of Computers, Electronics & Optical Equipment",,,31,,
+2025,Aug,"C - Manufacture of Computers, Electronics & Optical Equipment",,,29,,
+2025,Sep,"C - Manufacture of Computers, Electronics & Optical Equipment",,,30,,
+2025,Oct,"C - Manufacture of Computers, Electronics & Optical Equipment",,,37,,
+2025,Nov,"C - Manufacture of Computers, Electronics & Optical Equipment",,,46,,
+2025,Dec,"C - Manufacture of Computers, Electronics & Optical Equipment",,,32,,
+2025,Jan,"C - Manufacture of Food, Drink & Tobacco",,,37,,
+2025,Feb,"C - Manufacture of Food, Drink & Tobacco",,,32,,
+2025,Mar,"C - Manufacture of Food, Drink & Tobacco",,,61,,
+2025,Apr,"C - Manufacture of Food, Drink & Tobacco",,,34,,
+2025,May,"C - Manufacture of Food, Drink & Tobacco",,,42,,
+2025,Jun,"C - Manufacture of Food, Drink & Tobacco",,,23,,
+2025,Jul,"C - Manufacture of Food, Drink & Tobacco",,,19,,
+2025,Aug,"C - Manufacture of Food, Drink & Tobacco",,,71,,
+2025,Sep,"C - Manufacture of Food, Drink & Tobacco",,,70,,
+2025,Oct,"C - Manufacture of Food, Drink & Tobacco",,,52,,
+2025,Nov,"C - Manufacture of Food, Drink & Tobacco",,,29,,
+2025,Dec,"C - Manufacture of Food, Drink & Tobacco",,,26,,
+2025,Jan,C - Manufacture of Medical Devices,,,35,,
+2025,Feb,C - Manufacture of Medical Devices,,,31,,
+2025,Mar,C - Manufacture of Medical Devices,,,26,,
+2025,Apr,C - Manufacture of Medical Devices,,,12,,
+2025,May,C - Manufacture of Medical Devices,,,9,,
+2025,Jun,C - Manufacture of Medical Devices,,,6,,
+2025,Jul,C - Manufacture of Medical Devices,,,18,,
+2025,Aug,C - Manufacture of Medical Devices,,,20,,
+2025,Sep,C - Manufacture of Medical Devices,,,36,,
+2025,Oct,C - Manufacture of Medical Devices,,,28,,
+2025,Nov,C - Manufacture of Medical Devices,,,28,,
+2025,Dec,C - Manufacture of Medical Devices,,,37,,
+2025,Jan,D - Electricity & Gas & Air Conditioning Supply,,,55,,
+2025,Feb,D - Electricity & Gas & Air Conditioning Supply,,,29,,
+2025,Mar,D - Electricity & Gas & Air Conditioning Supply,,,49,,
+2025,Apr,D - Electricity & Gas & Air Conditioning Supply,,,17,,
+2025,May,D - Electricity & Gas & Air Conditioning Supply,,,29,,
+2025,Jun,D - Electricity & Gas & Air Conditioning Supply,,,19,,
+2025,Jul,D - Electricity & Gas & Air Conditioning Supply,,,24,,
+2025,Aug,D - Electricity & Gas & Air Conditioning Supply,,,32,,
+2025,Sep,D - Electricity & Gas & Air Conditioning Supply,,,25,,
+2025,Oct,D - Electricity & Gas & Air Conditioning Supply,,,25,,
+2025,Nov,D - Electricity & Gas & Air Conditioning Supply,,,20,,
+2025,Dec,D - Electricity & Gas & Air Conditioning Supply,,,18,,
+2025,Jan,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,2,,
+2025,Feb,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,2,,
+2025,Mar,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,3,,
+2025,Apr,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,7,,
+2025,May,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,3,,
+2025,Jun,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,1,,
+2025,Jul,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,5,,
+2025,Aug,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,13,,
+2025,Sep,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,16,,
+2025,Oct,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,20,,
+2025,Nov,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,3,,
+2025,Dec,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,11,,
+2025,Jan,F - Construction,,,259,,
+2025,Feb,F - Construction,,,157,,
+2025,Mar,F - Construction,,,235,,
+2025,Apr,F - Construction,,,88,,
+2025,May,F - Construction,,,101,,
+2025,Jun,F - Construction,,,66,,
+2025,Jul,F - Construction,,,137,,
+2025,Aug,F - Construction,,,202,,
+2025,Sep,F - Construction,,,211,,
+2025,Oct,F - Construction,,,236,,
+2025,Nov,F - Construction,,,185,,
+2025,Dec,F - Construction,,,154,,
+2025,Jan,G - Wholesale & Retail Trade,,,68,,
+2025,Feb,G - Wholesale & Retail Trade,,,45,,
+2025,Mar,G - Wholesale & Retail Trade,,,62,,
+2025,Apr,G - Wholesale & Retail Trade,,,35,,
+2025,May,G - Wholesale & Retail Trade,,,36,,
+2025,Jun,G - Wholesale & Retail Trade,,,23,,
+2025,Jul,G - Wholesale & Retail Trade,,,40,,
+2025,Aug,G - Wholesale & Retail Trade,,,51,,
+2025,Sep,G - Wholesale & Retail Trade,,,67,,
+2025,Oct,G - Wholesale & Retail Trade,,,56,,
+2025,Nov,G - Wholesale & Retail Trade,,,77,,
+2025,Dec,G - Wholesale & Retail Trade,,,62,,
+2025,Jan,H - Transport & Storage,,,131,,
+2025,Feb,H - Transport & Storage,,,109,,
+2025,Mar,H - Transport & Storage,,,83,,
+2025,Apr,H - Transport & Storage,,,45,,
+2025,May,H - Transport & Storage,,,172,,
+2025,Jun,H - Transport & Storage,,,90,,
+2025,Jul,H - Transport & Storage,,,148,,
+2025,Aug,H - Transport & Storage,,,136,,
+2025,Sep,H - Transport & Storage,,,91,,
+2025,Oct,H - Transport & Storage,,,155,,
+2025,Nov,H - Transport & Storage,,,118,,
+2025,Dec,H - Transport & Storage,,,85,,
+2025,Jan,I - Accommodation & Food Services Activities,,,557,,
+2025,Feb,I - Accommodation & Food Services Activities,,,389,,
+2025,Mar,I - Accommodation & Food Services Activities,,,463,,
+2025,Apr,I - Accommodation & Food Services Activities,,,168,,
+2025,May,I - Accommodation & Food Services Activities,,,223,,
+2025,Jun,I - Accommodation & Food Services Activities,,,127,,
+2025,Jul,I - Accommodation & Food Services Activities,,,177,,
+2025,Aug,I - Accommodation & Food Services Activities,,,240,,
+2025,Sep,I - Accommodation & Food Services Activities,,,242,,
+2025,Oct,I - Accommodation & Food Services Activities,,,291,,
+2025,Nov,I - Accommodation & Food Services Activities,,,334,,
+2025,Dec,I - Accommodation & Food Services Activities,,,288,,
+2025,Jan,J - Information & Communication Activities,,,451,,
+2025,Feb,J - Information & Communication Activities,,,343,,
+2025,Mar,J - Information & Communication Activities,,,361,,
+2025,Apr,J - Information & Communication Activities,,,224,,
+2025,May,J - Information & Communication Activities,,,215,,
+2025,Jun,J - Information & Communication Activities,,,191,,
+2025,Jul,J - Information & Communication Activities,,,232,,
+2025,Aug,J - Information & Communication Activities,,,318,,
+2025,Sep,J - Information & Communication Activities,,,268,,
+2025,Oct,J - Information & Communication Activities,,,374,,
+2025,Nov,J - Information & Communication Activities,,,383,,
+2025,Dec,J - Information & Communication Activities,,,270,,
+2025,Jan,K - Financial & Insurance Activities,,,153,,
+2025,Feb,K - Financial & Insurance Activities,,,121,,
+2025,Mar,K - Financial & Insurance Activities,,,119,,
+2025,Apr,K - Financial & Insurance Activities,,,73,,
+2025,May,K - Financial & Insurance Activities,,,64,,
+2025,Jun,K - Financial & Insurance Activities,,,57,,
+2025,Jul,K - Financial & Insurance Activities,,,88,,
+2025,Aug,K - Financial & Insurance Activities,,,132,,
+2025,Sep,K - Financial & Insurance Activities,,,139,,
+2025,Oct,K - Financial & Insurance Activities,,,183,,
+2025,Nov,K - Financial & Insurance Activities,,,192,,
+2025,Dec,K - Financial & Insurance Activities,,,103,,
+2025,Jan,L - Real Estate Activities,,,2,,
+2025,Feb,L - Real Estate Activities,,,9,,
+2025,Mar,L - Real Estate Activities,,,1,,
+2025,Apr,L - Real Estate Activities,,,2,,
+2025,May,L - Real Estate Activities,,,1,,
+2025,Jun,L - Real Estate Activities,,,2,,
+2025,Jul,L - Real Estate Activities,,,3,,
+2025,Aug,L - Real Estate Activities,,,3,,
+2025,Sep,L - Real Estate Activities,,,5,,
+2025,Oct,L - Real Estate Activities,,,6,,
+2025,Nov,L - Real Estate Activities,,,4,,
+2025,Dec,L - Real Estate Activities,,,2,,
+2025,Jan,"M - All other Professional, Scientific & Technical Activities",,,88,,
+2025,Feb,"M - All other Professional, Scientific & Technical Activities",,,45,,
+2025,Mar,"M - All other Professional, Scientific & Technical Activities",,,76,,
+2025,Apr,"M - All other Professional, Scientific & Technical Activities",,,40,,
+2025,May,"M - All other Professional, Scientific & Technical Activities",,,45,,
+2025,Jun,"M - All other Professional, Scientific & Technical Activities",,,38,,
+2025,Jul,"M - All other Professional, Scientific & Technical Activities",,,47,,
+2025,Aug,"M - All other Professional, Scientific & Technical Activities",,,63,,
+2025,Sep,"M - All other Professional, Scientific & Technical Activities",,,63,,
+2025,Oct,"M - All other Professional, Scientific & Technical Activities",,,71,,
+2025,Nov,"M - All other Professional, Scientific & Technical Activities",,,69,,
+2025,Dec,"M - All other Professional, Scientific & Technical Activities",,,45,,
+2025,Jan,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,63,,
+2025,Feb,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,68,,
+2025,Mar,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,61,,
+2025,Apr,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,44,,
+2025,May,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,38,,
+2025,Jun,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,71,,
+2025,Jul,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,60,,
+2025,Aug,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,69,,
+2025,Sep,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,75,,
+2025,Oct,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,94,,
+2025,Nov,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,74,,
+2025,Dec,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,48,,
+2025,Jan,N - Administrative & Support Service Activities,,,12,,
+2025,Feb,N - Administrative & Support Service Activities,,,10,,
+2025,Mar,N - Administrative & Support Service Activities,,,11,,
+2025,Apr,N - Administrative & Support Service Activities,,,6,,
+2025,May,N - Administrative & Support Service Activities,,,4,,
+2025,Jun,N - Administrative & Support Service Activities,,,3,,
+2025,Jul,N - Administrative & Support Service Activities,,,9,,
+2025,Aug,N - Administrative & Support Service Activities,,,7,,
+2025,Sep,N - Administrative & Support Service Activities,,,9,,
+2025,Oct,N - Administrative & Support Service Activities,,,7,,
+2025,Nov,N - Administrative & Support Service Activities,,,11,,
+2025,Dec,N - Administrative & Support Service Activities,,,5,,
+2025,Jan,O - Public Administration & Defence,,,9,,
+2025,Feb,O - Public Administration & Defence,,,3,,
+2025,Mar,O - Public Administration & Defence,,,5,,
+2025,Apr,O - Public Administration & Defence,,,4,,
+2025,May,O - Public Administration & Defence,,,3,,
+2025,Jun,O - Public Administration & Defence,,,1,,
+2025,Jul,O - Public Administration & Defence,,,1,,
+2025,Aug,O - Public Administration & Defence,,,5,,
+2025,Sep,O - Public Administration & Defence,,,7,,
+2025,Oct,O - Public Administration & Defence,,,7,,
+2025,Nov,O - Public Administration & Defence,,,4,,
+2025,Dec,O - Public Administration & Defence,,,5,,
+2025,Jan,P - Education,,,50,,
+2025,Feb,P - Education,,,31,,
+2025,Mar,P - Education,,,42,,
+2025,Apr,P - Education,,,19,,
+2025,May,P - Education,,,28,,
+2025,Jun,P - Education,,,13,,
+2025,Jul,P - Education,,,51,,
+2025,Aug,P - Education,,,34,,
+2025,Sep,P - Education,,,43,,
+2025,Oct,P - Education,,,60,,
+2025,Nov,P - Education,,,49,,
+2025,Dec,P - Education,,,44,,
+2025,Jan,Q - Health & Social Work Activities,,,1040,,
+2025,Feb,Q - Health & Social Work Activities,,,781,,
+2025,Mar,Q - Health & Social Work Activities,,,801,,
+2025,Apr,Q - Health & Social Work Activities,,,415,,
+2025,May,Q - Health & Social Work Activities,,,372,,
+2025,Jun,Q - Health & Social Work Activities,,,650,,
+2025,Jul,Q - Health & Social Work Activities,,,649,,
+2025,Aug,Q - Health & Social Work Activities,,,651,,
+2025,Sep,Q - Health & Social Work Activities,,,622,,
+2025,Oct,Q - Health & Social Work Activities,,,622,,
+2025,Nov,Q - Health & Social Work Activities,,,665,,
+2025,Dec,Q - Health & Social Work Activities,,,680,,
+2025,Jan,"R - Arts, Entertainment and Recreation",,,40,,
+2025,Feb,"R - Arts, Entertainment and Recreation",,,49,,
+2025,Mar,"R - Arts, Entertainment and Recreation",,,74,,
+2025,Apr,"R - Arts, Entertainment and Recreation",,,36,,
+2025,May,"R - Arts, Entertainment and Recreation",,,30,,
+2025,Jun,"R - Arts, Entertainment and Recreation",,,37,,
+2025,Jul,"R - Arts, Entertainment and Recreation",,,52,,
+2025,Aug,"R - Arts, Entertainment and Recreation",,,83,,
+2025,Sep,"R - Arts, Entertainment and Recreation",,,73,,
+2025,Oct,"R - Arts, Entertainment and Recreation",,,69,,
+2025,Nov,"R - Arts, Entertainment and Recreation",,,25,,
+2025,Dec,"R - Arts, Entertainment and Recreation",,,25,,
+2025,Jan,S - Other Service Activities,,,259,,
+2025,Feb,S - Other Service Activities,,,195,,
+2025,Mar,S - Other Service Activities,,,210,,
+2025,Apr,S - Other Service Activities,,,124,,
+2025,May,S - Other Service Activities,,,139,,
+2025,Jun,S - Other Service Activities,,,89,,
+2025,Jul,S - Other Service Activities,,,150,,
+2025,Aug,S - Other Service Activities,,,156,,
+2025,Sep,S - Other Service Activities,,,161,,
+2025,Oct,S - Other Service Activities,,,235,,
+2025,Nov,S - Other Service Activities,,,217,,
+2025,Dec,S - Other Service Activities,,,152,,
+2025,May,T - Domestic - Activities of Households as Employers,,,1,,
+2025,Aug,T - Domestic - Activities of Households as Employers,,,1,,
+2025,Sep,T - Domestic - Activities of Households as Employers,,,2,,
+2025,Oct,T - Domestic - Activities of Households as Employers,,,2,,
+2025,Nov,T - Domestic - Activities of Households as Employers,,,1,,
+2025,Dec,T - Domestic - Activities of Households as Employers,,,1,,
+2026,Jan,No Sector Entered,,,26,,
+2026,Feb,No Sector Entered,,,11,,
+2026,Mar,No Sector Entered,,,21,,
+2026,Apr,No Sector Entered,,,26,,
+2026,May,No Sector Entered,,,35,,
+2026,Jan,"A - Agriculture, Forestry & Fishing",,,170,,
+2026,Feb,"A - Agriculture, Forestry & Fishing",,,131,,
+2026,Mar,"A - Agriculture, Forestry & Fishing",,,133,,
+2026,Apr,"A - Agriculture, Forestry & Fishing",,,326,,
+2026,May,"A - Agriculture, Forestry & Fishing",,,340,,
+2026,Jan,B - Mining & Quarrying,,,8,,
+2026,Feb,B - Mining & Quarrying,,,23,,
+2026,Mar,B - Mining & Quarrying,,,15,,
+2026,Apr,B - Mining & Quarrying,,,9,,
+2026,May,B - Mining & Quarrying,,,20,,
+2026,Jan,C - All Other Manufacturing,,,175,,
+2026,Feb,C - All Other Manufacturing,,,148,,
+2026,Mar,C - All Other Manufacturing,,,151,,
+2026,Apr,C - All Other Manufacturing,,,146,,
+2026,May,C - All Other Manufacturing,,,109,,
+2026,Jan,C - Manufacture of Chemicals & Pharmaceuticals,,,59,,
+2026,Feb,C - Manufacture of Chemicals & Pharmaceuticals,,,37,,
+2026,Mar,C - Manufacture of Chemicals & Pharmaceuticals,,,41,,
+2026,Apr,C - Manufacture of Chemicals & Pharmaceuticals,,,37,,
+2026,May,C - Manufacture of Chemicals & Pharmaceuticals,,,50,,
+2026,Jan,"C - Manufacture of Computers, Electronics & Optical Equipment",,,42,,
+2026,Feb,"C - Manufacture of Computers, Electronics & Optical Equipment",,,31,,
+2026,Mar,"C - Manufacture of Computers, Electronics & Optical Equipment",,,39,,
+2026,Apr,"C - Manufacture of Computers, Electronics & Optical Equipment",,,31,,
+2026,May,"C - Manufacture of Computers, Electronics & Optical Equipment",,,37,,
+2026,Jan,"C - Manufacture of Food, Drink & Tobacco",,,34,,
+2026,Feb,"C - Manufacture of Food, Drink & Tobacco",,,47,,
+2026,Mar,"C - Manufacture of Food, Drink & Tobacco",,,29,,
+2026,Apr,"C - Manufacture of Food, Drink & Tobacco",,,69,,
+2026,May,"C - Manufacture of Food, Drink & Tobacco",,,160,,
+2026,Jan,C - Manufacture of Medical Devices,,,22,,
+2026,Feb,C - Manufacture of Medical Devices,,,31,,
+2026,Mar,C - Manufacture of Medical Devices,,,21,,
+2026,Apr,C - Manufacture of Medical Devices,,,18,,
+2026,May,C - Manufacture of Medical Devices,,,15,,
+2026,Jan,D - Electricity & Gas & Air Conditioning Supply,,,36,,
+2026,Feb,D - Electricity & Gas & Air Conditioning Supply,,,27,,
+2026,Mar,D - Electricity & Gas & Air Conditioning Supply,,,25,,
+2026,Apr,D - Electricity & Gas & Air Conditioning Supply,,,38,,
+2026,May,D - Electricity & Gas & Air Conditioning Supply,,,28,,
+2026,Jan,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,10,,
+2026,Feb,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,2,,
+2026,Mar,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,7,,
+2026,Apr,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,7,,
+2026,May,E - Water Supply - Sewerage Waste Management & Remedial Activities,,,9,,
+2026,Jan,F - Construction,,,188,,
+2026,Feb,F - Construction,,,162,,
+2026,Mar,F - Construction,,,197,,
+2026,Apr,F - Construction,,,215,,
+2026,May,F - Construction,,,226,,
+2026,Jan,G - Wholesale & Retail Trade,,,69,,
+2026,Feb,G - Wholesale & Retail Trade,,,51,,
+2026,Mar,G - Wholesale & Retail Trade,,,61,,
+2026,Apr,G - Wholesale & Retail Trade,,,44,,
+2026,May,G - Wholesale & Retail Trade,,,45,,
+2026,Jan,H - Transport & Storage,,,142,,
+2026,Feb,H - Transport & Storage,,,160,,
+2026,Mar,H - Transport & Storage,,,193,,
+2026,Apr,H - Transport & Storage,,,119,,
+2026,May,H - Transport & Storage,,,124,,
+2026,Jan,I - Accommodation & Food Services Activities,,,334,,
+2026,Feb,I - Accommodation & Food Services Activities,,,338,,
+2026,Mar,I - Accommodation & Food Services Activities,,,313,,
+2026,Apr,I - Accommodation & Food Services Activities,,,362,,
+2026,May,I - Accommodation & Food Services Activities,,,254,,
+2026,Jan,J - Information & Communication Activities,,,408,,
+2026,Feb,J - Information & Communication Activities,,,297,,
+2026,Mar,J - Information & Communication Activities,,,299,,
+2026,Apr,J - Information & Communication Activities,,,270,,
+2026,May,J - Information & Communication Activities,,,339,,
+2026,Jan,K - Financial & Insurance Activities,,,102,,
+2026,Feb,K - Financial & Insurance Activities,,,128,,
+2026,Mar,K - Financial & Insurance Activities,,,130,,
+2026,Apr,K - Financial & Insurance Activities,,,84,,
+2026,May,K - Financial & Insurance Activities,,,120,,
+2026,Jan,L - Real Estate Activities,,,9,,
+2026,Mar,L - Real Estate Activities,,,3,,
+2026,Apr,L - Real Estate Activities,,,2,,
+2026,May,L - Real Estate Activities,,,1,,
+2026,Jan,"M - All other Professional, Scientific & Technical Activities",,,63,,
+2026,Feb,"M - All other Professional, Scientific & Technical Activities",,,39,,
+2026,Mar,"M - All other Professional, Scientific & Technical Activities",,,55,,
+2026,Apr,"M - All other Professional, Scientific & Technical Activities",,,65,,
+2026,May,"M - All other Professional, Scientific & Technical Activities",,,77,,
+2026,Jan,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,77,,
+2026,Feb,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,55,,
+2026,Mar,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,52,,
+2026,Apr,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,65,,
+2026,May,"M - Professional, Scientific & Technical Activities of Head Offices, Management Consultancy Services",,,60,,
+2026,Jan,N - Administrative & Support Service Activities,,,13,,
+2026,Feb,N - Administrative & Support Service Activities,,,14,,
+2026,Mar,N - Administrative & Support Service Activities,,,13,,
+2026,Apr,N - Administrative & Support Service Activities,,,10,,
+2026,May,N - Administrative & Support Service Activities,,,7,,
+2026,Jan,O - Public Administration & Defence,,,5,,
+2026,Mar,O - Public Administration & Defence,,,2,,
+2026,Apr,O - Public Administration & Defence,,,3,,
+2026,May,O - Public Administration & Defence,,,2,,
+2026,Jan,P - Education,,,56,,
+2026,Feb,P - Education,,,39,,
+2026,Mar,P - Education,,,39,,
+2026,Apr,P - Education,,,51,,
+2026,May,P - Education,,,30,,
+2026,Jan,Q - Health & Social Work Activities,,,822,,
+2026,Feb,Q - Health & Social Work Activities,,,769,,
+2026,Mar,Q - Health & Social Work Activities,,,839,,
+2026,Apr,Q - Health & Social Work Activities,,,928,,
+2026,May,Q - Health & Social Work Activities,,,846,,
+2026,Jan,"R - Arts, Entertainment and Recreation",,,52,,
+2026,Feb,"R - Arts, Entertainment and Recreation",,,44,,
+2026,Mar,"R - Arts, Entertainment and Recreation",,,46,,
+2026,Apr,"R - Arts, Entertainment and Recreation",,,57,,
+2026,May,"R - Arts, Entertainment and Recreation",,,73,,
+2026,Jan,S - Other Service Activities,,,292,,
+2026,Feb,S - Other Service Activities,,,211,,
+2026,Mar,S - Other Service Activities,,,191,,
+2026,Apr,S - Other Service Activities,,,347,,
+2026,May,S - Other Service Activities,,,273,,
+2026,Feb,T - Domestic - Activities of Households as Employers,,,1,,
+2026,Apr,T - Domestic - Activities of Households as Employers,,,1,,
