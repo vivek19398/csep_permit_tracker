@@ -184,6 +184,21 @@ canvas{cursor:crosshair}
     <div class="card span4"><h2>Permits by employer industry <span class="hint">name-based + curated</span></h2><div class="chartbox"><canvas id="cEmpInd"></canvas></div></div>
     <div class="card span4"><h2>Employer concentration</h2><div class="chartbox"><canvas id="cEmpConc"></canvas></div></div>
     <div class="card span4"><h2>Distinct employers per year</h2><div class="chartbox"><canvas id="cEmpCount"></canvas></div></div>
+    <div class="card span12">
+      <h2>All employers <span class="hint" id="empDirInfo"></span></h2>
+      <div class="tablebar">
+        <input class="searchbox" style="width:260px" id="empDirSearch" placeholder="Search employers…">
+        <div class="spacer"></div>
+        <button class="btn" id="empDirExport">⬇ Export all</button>
+      </div>
+      <div class="tablewrap" style="max-height:420px"><table id="empDir"><thead></thead><tbody></tbody></table></div>
+      <div class="pager">
+        <button class="btn" id="edPrev">‹ Prev</button>
+        <span id="edLbl"></span>
+        <button class="btn" id="edNext">Next ›</button>
+        <select class="searchbox" style="width:auto" id="edSize"><option>25</option><option selected>50</option><option>100</option><option>250</option></select>
+      </div>
+    </div>
   </section>
 
   <section id="tab-table" class="hidden">
@@ -497,6 +512,41 @@ function renderEmployers(){
   const yrs=[...perYear.keys()].sort((a,b)=>a-b);
   mkChart('cEmpCount',{type:'bar',data:{labels:yrs,datasets:[{label:'Distinct employers',data:yrs.map(y=>perYear.get(y).size),backgroundColor:p.series[8]}]},
     options:baseOpts({plugins:{legend:{display:false}}})});
+  renderEmpDir();
+}
+
+// ---------- employer directory (all employers, aggregated) ----------
+const ED={page:0,size:50,search:'',sortKey:'Permits',sortDir:-1};
+function empDirRows(){
+  const agg=new Map();
+  for(const r of fEmp()){
+    const n=r['Employer Name'];
+    let a=agg.get(n);
+    if(!a){ const c=empClass.get(n); a={'Employer Name':n,'Industry':r.Industry,'IT-hiring':c.it?'💻 Yes':'','Permits':0,'Years':new Set(),'First':r.Year,'Last':r.Year}; agg.set(n,a); }
+    a.Permits+=r.Total||0; a.Years.add(r.Year);
+    if(r.Year<a.First)a.First=r.Year; if(r.Year>a.Last)a.Last=r.Year;
+  }
+  let rows=[...agg.values()].map(a=>({'Employer Name':a['Employer Name'],'Industry':a.Industry,'IT-hiring':a['IT-hiring'],'Permits':a.Permits,'Active years':a.Years.size,'First':a.First,'Last':a.Last}));
+  const q=ED.search.toLowerCase();
+  if(q) rows=rows.filter(r=>r['Employer Name'].toLowerCase().includes(q)||r.Industry.toLowerCase().includes(q));
+  rows.sort((a,b)=>{const x=a[ED.sortKey],y=b[ED.sortKey];
+    return (typeof x==='number'?x-y:String(x).localeCompare(String(y)))*ED.sortDir;});
+  return rows;
+}
+function renderEmpDir(){
+  const rows=empDirRows();
+  const cols=['Employer Name','Industry','IT-hiring','Permits','Active years','First','Last'];
+  const pages=Math.max(1,Math.ceil(rows.length/ED.size));
+  ED.page=Math.min(ED.page,pages-1);
+  const slice=rows.slice(ED.page*ED.size,(ED.page+1)*ED.size);
+  document.querySelector('#empDir thead').innerHTML='<tr>'+cols.map(c=>
+    `<th class="${['Permits','Active years','First','Last'].includes(c)?'num':''}" data-k="${c}">${c}${ED.sortKey===c?(ED.sortDir>0?' ▲':' ▼'):''}</th>`).join('')+'</tr>';
+  document.querySelector('#empDir tbody').innerHTML=slice.map(r=>'<tr>'+cols.map(c=>
+    `<td class="${typeof r[c]==='number'?'num':''}">${typeof r[c]==='number'&&c==='Permits'?fmt(r[c]):r[c]}</td>`).join('')+'</tr>').join('');
+  document.getElementById('edLbl').textContent=`Page ${ED.page+1} / ${pages}`;
+  document.getElementById('empDirInfo').textContent=`${fmt(rows.length)} employers in current selection`;
+  document.querySelectorAll('#empDir th').forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k; if(ED.sortKey===k)ED.sortDir*=-1; else {ED.sortKey=k;ED.sortDir=k==='Permits'?-1:1;} renderEmpDir();});
 }
 
 // ---------- data table ----------
@@ -617,6 +667,11 @@ function update(){
   document.getElementById('pgNext').onclick=()=>{T.page++;renderTable();};
   document.getElementById('pgSize').onchange=e=>{T.size=+e.target.value;T.page=0;renderTable();};
   document.getElementById('tblExport').onclick=()=>exportCSV(tblRows(),'table-view.csv');
+  let edT; document.getElementById('empDirSearch').oninput=e=>{clearTimeout(edT);edT=setTimeout(()=>{ED.search=e.target.value;ED.page=0;renderEmpDir();},250);};
+  document.getElementById('edPrev').onclick=()=>{if(ED.page>0){ED.page--;renderEmpDir();}};
+  document.getElementById('edNext').onclick=()=>{ED.page++;renderEmpDir();};
+  document.getElementById('edSize').onchange=e=>{ED.size=+e.target.value;ED.page=0;renderEmpDir();};
+  document.getElementById('empDirExport').onclick=()=>exportCSV(empDirRows(),'employers-all.csv');
 
   syncSidebar(); update();
 })();
