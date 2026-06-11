@@ -151,6 +151,7 @@ canvas{cursor:crosshair}
     <button data-tab="geo">Counties</button>
     <button data-tab="sector">Sectors</button>
     <button data-tab="employers">Employers</button>
+    <button data-tab="pivot">Employer × Year</button>
     <button data-tab="table">Data table</button>
   </div>
 
@@ -197,6 +198,27 @@ canvas{cursor:crosshair}
         <span id="edLbl"></span>
         <button class="btn" id="edNext">Next ›</button>
         <select class="searchbox" style="width:auto" id="edSize"><option>25</option><option selected>50</option><option>100</option><option>250</option></select>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-pivot" class="hidden">
+    <div class="card span12">
+      <h2>Permits per employer per year <span class="hint" id="pvInfo"></span></h2>
+      <div class="tablebar">
+        <input class="searchbox" style="width:260px" id="pvSearch" placeholder="Search employers…">
+        <label style="display:flex;gap:6px;align-items:center;font-size:13px;cursor:pointer">
+          <input type="checkbox" id="pvActiveOnly"> active in every selected year
+        </label>
+        <div class="spacer"></div>
+        <button class="btn" id="pvExport">⬇ Export pivot</button>
+      </div>
+      <div class="tablewrap" style="max-height:540px"><table id="pvTbl"><thead></thead><tbody></tbody></table></div>
+      <div class="pager">
+        <button class="btn" id="pvPrev">‹ Prev</button>
+        <span id="pvLbl"></span>
+        <button class="btn" id="pvNext">Next ›</button>
+        <select class="searchbox" style="width:auto" id="pvSize"><option>25</option><option selected>50</option><option>100</option><option>250</option></select>
       </div>
     </div>
   </section>
@@ -549,6 +571,46 @@ function renderEmpDir(){
     const k=th.dataset.k; if(ED.sortKey===k)ED.sortDir*=-1; else {ED.sortKey=k;ED.sortDir=k==='Permits'?-1:1;} renderEmpDir();});
 }
 
+// ---------- employer × year pivot ----------
+const PV={page:0,size:50,search:'',sortKey:'Total',sortDir:-1,activeOnly:false};
+function pivotData(){
+  const yrs=[]; for(let y=F.yrMin;y<=F.yrMax;y++) yrs.push(y);
+  const agg=new Map();
+  for(const r of fEmp()){
+    const n=r['Employer Name'];
+    let a=agg.get(n);
+    if(!a){ a={'Employer Name':n,'Industry':r.Industry,'Total':0}; for(const y of yrs) a[y]=0; agg.set(n,a); }
+    a[r.Year]+=r.Total||0; a.Total+=r.Total||0;
+  }
+  let rows=[...agg.values()];
+  if(PV.activeOnly) rows=rows.filter(r=>yrs.every(y=>r[y]>0));
+  const q=PV.search.toLowerCase();
+  if(q) rows=rows.filter(r=>r['Employer Name'].toLowerCase().includes(q)||r.Industry.toLowerCase().includes(q));
+  rows.sort((a,b)=>{const x=a[PV.sortKey],y=b[PV.sortKey];
+    return (typeof x==='number'?x-y:String(x).localeCompare(String(y)))*PV.sortDir;});
+  return {rows,yrs};
+}
+function renderPivot(){
+  const {rows,yrs}=pivotData();
+  const cols=['Employer Name','Industry',...yrs,'Total'];
+  const pages=Math.max(1,Math.ceil(rows.length/PV.size));
+  PV.page=Math.min(PV.page,pages-1);
+  const slice=rows.slice(PV.page*PV.size,(PV.page+1)*PV.size);
+  document.querySelector('#pvTbl thead').innerHTML='<tr>'+cols.map(c=>
+    `<th class="${c==='Employer Name'||c==='Industry'?'':'num'}" data-k="${c}">${c}${String(PV.sortKey)===String(c)?(PV.sortDir>0?' ▲':' ▼'):''}</th>`).join('')+'</tr>';
+  document.querySelector('#pvTbl tbody').innerHTML=slice.map(r=>'<tr>'+cols.map(c=>{
+    const v=r[c];
+    if(c==='Employer Name') return `<td>${(empClass.get(v)?.it?'💻 ':'')+v}</td>`;
+    if(c==='Industry') return `<td>${v}</td>`;
+    if(c==='Total') return `<td class="num"><b>${fmt(v)}</b></td>`;
+    return `<td class="num">${v?fmt(v):'·'}</td>`;}).join('')+'</tr>').join('');
+  document.getElementById('pvLbl').textContent=`Page ${PV.page+1} / ${pages}`;
+  document.getElementById('pvInfo').textContent=`${fmt(rows.length)} employers · ${yrs[0]}–${yrs[yrs.length-1]}`;
+  document.querySelectorAll('#pvTbl th').forEach(th=>th.onclick=()=>{
+    const k=isNaN(th.dataset.k)?th.dataset.k:+th.dataset.k;
+    if(String(PV.sortKey)===String(k))PV.sortDir*=-1; else {PV.sortKey=k;PV.sortDir=(k==='Employer Name'||k==='Industry')?1:-1;} renderPivot();});
+}
+
 // ---------- data table ----------
 const T={ds:'nat',sortKey:'Year',sortDir:-1,page:0,size:50,search:''};
 function tblRows(){
@@ -618,7 +680,7 @@ let activeTab='overview';
 function update(){
   renderChips(); renderKPIs();
   ({overview:renderOverview,nationality:renderNationality,geo:renderGeo,
-    sector:renderSector,employers:renderEmployers,table:renderTable})[activeTab]();
+    sector:renderSector,employers:renderEmployers,pivot:renderPivot,table:renderTable})[activeTab]();
 }
 
 // ---------- init ----------
@@ -672,6 +734,12 @@ function update(){
   document.getElementById('edNext').onclick=()=>{ED.page++;renderEmpDir();};
   document.getElementById('edSize').onchange=e=>{ED.size=+e.target.value;ED.page=0;renderEmpDir();};
   document.getElementById('empDirExport').onclick=()=>exportCSV(empDirRows(),'employers-all.csv');
+  let pvT; document.getElementById('pvSearch').oninput=e=>{clearTimeout(pvT);pvT=setTimeout(()=>{PV.search=e.target.value;PV.page=0;renderPivot();},250);};
+  document.getElementById('pvActiveOnly').onchange=e=>{PV.activeOnly=e.target.checked;PV.page=0;renderPivot();};
+  document.getElementById('pvPrev').onclick=()=>{if(PV.page>0){PV.page--;renderPivot();}};
+  document.getElementById('pvNext').onclick=()=>{PV.page++;renderPivot();};
+  document.getElementById('pvSize').onchange=e=>{PV.size=+e.target.value;PV.page=0;renderPivot();};
+  document.getElementById('pvExport').onclick=()=>exportCSV(pivotData().rows,'employer-year-pivot.csv');
 
   syncSidebar(); update();
 })();
