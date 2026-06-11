@@ -129,6 +129,12 @@ canvas{cursor:crosshair}
     <input type="range" id="empMin" min="1" max="100" value="1">
   </div>
 
+  <h3>Employer industry <span style="float:right;font-weight:400;cursor:pointer;color:var(--accent)" onclick="clearDim('empInd')">clear</span></h3>
+  <label style="display:flex;gap:6px;align-items:center;margin:4px 0 6px;font-size:13px;cursor:pointer">
+    <input type="checkbox" id="empITOnly"> <span>💻 IT-hiring employers only</span>
+  </label>
+  <div class="ms" id="msEmpInd" style="max-height:190px"></div>
+
   <h3>Top N</h3>
   <select class="searchbox" id="topN">
     <option>10</option><option selected>15</option><option>20</option><option>30</option><option>50</option>
@@ -174,9 +180,10 @@ canvas{cursor:crosshair}
   </section>
 
   <section id="tab-employers" class="grid hidden">
-    <div class="card span12"><h2>Top employers <span class="hint">total permits over selected years</span></h2><div class="chartbox tall"><canvas id="cEmp"></canvas></div></div>
-    <div class="card span6"><h2>Employer concentration</h2><div class="chartbox"><canvas id="cEmpConc"></canvas></div></div>
-    <div class="card span6"><h2>Distinct employers per year</h2><div class="chartbox"><canvas id="cEmpCount"></canvas></div></div>
+    <div class="card span12"><h2>Top employers <span class="hint">total permits over selected years · 💻 = IT-hiring</span></h2><div class="chartbox tall"><canvas id="cEmp"></canvas></div></div>
+    <div class="card span4"><h2>Permits by employer industry <span class="hint">name-based + curated</span></h2><div class="chartbox"><canvas id="cEmpInd"></canvas></div></div>
+    <div class="card span4"><h2>Employer concentration</h2><div class="chartbox"><canvas id="cEmpConc"></canvas></div></div>
+    <div class="card span4"><h2>Distinct employers per year</h2><div class="chartbox"><canvas id="cEmpCount"></canvas></div></div>
   </section>
 
   <section id="tab-table" class="hidden">
@@ -214,8 +221,74 @@ const charts = {};       // chart instances
 const F = {              // filter state
   yrMin: 2010, yrMax: 2026, metric: 'Issued',
   months: new Set(), nat: new Set(), county: new Set(), sector: new Set(),
-  emp: '', empMin: 1, topN: 15
+  emp: '', empMin: 1, topN: 15, empIT: false, empInd: new Set()
 };
+
+// ---------- employer classification ----------
+// Curated employers: [name fragment (lowercase), industry, hires-IT].
+// "hires-IT" marks companies known to recruit tech/IT staff even when their core
+// business is elsewhere (e.g. Eli Lilly = pharma, but runs large IT operations).
+const CURATED = [
+  ['google','IT & Software',1],['meta platform','IT & Software',1],['facebook','IT & Software',1],
+  ['amazon','IT & Software',1],['aws ','IT & Software',1],['microsoft','IT & Software',1],
+  ['apple','IT & Software',1],['intel','IT & Software',1],['ibm','IT & Software',1],
+  ['tiktok','IT & Software',1],['linkedin','IT & Software',1],['salesforce','IT & Software',1],
+  ['sap ','IT & Software',1],['oracle','IT & Software',1],['stripe','IT & Software',1],
+  ['workday','IT & Software',1],['hubspot','IT & Software',1],['twitter','IT & Software',1],
+  ['qualcomm','IT & Software',1],['dell ','IT & Software',1],['hewlett','IT & Software',1],
+  ['cisco','IT & Software',1],['ericsson','IT & Software',1],['huawei','IT & Software',1],
+  ['servicenow','IT & Software',1],['zendesk','IT & Software',1],['squarespace','IT & Software',1],
+  ['airbnb','IT & Software',1],['etsy','IT & Software',1],['dropbox','IT & Software',1],
+  ['shopify','IT & Software',1],['datadog','IT & Software',1],['snowflake','IT & Software',1],
+  ['openai','IT & Software',1],['anthropic','IT & Software',1],['nvidia','IT & Software',1],
+  ['accenture','Consulting & BPO',1],['infosys','Consulting & BPO',1],['tata consultancy','Consulting & BPO',1],
+  ['wipro','Consulting & BPO',1],['cognizant','Consulting & BPO',1],['capgemini','Consulting & BPO',1],
+  ['hcl ','Consulting & BPO',1],['tech mahindra','Consulting & BPO',1],['deloitte','Consulting & BPO',1],
+  ['kpmg','Consulting & BPO',1],['pricewaterhouse','Consulting & BPO',1],['ernst & young','Consulting & BPO',1],['ey ','Consulting & BPO',1],
+  ['eli lilly','Pharma & MedTech',1],['lilly','Pharma & MedTech',1],['pfizer','Pharma & MedTech',1],
+  ['msd ','Pharma & MedTech',1],['merck','Pharma & MedTech',1],['janssen','Pharma & MedTech',1],
+  ['johnson & johnson','Pharma & MedTech',1],['abbvie','Pharma & MedTech',1],['novartis','Pharma & MedTech',1],
+  ['glaxo','Pharma & MedTech',1],['gsk','Pharma & MedTech',1],['astrazeneca','Pharma & MedTech',1],
+  ['bristol-myers','Pharma & MedTech',1],['bristol myers','Pharma & MedTech',1],['takeda','Pharma & MedTech',1],
+  ['boston scientific','Pharma & MedTech',1],['medtronic','Pharma & MedTech',1],['stryker','Pharma & MedTech',1],
+  ['abbott','Pharma & MedTech',1],['amgen','Pharma & MedTech',1],['regeneron','Pharma & MedTech',1],
+  ['west pharma','Pharma & MedTech',1],['alexion','Pharma & MedTech',1],['biomarin','Pharma & MedTech',1],
+  ['mastercard','Finance & Insurance',1],['visa ','Finance & Insurance',1],['paypal','Finance & Insurance',1],
+  ['citibank','Finance & Insurance',1],['citco','Finance & Insurance',1],['citi ','Finance & Insurance',1],
+  ['jp morgan','Finance & Insurance',1],['j.p. morgan','Finance & Insurance',1],['morgan stanley','Finance & Insurance',1],
+  ['bank of america','Finance & Insurance',1],['barclays','Finance & Insurance',1],['bny','Finance & Insurance',1],
+  ['state street','Finance & Insurance',1],['fidelity','Finance & Insurance',1],['northern trust','Finance & Insurance',1],
+  ['allied irish bank','Finance & Insurance',1],['aib ','Finance & Insurance',1],['bank of ireland','Finance & Insurance',1],
+  ['zurich','Finance & Insurance',1],['allianz','Finance & Insurance',1],['aon ','Finance & Insurance',1],['aviva','Finance & Insurance',1],
+  ['ryanair','Transport & Logistics',1],['aer lingus','Transport & Logistics',1],
+  ['esb ','Utilities & Energy',1],['vodafone','IT & Software',1],['three ireland','IT & Software',1],['eir ','IT & Software',1],
+  ['kerry group','Agri-food',1],['glanbia','Agri-food',1],['crh','Construction & Engineering',1],
+];
+// Name-keyword fallback rules: [regex, industry, hires-IT]
+const KW = [
+  [/softwar|technolog|\btech\b|digital|cyber|\bdata\b|analytic|informatic|computing|semiconduct|telecom|\bcloud\b|\bgames\b|\bgaming\b|network|\bit solution|\bit service|artificial intelligence|\bai\b|robotic|fintech|platform/i,'IT & Software',1],
+  [/system|solution|consult|outsourc|\bbpo\b/i,'Consulting & BPO',1],
+  [/pharma|biopharm|biotech|laborator|life science|medical device|diagnostic/i,'Pharma & MedTech',0],
+  [/hospital|clinic|nursing|care home|healthcare|health care|medical centre|dental|physician|surgery/i,'Health & Care',0],
+  [/bank|financial|finance|capital|insurance|asset|invest|fund|payment/i,'Finance & Insurance',0],
+  [/restaurant|takeaway|take away|kitchen|food|catering|hotel|cafe|café|grill|pizza|tandoori|spice|curry|noodle|sushi|wok|bistro|inn\b|pub\b|bar\b/i,'Hospitality & Food',0],
+  [/farm|agri|meat|dairy|poultry|fisher|seafood|horticult|mushroom/i,'Agri-food',0],
+  [/construction|engineering|builder|civil|mechanical|electrical/i,'Construction & Engineering',0],
+  [/transport|logistic|haulage|freight|shipping|airline|aviation/i,'Transport & Logistics',0],
+  [/universit|college|school|institute|education|research/i,'Education & Research',0],
+];
+const empClass = new Map();   // name -> {ind, it}
+function classifyEmployer(name){
+  let c = empClass.get(name);
+  if(c) return c;
+  const low = ' ' + name.toLowerCase() + ' ';
+  c = null;
+  for(const [frag, ind, it] of CURATED){ if(low.includes(frag)){ c = {ind, it: !!it}; break; } }
+  if(!c) for(const [re, ind, it] of KW){ if(re.test(name)){ c = {ind, it: !!it}; break; } }
+  if(!c) c = {ind: 'Other / Unclassified', it: false};
+  empClass.set(name, c);
+  return c;
+}
 
 // ---------- CSV loading ----------
 function parseCSV(text){
@@ -241,7 +314,10 @@ const inYr = r => r.Year>=F.yrMin && r.Year<=F.yrMax;
 function fNat(){ return D.nat.filter(r=>inYr(r) && (!F.nat.size||F.nat.has(r.Nationality))); }
 function fCounty(){ return D.county.filter(r=>inYr(r) && (!F.county.size||F.county.has(r.County))); }
 function fSector(){ return D.sector.filter(r=>inYr(r) && (!F.sector.size||F.sector.has(r.Sector)) && (!F.months.size||F.months.has(r.Month))); }
-function fEmp(){ const q=F.emp.toLowerCase(); return D.emp.filter(r=>inYr(r) && r.Total>=F.empMin && (!q||r['Employer Name'].toLowerCase().includes(q))); }
+function fEmp(){ const q=F.emp.toLowerCase(); return D.emp.filter(r=>inYr(r) && r.Total>=F.empMin
+  && (!q||r['Employer Name'].toLowerCase().includes(q))
+  && (!F.empIT || empClass.get(r['Employer Name']).it)
+  && (!F.empInd.size || F.empInd.has(r.Industry))); }
 
 const fmt = n => n==null?'–':n.toLocaleString('en-IE');
 const sum = (rows,k) => rows.reduce((a,r)=>a+(r[k]||0),0);
@@ -276,6 +352,8 @@ function renderChips(){
   for(const n of F.county) add('County',n,()=>{F.county.delete(n);syncSidebar();update();});
   for(const n of F.sector) add('Sector',n.length>34?n.slice(0,34)+'…':n,()=>{F.sector.delete(n);syncSidebar();update();});
   if(F.emp) add('Employer',F.emp,()=>{F.emp='';document.getElementById('empSearch').value='';update();});
+  if(F.empIT) add('Employers','💻 IT-hiring only',()=>{F.empIT=false;document.getElementById('empITOnly').checked=false;update();});
+  for(const n of F.empInd) add('Industry',n,()=>{F.empInd.delete(n);syncSidebar();update();});
   if(F.empMin>1) add('Min permits',F.empMin,()=>{F.empMin=1;syncSidebar();update();});
 }
 
@@ -393,7 +471,19 @@ function renderSector(){
 }
 function renderEmployers(){
   const p=pal(), rows=fEmp();
-  hbar('cEmp',topEntries(groupSum(rows,'Employer Name','Total'),F.topN).map(([k,v])=>[k.length>46?k.slice(0,46)+'…':k,v]),p.series[6],null);
+  const top=topEntries(groupSum(rows,'Employer Name','Total'),F.topN);
+  hbar('cEmp',top.map(([k,v])=>[(empClass.get(k).it?'💻 ':'')+(k.length>44?k.slice(0,44)+'…':k),v]),
+    top.map(([k])=>empClass.get(k).it?p.series[0]:p.series[6]),null);
+  // industry mix doughnut
+  const indSum=groupSum(rows,'Industry','Total');
+  const ind=topEntries(indSum,9);
+  const rest=[...indSum.values()].reduce((a,b)=>a+b,0)-ind.reduce((a,e)=>a+e[1],0);
+  mkChart('cEmpInd',{type:'doughnut',data:{labels:[...ind.map(e=>e[0]),...(rest>0?['Other']:[])],
+    datasets:[{data:[...ind.map(e=>e[1]),...(rest>0?[rest]:[])],backgroundColor:p.series,borderWidth:0}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:p.ink,font:{size:10}}},
+      tooltip:{callbacks:{label:c=>`${c.label}: ${fmt(c.raw)}`}}},
+      onClick:(e,els,ch)=>{ if(!els.length)return; const lbl=ch.data.labels[els[0].index];
+        if(lbl==='Other')return; F.empInd.has(lbl)?F.empInd.delete(lbl):F.empInd.add(lbl); syncSidebar(); update(); }}});
   // concentration: share of permits by top 10/50/100 employers vs rest
   const totals=[...groupSum(rows,'Employer Name','Total').values()].sort((a,b)=>b-a);
   const all=totals.reduce((a,b)=>a+b,0)||1;
@@ -467,6 +557,8 @@ function syncSidebar(){
   buildMS('msNat',D.natList,F.nat,'natSearch');
   buildMS('msCounty',D.countyList,F.county,'countySearch');
   buildMS('msSector',D.sectorList,F.sector,'sectorSearch');
+  buildMS('msEmpInd',D.indList,F.empInd);
+  document.getElementById('empITOnly').checked=F.empIT;
 }
 function clearDim(d){ F[d].clear(); syncSidebar(); update(); }
 function setMetric(m){ F.metric=m; syncSidebar(); update(); }
@@ -488,6 +580,8 @@ function update(){
       load('permits-by-sector-2010-2026.csv'),
       load('permits-issued-to-companies-2010-2026.csv')]);
   }catch(e){ document.getElementById('loading').textContent='Failed to load CSVs — serve this folder over HTTP (python3 -m http.server) and open dashboard.html. '+e; return; }
+  for(const r of D.emp) r.Industry=classifyEmployer(r['Employer Name']).ind;
+  D.indList=[...new Set(D.emp.map(r=>r.Industry))].sort();
   D.natList=[...new Set(D.nat.map(r=>r.Nationality))].sort();
   D.countyList=[...new Set(D.county.map(r=>r.County))].sort();
   D.sectorList=[...new Set(D.sector.map(r=>r.Sector))].sort();
@@ -503,7 +597,8 @@ function update(){
   let t; document.getElementById('empSearch').oninput=e=>{clearTimeout(t);t=setTimeout(()=>{F.emp=e.target.value;update();},250);};
   document.getElementById('empMin').oninput=e=>{F.empMin=+e.target.value;document.getElementById('empMinLbl').textContent=F.empMin;clearTimeout(t);t=setTimeout(update,200);};
   document.getElementById('topN').onchange=e=>{F.topN=+e.target.value;update();};
-  document.getElementById('resetBtn').onclick=()=>{F.yrMin=2010;F.yrMax=2026;F.metric='Issued';F.months.clear();F.nat.clear();F.county.clear();F.sector.clear();F.emp='';F.empMin=1;
+  document.getElementById('empITOnly').onchange=e=>{F.empIT=e.target.checked;update();};
+  document.getElementById('resetBtn').onclick=()=>{F.yrMin=2010;F.yrMax=2026;F.metric='Issued';F.months.clear();F.nat.clear();F.county.clear();F.sector.clear();F.emp='';F.empMin=1;F.empIT=false;F.empInd.clear();
     document.getElementById('empSearch').value='';['natSearch','countySearch','sectorSearch','tblSearch'].forEach(i=>document.getElementById(i).value='');T.search='';syncSidebar();update();};
   document.getElementById('themeBtn').onclick=e=>{const d=document.body.dataset.theme==='dark';
     document.body.dataset.theme=d?'light':'dark'; e.target.textContent=d?'🌙 Dark':'☀️ Light'; update();};
